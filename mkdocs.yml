@@ -1,0 +1,6 @@
+site_name: MIxS-MInAS
+site_url: https://mixs-minas.org/
+nav:
+  - Home: index.md
+  - Proposal: proposal.md
+theme: material
