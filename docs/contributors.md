@@ -19,3 +19,4 @@ The following people have been actively involved in MInAS Meetings:
 - Pete Heintzman
 - Mohamed Sarhan
 - Abby Gancz
+- Nasreen Broomand
