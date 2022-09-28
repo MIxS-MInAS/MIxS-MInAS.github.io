@@ -4,4 +4,5 @@ nav:
   - Home: index.md
   - Proposal: proposal.md
   - Draft: draft.md
+  - Contributors: contributors.md
 theme: material
