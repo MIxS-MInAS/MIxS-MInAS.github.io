@@ -2,8 +2,8 @@
 
 ## About
 
-- ✅ Palaeogenomic data is routinely shared on public databases
-- 👀 Metadata? Not so good…
+- 💾 Palaeogenomic data is routinely shared on public databases
+- 🏷️ Metadata? Not so good…
 
 > Standardised metadata reporting of ancient DNA sequencing data via community-based consensus and training.
 
