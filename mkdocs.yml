@@ -3,4 +3,5 @@ site_url: https://mixs-minas.org/
 nav:
   - Home: index.md
   - Proposal: proposal.md
+  - Draft: draft.md
 theme: material
