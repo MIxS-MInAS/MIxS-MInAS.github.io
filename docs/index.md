@@ -7,7 +7,9 @@
 
 > Standardised metadata reporting of ancient DNA sequencing data via community-based consensus and training.
 
-Please see the [proposal](/proposal.md) to be submitted to the [Genomics Standards Consortium's](https://www.gensc.org/) [MIxS project](https://www.gensc.org/pages/standards-intro.html).
+Please see the [project proposal](/proposal) to be submitted to the [Genomics Standards Consortium's](https://www.gensc.org/) [MIxS project](https://www.gensc.org/pages/standards-intro.html).
+
+To see the latest draft please see the [Draft](/draft) page.
 
 We are activately looking for other palaeogenomic communities and groups to get involved with the project - please get in contact if you are interested.
 
