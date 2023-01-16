@@ -22,4 +22,11 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Local Development Notes
 
-Requires `mkdocs-material` theme to be installed `pip install mkdocs-material`.
+Requires `mkdocs-material` theme to be installed `pip install mkdocs-material mkdocs-table-reader-plugin`. See `.github/workflows/ci.yml` for latest used on production website if in doubt.
+
+To update the rendered tables on the `docs/drafts.md` page:
+
+1. Add latest version to `docs/assets/checklists/versions/
+2. Modify `docs/assets/checklists/website_simplification_script.R` to the latest version in the file names
+3. Run the script
+4. Update `docs/draft.md` to the latest version at the top of the page, and the paths to the files at the bottom of the page.
