@@ -16,7 +16,7 @@ The following people have been actively involved in MInAS Meetings:
 - Meriam Guellil (University of Vienna 🇦🇹)
 - Eric Capo (Umeå University 🇸🇪)
 - Anan Ibrahim (Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie Hans-Knöll-Institut 🇩🇪)
-- Pete Heintzman (Stockhom University 🇸🇪)
+- Peter D. Heintzman (Stockholm University 🇸🇪)
 - Mohamed Sarhan (Institute for Biomedicine, Eurac research 🇮🇹)
 - Abby Gancz (Pennsylvania State University 🇺🇲)
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇲)
