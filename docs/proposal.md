@@ -2,7 +2,7 @@
 
 ## Project Title
 
-**MINAS**: **M**inimum **In**formation about any **A**ncient **S**equence
+**MInAS**: **M**inimum **In**formation about any **A**ncient **S**equence
 
 ## Networks Involved
 
@@ -18,17 +18,17 @@ The past, including human history, invokes a great level of fascination for soci
 
 The discipline of palaeogenomics has been recognized for its success in implementing open data practices (Anagnostou et al. 2015), which allow data and analytical reuse and reproduction. However, while DNA sequencing data are, in the majority of cases, made available on gold-standard public archives, these data are often not easily retrievable. This is mainly due to the inconsistencies in how these data, and more importantly, their metadata, are reported and archived. Furthermore, ancient samples can often have limited contextual information, as the original environment or background metadata have been long-lost. In addition, those that do exist are often reported in a fragmentary manner, and distributed across many different publications in different specialist journals and databases. As aDNA datasets continue to grow, this lack of standardised reporting is becoming increasingly problematic not just for researchers trying to reuse public data, but also for a wide range of stakeholders. For example, commercial companies may wish to leverage extinct biological diversity to find solutions to modern problems, such as finding new sources of antibiotics, cultural heritage managers (e.g. museum curators) may have difficulty tracking what samples have previously been analysed, and members of wider society and descendent communities may have difficulty accessing data relevant to their own heritage or general interests.
 
-This project proposes to adapt a range of existing MIxS checklists to make them compatible with ancient DNA. This will involve adding new metadata descriptors to include crucial context specific for ancient samples and extending definitions of existing descriptors to ensure they are compatible with these types of samples. The outcome of this project will be a community-agreed standard set of minimum essential metadata that should be uploaded alongside sequence data, to ensure consistency across the field and to make it easier for all parties to both upload and download aDNA data. We also aim for this schema to be used as a template for other biomolecular disciplines in archaeological science, given the often highly interdisciplinary nature of these fields. This, in turn, will encourage the complementary analyses of diverse data types, and help to maximise the value and longevity of data generated from the destructive analysis of irreplaceable ancient remains and samples. Achieving these goals is an absolute imperative for both the scientific and ethical advancement of the field of ancient DNA. Without proper curation of our past, we neither understand our present nor shape our future.
+This project proposes to build upon exisiting MIxS checklist to make them compatible with ancient DNA. This will involve generating a new 'ancient' extension that adds new metadata descriptors to include crucial context specific for ancient samples, extending and clarifying definitions of existing MIxS descriptors to ensure they are compatible with these types of samples. The third phase of the project will include a community-agreed standard set of minimum essential metadata for different ancient DNA sub-fields in the form of submission packages, that should be uploaded alongside sequence data, to ensure consistency across the field and to make it easier for all parties to both upload and download aDNA data. We also aim for this schema to be used as a template for other biomolecular disciplines in archaeological science, given the often highly interdisciplinary nature of these fields. This, in turn, will encourage the complementary analyses of diverse data types, and help to maximise the value and longevity of data generated from the destructive analysis of irreplaceable ancient remains and samples. Achieving these goals is an absolute imperative for both the scientific and ethical advancement of the field of ancient DNA. Without proper curation of our past, we neither understand our present nor shape our future.
 
 ## Project initiation date (can be a date or a narrative about how and when the project started and how it is proceeding)
 
 Independent discussions regarding metadata reporting standards occurred throughout 2020 and 2021 within workshops of different aDNA communities (SPAAM - Standards, Precautions and Advances in Ancient Metagenomics, CIADR - Current Issues in Ancient DNA Research, and the sedaDNA scientific society).
 
-The joint project for the MINAS checklist was established in January 2022.
+The project for the MInAS checklist was established in January 2022.
 
 ## What will this project aim to contribute to the GSC
 
-This project will aim to make GSC checklists compatible with aDNA data.
+This project will aim to extend GSC checklists via extensions and develop submission packages compatible with aDNA data.
 
 ## Have you spoken about the project already within GSC (on a call, at a formal GSC meeting, would like to request time to present at a future meeting)
 
@@ -38,23 +38,23 @@ The project has been already discussed with Lynn Schriml and Ramona Walls by Ant
 
 While ancient DNA researchers are generally good at uploading sequence data, associated metadata completeness is often very poor. This has resulted in emerging sub-discipline specific projects that act to somewhat ‘retroactively’ collect and standardise such metadata (see AADR, Poseidon Framework for ancient human data, Cyberinfrastructure for Ancient Sedimentary DNA Working Group for ancient sediment DNA, and AncientMetagenomeDir (Fellows Yates et al. 2021) for ancient metagenomics, in the references below).
 
-This project aims to improve metadata reporting at ‘the source’ (i.e., at data upload to ENA/SRA databases) to make maintenance of the above databases easier. However, in addition, this project aims to be primarily developed in a ‘sub-discipline’ agnostic manner. By identifying common-descriptors that can apply across multiple aDNA research sub-disciplines, this will help to replace or reduce the necessity for the partly redundant efforts in such specialist databases as described above, as this information would be stored with data on upload. Data querying and retrieval can then occur in the sequencing databases themselves. Furthermore, by initially focusing on descriptors that already apply across multiple disciplines, this will also increase the likelihood of the proposed checklist being applicable to new sub-disciplines of ancient DNA in the future as they emerge. Once these common descriptors are defined, we will develop more sub-discipline specific extensions to account for sub-discipline specific required information.
+This project aims to improve metadata reporting at ‘the source’ (i.e., at data upload to ENA/SRA databases) to make maintenance of the above databases easier. However, in addition, this project aims to be primarily developed in a ‘sub-discipline’ agnostic manner. By identifying common-descriptors that can apply across multiple aDNA research sub-disciplines, this will help to replace or reduce the necessity for the partly redundant efforts in such specialist databases as described above, as this information would be stored with data on upload. Data querying and retrieval can then occur in the sequencing databases themselves. Furthermore, by initially focusing on descriptors that already apply across multiple disciplines, this will also increase the likelihood of the extension and proposed submission packages being applicable to new sub-disciplines of ancient DNA in the future as they emerge. Once these common descriptors are defined, we will develop more sub-discipline specific extensions to account for sub-discipline specific required information.
 
 ## How does this project fit into GSC’s mission statement (might also expand it)
 
 While aDNA disciplines have been recognised for high-levels of public data sharing (Anagnostou et al. 2015), associated metadata is often limited and therefore limits the level of ‘Findability’ (of FAIR principles, (Wilkinson et al. 2016)) or ‘discoverability’ of such genomic data.
 
-This project aims to use community-based input to extend existing GSC checklists to make them compatible with ancient DNA data. This will facilitate ancient DNA researchers to upload rich metadata about samples and their associated sequencing data more routinely and consistently.
+This project aims to use community-based input to extend existing GSC checklists via an extension to make them compatible with ancient DNA data. This in combination with community-agreed submission packages will facilitate ancient DNA researchers to upload rich metadata about samples and their associated sequencing data more routinely and consistently.
 
 ## Will you start a GSC working group (how far along are you?)? If not, why not (i.e. subgroup within developers group, existing external community, etc)
 
 We aim to first work in separate sub-working-groups within existing aDNA communities to define descriptors required for different sub-disciplines. This currently includes the SPAAM community for ancient metagenomics (primarily microbial genomics and microbiome metagenomics), CIADR for ancient human remains, and the sedaDNA society for ancient sedaDNA. After this, leaders of each sub-working-group will meet to find common descriptors among each working-group, which the wider aDNA community will review through open invitations via mailing lists, twitter announcements, and presentations at conferences.
 
-Once the first release of the MINAS checklist is published, we expect to form an official GSC working group for continued maintenance.
+Once the first release of the MInAS extensions and submission packages are published, we expect to form an official GSC working group for continued maintenance.
 
 ## How do you wish to further engage the GSC (recruit members to project, get consultation, link to other GSC projects, etc)
 
-Attendance and input of GSC members of the different relevant checklists at MINAS-related meetings would be valuable. Support from GSC for wider-advertising and improving awareness of the project would also be welcome.
+Attendance and input of GSC members of the different relevant checklists at MInAS-related meetings would be valuable. Support from GSC for wider-advertising and improving awareness of the project would also be welcome.
 
 In addition, aDNA groups are often cross-disciplinary - such as sitting in social science faculties - and do not receive training in data management (submission nor retrieval). We believe support from GSC and related communities introducing GSC initiatives at dedicated workshops (SPAAM, CIADR) and discipline-related conferences (ISBA), in the form of presentations or training (such as in ENA/SRA submission), would be also highly beneficial for the field.
 
@@ -68,7 +68,7 @@ A mailing list would be advantageous for communicating and keeping stakeholders 
 
 ## What kind of timeline are you working to for building consensus, releasing a first version etc
 
-We expect a first draft of the shared MINAS checklist descriptors at the end of 2022. Further expansion of environmental packages would then be prioritised in 2023.
+We expect a first draft of the shared MInAS checklist descriptors at the end of 2022. Further expansion of environmental packages would then be prioritised in 2023.
 
 ## How is this work currently funded (list grants, funders, in kind contributions, etc)
 
@@ -76,7 +76,7 @@ Currently, this would be supported by in-kind contributions. However, we will co
 
 ## What resources will be required for completion (funding, manpower, etc.)? (This question is just to give an idea about the size of the project)
 
-This will require input from multiple communities for different sub-disciplines within ancient DNA, and will initially be done on a volunteer basis. We will consider applying for funding from national or other sources related to data infrastructure, such as the DFG (Deutsche Forschungsgemeinschaft), EMBO (European Molecular Biology Organisation), and XYZ. The size of the final core working group will vary depending on each community, and will be finalised once the project has matured.
+This will require input from multiple communities for different sub-disciplines within ancient DNA, and will initially be done on a volunteer basis. We will consider applying for funding from national or other sources related to data infrastructure, such as the DFG (Deutsche Forschungsgemeinschaft), EMBO (European Molecular Biology Organisation). The size of the final core working group will vary depending on each community, and will be finalised once the project has matured.
 
 ## What are your current plans for publishing/promoting the project
 

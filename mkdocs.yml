@@ -8,7 +8,7 @@ nav:
     - drafts/index.md
     - "Ancient Extension": drafts/ancient-extension.md
     - "MIxS Term Updates": drafts/existing-term-updates.md
-    - "MInAS Checklists": drafts/minas-checklist-combinations.md
+    - "MInAS Checklists": drafts/minas-submission-packages.md
     - "Deprecated": drafts/draft.md
   - Contributors: contributors.md
 theme: material
