@@ -1,0 +1,1 @@
+# Standard MInAS Checklist Combinatiopns
