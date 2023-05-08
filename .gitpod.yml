@@ -17,5 +17,5 @@ github:
 # Commands to start on workspace startup
 tasks:
   - name: Setup & Serve
-    before: pip install mkdocs-material mkdocs-table-reader-plugin
+    before: pip install mkdocs-material mkdocs-table-reader-plugin mkdocs-section-index
     command: mkdocs serve
