@@ -30,3 +30,5 @@ To update the rendered tables on the `docs/drafts.md` page:
 2. Modify `docs/assets/checklists/website_simplification_script.R` to the latest version in the file names
 3. Run the script
 4. Update `docs/draft.md` to the latest version at the top of the page, and the paths to the files at the bottom of the page.
+
+Custom domain is `www.mixs-minas.org`.
