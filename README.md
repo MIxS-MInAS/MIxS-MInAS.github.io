@@ -31,4 +31,4 @@ To update the rendered tables on the `docs/drafts.md` page:
 3. Run the script
 4. Update `docs/draft.md` to the latest version at the top of the page, and the paths to the files at the bottom of the page.
 
-Custom domain is `www.mixs-minas.org`.
+Custom domain is `www.mixs-minas.org`. `CNAME` file also needs to be under `docs/` with `mkdocs gh-deploy`. 
