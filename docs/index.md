@@ -1,4 +1,4 @@
-# ![Interim MInAS logo](assets/images/minas.png)
+# ![Interim MInAS logo](assets/images/banner_object.svg)
 
 ## About
 
