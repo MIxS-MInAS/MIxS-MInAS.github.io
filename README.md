@@ -22,7 +22,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Local Development Notes
 
-Requires `mkdocs-material` theme to be installed `pip install mkdocs-material mkdocs-table-reader-plugin`. See `.github/workflows/ci.yml` for latest used on production website if in doubt.
+Requires `mkdocs-material` theme to be installed `pip install mkdocs-material mkdocs-table-reader-plugin mkdocs-section-index`. See `.github/workflows/ci.yml` for latest used on production website if in doubt.
 
 To update the rendered tables on the `docs/drafts.md` page:
 

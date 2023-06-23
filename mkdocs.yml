@@ -8,7 +8,7 @@ nav:
     - drafts/index.md
     - "Ancient Extension": drafts/ancient-extension.md
     - "MIxS Term Updates": drafts/existing-term-updates.md
-    - "MInAS Checklists": drafts/minas-submission-packages.md
+    - "MInAS Submission Packages": drafts/minas-submission-packages.md
     - "Deprecated": drafts/draft.md
   - Contributors: contributors.md
 theme: 
@@ -19,6 +19,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 plugins:
   - search
   - table-reader

@@ -1,9 +1,13 @@
 # Ancient Extension
 
 <!-- UPDATE VERSION HERE AS WELL AS IN LINKS BELOW!-->
-The current version is `v0.0.3`.
+!!! info "Version"
 
-This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics community nor by the Genomics Standards Consortium.
+    The current version is: `v0.0.3`.
+
+!!! warning
+
+    This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics community nor by the Genomics Standards Consortium.
 
 A simplified current version of the metadata fields to be proposed to be included 'ancient' extension is rendered below.
 
