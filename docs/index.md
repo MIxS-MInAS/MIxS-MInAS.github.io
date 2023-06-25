@@ -14,5 +14,5 @@ See the [project proposal](/proposal) submitted to the GSC for further context a
 🤝 We are activately looking for other palaeogenomic communities and groups to get involved with the project - please get in contact if you are interested.
 
 Currently, the MINAS project is being spearheaded by the [SPAAM Community](https://spaam-community.github.io).
-If you're interested in getting involved in the project, please join the [GSC Slack workspace](https://join.slack.com/t/gsc-vpc4453/shared_invite/zt-1xkho921f-NeTTzLUS~cSF4HBkOSXFQg) and join the channel [#minas](https://gsc-vpc4453.slack.com/archives/C05DHBCFTCP).
+If you're interested in getting involved in the project, please join the [GSC Slack workspace](https://join.slack.com/t/gsc-vpc4453/shared_invite/zt-1xkho921f-NeTTzLUS~cSF4HBkOSXFQg) and join the channel [#minas](https://gsc-vpc4453.slack.com/archives/C05DHBCFTCP). Or, join our mailing list [here](/subscribe).
 You can also directly contact [Antonio Fernandez-Guerra](https://globe.ku.dk/research/geogenetics/microbial-ecogenomics-group/) or [James Fellows Yates](https://www.eva.mpg.de/archaeogenetics/staff/james-fellows-yates/) either via Slack or [info@mixs-minas.org](mailto:info@mixs-minas.org).
