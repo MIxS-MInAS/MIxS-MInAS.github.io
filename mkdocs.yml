@@ -1,5 +1,6 @@
 site_name: MIxS-MInAS
 site_url: https://mixs-minas.org/
+repo_url: https://github.com/MIxS-MInAS/MIxS-MInAS.github.io
 nav:
   - Home: index.md
   - Proposal: proposal.md
