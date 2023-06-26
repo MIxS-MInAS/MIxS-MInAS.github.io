@@ -89,6 +89,15 @@
             font-weight: bold;
             margin-top: 20px;
         }
+
+        .disclaimer {
+            max-width: 100%;
+            font-size: 12px;
+            margin-top: 20px;
+            background-color: #f2f2f2;
+            padding: 5px;
+            border-radius: 4px;
+        }
     </style>
 </head>
 
@@ -134,6 +143,13 @@
         <div class="message" id="confirmationMessage" style="display: none;">
             The form has been successfully submitted! You will be redirected to the homepage.
         </div>
+        <div class="disclaimer">
+            <b>PLEASE NOTE:</b> <br>
+            After clicking <b>"Submit"</b>, you will receive an email with an activation link for your subscription. If
+            you
+            don't find the confirmation email in your inbox, please check your spam folder. The confirmation link will
+            be from the domain <b>ml.kundenserver.de</b>.
+        </div>
     </div>
 
     <script>
@@ -168,7 +184,7 @@
             }
 
             // Determine the appropriate URL based on the radio button value
-            var url = "https://www.mixs-minas.org";
+            var url = "";
             switch (radioButtonValue) {
                 case "subscribe":
                     url = form.querySelector('input[name="FBURLSUBSCRIBE_L"]').value;
@@ -188,10 +204,11 @@
             form.style.display = "none";
             document.getElementById("confirmationMessage").style.display = "block";
 
-
             // Submit the form and redirect
-            form.submit();
-            window.location.href = url;
+            setTimeout(function () {
+                form.submit();
+                window.location.href = "https://www.mixs-minas.org";
+            }, 2000);
         });
     </script>
 </body>
