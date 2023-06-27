@@ -1,0 +1,7 @@
+Submission Package Combination,Context,Palaeogenomics example
+[Host-associatedMIGSBacteria](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIGSBacteria/) + [Ancient](ancient-extension.md),Ancient bacterial genome,Ancient pathogen (reference mapped)
+[Host-associatedMIUVIG](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIGSBacteria/) + [Ancient](ancient-extension.md),Ancient viral genome,Ancient pathogen (reference mapped)
+[Host-associatedMIMS](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMS/) + [Ancient](ancient-extension.md),Ancient metagenome,Ancient Oral [dental calculus]; Gut [palaeofaeces] microbiomes; sedaDNA (shotgun sequencing reads)
+[Host-associatedMIMAG](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIMAG/) + [Ancient](ancient-extension.md),Ancient metagenome,Ancient pathogen [bacteria/virus]; oral [dental calculus] or gut [palaeofaeces] microbiomes; sedaDNA (metagenomic de novo assembly)
+[Host-associatedMIGSEukaryote](https://genomicsstandardsconsortium.github.io/mixs/Host-associatedMIGSEukaryote/) + [Ancient](ancient-extension.md),Ancient eukaryote genome,Ancient human or animal genome or genome-wide data (reference mapped)
+[Plant-associatedMIGSPlant](https://genomicsstandardsconsortium.github.io/mixs/Plant-associatedMIGSPlant/) + [Ancient](ancient-extension.md),Ancient plant genome,Ancient plant genome or genome-wide data (reference mapped)

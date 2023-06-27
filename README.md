@@ -1,4 +1,4 @@
-# MIxS-MINAS
+# MIxS-MInAS
 
 Website for the proposed MIxS **M**inimum **In**formation about an **A**ncient Sequence project
 

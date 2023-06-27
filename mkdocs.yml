@@ -3,6 +3,7 @@ site_url: https://mixs-minas.org/
 repo_url: https://github.com/MIxS-MInAS/MIxS-MInAS.github.io
 nav:
   - Home: index.md
+  - "Get Involved": get-involved.md
   - Proposal: proposal.md
   - Project Phases: phases.md
   - Drafts:
@@ -12,6 +13,7 @@ nav:
       - "MInAS Submission Packages": drafts/minas-submission-packages.md
       - "Deprecated": drafts/draft.md
   - Contributors: contributors.md
+  - Contact: contact.md
 theme:
   name: material
   font:
