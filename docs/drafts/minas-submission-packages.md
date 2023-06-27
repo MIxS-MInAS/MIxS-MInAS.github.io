@@ -13,6 +13,6 @@ The following submission packages have been proposed by the SPAAM community to a
 
 All MInAS submission packages will include the [Ancient](ancient-extension.md) extension.
 
-=== "MInAS Submission Package"
+=== "MInAS Submission Packages (proposal)"
 
     {{ read_csv('docs/assets/checklists/versions/mixs_v6_minas_v0.0.2_submission_packages.csv') }}
