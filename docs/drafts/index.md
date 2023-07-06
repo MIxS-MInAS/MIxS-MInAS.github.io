@@ -27,12 +27,17 @@ These are the three main MIxS 'objects' that the MInAS project will develop arou
 
 The 'checklist requirement' levels guide the level of 'mandatory-ness' a given descriptor may have.
 
-- **M**andatory: required for compliance with checklist
-- **X** (optional): may be present, not required for compliance
-- **E**nvironmental-dependent: must be present depending on the sample's environment
+- **M**andatory: for compliance with checklist. This means this term must be filled. See [Missing Values](#missing-values) for more information. 
+- **X** (optional): may be present, not required for compliance. Can be left empty if no information or not relevant to the data.
+- **E**nvironmental-dependent: must be present depending on the sample's environment. Can be left empty if no information or not applicable.
 - **-** not applicable: not applicable to checklist
 
 Deprecated requirement level
 
 - **C**onditional: this is not used now by MIxS but may referred to in legacy documentation and checklist. Has since been superseeded by **X** Optional.
 
+## Additional Documentation
+
+### Missing Values
+
+Mandatory fields in MIxS checklists just mean that they must be filled. However in some cases, that information may not exist or be publically available (for a variety of reasons). In this case, the GSC and MIxS use INSDC defined standardised 'missing value' reporting terms which have different levels of granuality. You can see these terms [on the INSDC website](https://www.insdc.org/submitting-standards/missing-value-reporting/).
