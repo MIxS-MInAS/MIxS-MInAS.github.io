@@ -17,4 +17,4 @@ The MInAS project was originally spearheaded by the [SPAAM Community](https://sp
 
 If you're interested in getting involved in the project, please see [Get Involved](/get-involved).
 
-For more more information, see our communication channels in [Get Involved](/get-involved) or [Contact](/contact).
+For more information, see our communication channels in [Get Involved](/get-involved) or [Contact](/contact).
