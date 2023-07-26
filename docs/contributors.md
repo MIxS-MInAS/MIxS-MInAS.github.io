@@ -20,3 +20,6 @@ The following people have been actively involved in MInAS Meetings:
 - Mohamed Sarhan (Institute for Biomedicine, Eurac research 🇮🇹)
 - Abby Gancz (Pennsylvania State University 🇺🇲)
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇲)
+- Casey Kirkpatrick (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪/ Department of Anthropology, University of Western Ontario 🇨🇦)
+- Alina Hiß (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
+
