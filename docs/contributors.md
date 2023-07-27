@@ -9,7 +9,7 @@ The following people have been actively involved in MInAS Meetings:
 - Christina Warinner (Max Planck Institute for Evolutionary Anthropology 🇩🇪 / Harvard University 🇺🇲/ Friedrich-Schiller-Universität Jena 🇩🇪 )
 - Irina Velsko (Friedrich-Schiller-Universität Jena 🇩🇪 )
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
-- Orphélie Lebrasseur (Laboratoire CAGT, CNRS 🇫🇷)
+- Ophélie Lebrasseur (Laboratoire CAGT, CNRS 🇫🇷)
 - Aida Andrades Valtueña (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Arthur Kocher (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Kelly Blevins (Durham University 🇬🇧)
