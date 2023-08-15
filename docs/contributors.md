@@ -24,3 +24,7 @@ The following people have been actively involved in MInAS Meetings:
 - Alina Hiß (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Lorenza Coppola Bove (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 / University of Granada, Spain 🇪🇸)
 - Alexander Herbig (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
+
+## Additional Acknowledgments
+
+- Initial logo design: Irene Rainer (Graphic Designer, MPI-EVA, Leipzig)
