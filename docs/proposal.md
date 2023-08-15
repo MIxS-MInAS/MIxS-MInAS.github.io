@@ -2,7 +2,9 @@
 
 ## Project Title
 
-**MInAS**: **M**inimum **In**formation about any **A**ncient **S**equence
+<p align="center">
+   <img alt="Minimum Information about any Ancient Sequence full name logo" src="/assets/images/logos/minas-logo-full-name-flat.png" width="50%">
+</p>
 
 ## Networks Involved
 

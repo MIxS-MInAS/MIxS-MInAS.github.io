@@ -1,4 +1,8 @@
-# ![Interim MInAS logo](assets/images/banner_object.svg)
+<h1>
+<p align="center">
+   <img alt="MInAS Logo" src="assets/images/logos/minas-logo-flat.png" width="30%">
+</p>
+</h1>
 
 ## About
 
