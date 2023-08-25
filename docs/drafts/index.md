@@ -12,22 +12,25 @@ You can see the drafts of each stages in the respective pages in this section.
 
 ## Notes on Terminology
 
-The following terms are used throughout the drafts. They aim to align as much as possible with the GSC definitions, but may get out of sync at points as the GSC project develops.
+The following terms are used throughout the drafts. They aim to align as much as possible with the [GSC definitions](http://www.gensc.org/pages/standards-intro.html), but may get out of sync at points as the GSC project develops.
 
 ### MIxS Objects
 
 These are the three main MIxS 'objects' that the MInAS project will develop around
 
-- **Checklist**: Describes genome (sequence) + metadata 
-- **Extension**: Extends the checklist to describe the location and material from which the sample was taken
-    - ℹ️ previously also known as as (environmental) package
-- **Submission Package**: combinations of a single checklist and any number of extension
+- **Term**: a single metadata attribute or entry describing an aspect of a sample, sequence etc.
+- **Section**: a grouping of metadata terms under a specific category (e.g. terms related to the environment metadata, sequencing metadata, etc.)
+- **Checklist**: Describes basic information of a (meta)genome (sequence) + metadata, i.e., a collection of terms for a given sequence type.
+- **Extension**: Additional terms that extends the checklist to describe the location and material from which the sample was taken for specific contexts
+  - ℹ️ previously also known as as (environmental) package
+- **Combination**: combinations of a single checklist and any number of extension
+  - ℹ️ Previously known as (submission) packages
 
 ### Checklist Requirement
 
 The 'checklist requirement' levels guide the level of 'mandatory-ness' a given descriptor may have.
 
-- **M**andatory: for compliance with checklist. This means this term must be filled. See [Missing Values](#missing-values) for more information. 
+- **M**andatory: for compliance with checklist. This means this term must be filled. See [Missing Values](#missing-values) for more information.
 - **X** (optional): may be present, not required for compliance. Can be left empty if no information or not relevant to the data.
 - **E**nvironmental-dependent: must be present depending on the sample's environment. Can be left empty if no information or not applicable.
 - **-** not applicable: not applicable to checklist
