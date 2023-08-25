@@ -1,9 +1,15 @@
 # Contributors
 
-The following people have been actively involved in MInAS Meetings:
+The following people have been actively involved in various aspects of the MInAS project.
+
+## Coordination team
 
 - Antonio Fernandez-Guerra (Center for GeoGenetics, GLOBE Institute 🇩🇰)
 - James A. Fellows Yates (Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie Hans-Knöll-Institut 🇩🇪 / Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 )
+- Kelly Blevins (Durham University 🇬🇧)
+
+## Development Team
+
 - Alex Hübner (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Maxime Borry (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Christina Warinner (Max Planck Institute for Evolutionary Anthropology 🇩🇪 / Harvard University 🇺🇲/ Friedrich-Schiller-Universität Jena 🇩🇪 )
@@ -12,7 +18,6 @@ The following people have been actively involved in MInAS Meetings:
 - Ophélie Lebrasseur (Laboratoire CAGT, CNRS 🇫🇷)
 - Aida Andrades Valtueña (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Arthur Kocher (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
-- Kelly Blevins (Durham University 🇬🇧)
 - Meriam Guellil (University of Vienna 🇦🇹)
 - Eric Capo (Umeå University 🇸🇪)
 - Anan Ibrahim (Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie Hans-Knöll-Institut 🇩🇪)
@@ -20,6 +25,9 @@ The following people have been actively involved in MInAS Meetings:
 - Mohamed Sarhan (Institute for Biomedicine, Eurac research 🇮🇹)
 - Abby Gancz (Pennsylvania State University 🇺🇲)
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇲)
+
+## Additional Contributors
+
 - Casey Kirkpatrick (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 / Department of Anthropology, University of Western Ontario 🇨🇦)
 - Alina Hiß (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Lorenza Coppola Bove (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 / University of Granada, Spain 🇪🇸)
