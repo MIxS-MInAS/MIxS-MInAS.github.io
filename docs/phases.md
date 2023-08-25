@@ -2,7 +2,7 @@
 
 The development of the MInAS standard MIxS checklist combinations is envisioned to split across three main phases each with a dedicated community feedback round.
 
-The development phases may run in parallel at points. 
+The development phases may run in parallel at points.
 
 ## Phase One: dedicated 'ancient' package
 
@@ -10,20 +10,20 @@ The initial phase of the MInAS project will see the development of a new MIxS [e
 
 This package will then be incorporated into the main MIxS project.
 
-## Phase Two: standard ancient DNA submission packages
+## Phase Two: standard ancient DNA submission combinationss
 
-This phase will involve the community in selecting the default and/or 'standard' MIxS checklists and relevent extensions that will be required for data submission of different ancient DNA sub-fields (all with the 'ancient' MIxS extension). 
+This phase will involve the community in selecting the default and/or 'standard' MIxS checklists and relevent extensions that will be required for data submission of different ancient DNA sub-fields (all with the 'ancient' MIxS extension).
 
-These standard submission packages will be recorded here, and also submitted to INSDC repositories to act as the default metadata schemas for all ancient samples.
+These standard submission combinationss will be recorded here, and also submitted to INSDC repositories to act as the default metadata schemas for all ancient samples.
 
 ## Phase Three: term updates
 
-In addition to adding additional new terms for ancient samples, in some cases we may need to request updates and/or add additional contextual information to the descriptions of existing MIxS terms. 
+In addition to adding additional new terms for ancient samples, in some cases we may need to request updates and/or add additional contextual information to the descriptions of existing MIxS terms.
 
 The third phase of this project will see [existing terms](https://genomicsstandardsconsortium.github.io/mixs/) reviewed and updates requested in the [central MIxS project](https://github.com/GenomicsStandardsConsortium/mixs). Additional guidance and context for ancient samples will be recorded on this website.
 
 ## Phase Four: community resource development
 
-In the final phase of this project, community resources will be developed to assist users interact and use the submission packages for their own work and submission pipelines. 
+In the final phase of this project, community resources will be developed to assist users interact and use the submission combinationss for their own work and submission pipelines.
 
 Output may involve standalone software, web-servers, assistive website based walkthroughs, and training, depending on the needs of the community.
