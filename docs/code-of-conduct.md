@@ -73,7 +73,7 @@ We expect all participants (contributors, paid or otherwise, and other guests) t
 
 This code of conduct and its related procedures also applies to unacceptable behaviour occurring outside the scope of community activities when such behaviour has the potential to adversely affect the safety and well-being of community members.
 
-### 8. Contact info
+## 8. Contact info
 
 Currently the MInAS safety officers can be considered the primary project coordinators listed [here](https://www.mixs-minas.org/contact/).
 
@@ -81,7 +81,7 @@ Currently the MInAS safety officers can be considered the primary project coordi
 - [Antonio Fernandez-Guerra](https://globe.ku.dk/research/geogenetics/microbial-ecogenomics-group/)
 - [Kelly Blevins](https://www.durham.ac.uk/staff/kelly-blevins/)
 
-### 9. License and attribution
+## 9. License and attribution
 
 This is modified after the Code of Conduct distributed by [Stumptown Syndicate](http://stumptownsyndicate.org) and [Conf Code of Conduct](https://confcodeofconduct.com/) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). 
 
