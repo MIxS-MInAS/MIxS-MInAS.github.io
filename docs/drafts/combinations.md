@@ -14,6 +14,13 @@ The following submission combinations have been proposed by the SPAAM community 
 
 All MInAS submission combinations will include the [Ancient](ancient-extension.md) extension.
 
+!!! info "Note on typical archives"
+
+    - **ENA**: [EBI European Nucleotide Archive](https://www.ebi.ac.uk/ena)
+    - **SRA**: [NCBI Sequence Read Archive](https://www.ncbi.nlm.nih.gov/sra)
+    - **MGnify**: [EBI Metagenomics](https://www.ebi.ac.uk/metagenomics)
+    - **GenBank**: [NCBI GenBank](https://www.ncbi.nlm.nih.gov/genbank/)
+
 === "MInAS submission combinations (proposal)"
 
     {{ read_csv('docs/assets/checklists/versions/mixs_v6_minas_v0.0.2_submission_packages.csv') }}
