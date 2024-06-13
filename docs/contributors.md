@@ -6,7 +6,11 @@ The following people have been actively involved in various aspects of the MInAS
 
 - Antonio Fernandez-Guerra (Center for GeoGenetics, GLOBE Institute 🇩🇰)
 - James A. Fellows Yates (Leibniz-Institut für Naturstoff-Forschung und Infektionsbiologie Hans-Knöll-Institut 🇩🇪 / Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 )
-- Kelly Blevins (Durham University 🇬🇧)
+- Meriam Guellil (University of Vienna 🇦🇹)
+
+Previously:
+
+- Kelly Blevins (Durham University 🇬🇧, 2023)
 
 ## Development Team
 
