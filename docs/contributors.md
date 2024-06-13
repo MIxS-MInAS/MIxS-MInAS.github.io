@@ -12,7 +12,7 @@ Previously:
 
 - Kelly Blevins (Durham University 🇬🇧, 2023)
 
-## Development Team
+## Development Team (2022-2023)
 
 - Alex Hübner (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Maxime Borry (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
