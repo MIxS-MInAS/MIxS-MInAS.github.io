@@ -9,6 +9,7 @@ nav:
   - Drafts:
       - drafts/index.md
       - "Ancient Extension": drafts/ancient-extension.md
+      - "Radiocarbon Dating Extension": drafts/radiocarbon-dating-extension.md
       - "MIxS Term Updates": drafts/existing-term-updates.md
       - "MInAS submission combinations": drafts/combinations.md
       - "Deprecated": drafts/draft.md

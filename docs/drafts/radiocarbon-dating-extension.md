@@ -2,13 +2,15 @@
 
 !!! warning
 
-    This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics community nor by the Genomics Standards Consortium.
+    This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics nor radiocarbon dating community nor by the Genomics Standards Consortium.
 
-Our current proposal for ancient DNA specific metadata fields can be found on GitHub.
+Our current proposal for radiocarbon dating (C14) specific metadata fields can be found on GitHub.
 
-You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-radiocarbon-dating/raw/main/project/class-model-tsvs/RadiocarbonDating.tsv) and pressing 'Save Link As'.
+!!! success "To download"
 
-This will download from GitHub a TSV (table separate value) file that can be viewed in a text editor or spreadsheet program.
+    You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-radiocarbon-dating/raw/main/project/class-model-tsvs/RadiocarbonDating.tsv) and pressing 'Save Link As'.
+
+    This will download from GitHub a TSV (table separate value) file that can be viewed in a text editor or spreadsheet program.
 
 A legend of the columns is as follows. Bolded terms are the _recommend_ columns for reading the file. All others are for development purposes only.
 
