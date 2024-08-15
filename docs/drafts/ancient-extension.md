@@ -4,7 +4,7 @@
 
     This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics community nor by the Genomics Standards Consortium.
 
-Our current proposal for ancient DNA specific metadata fields can be found on GitHub.
+Our current proposal for ancient DNA specific metadata fields can be found on GitHub under the [dedicated repository](https://github.com/MIxS-MInAS/extension-ancient).
 
 !!! success "To download"
 

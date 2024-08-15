@@ -4,9 +4,9 @@
 
     This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics nor radiocarbon dating community nor by the Genomics Standards Consortium.
 
-Our current proposal for radiocarbon dating (C14) specific metadata fields can be found on GitHub.
+Our current proposal for radiocarbon dating (C14) specific metadata fields can be found on GitHub under the [dedicated repository](https://github.com/MIxS-MInAS/extension-radiocarbon-dating).
 
-!!! success "To download"
+!!! success "To download human readable version"
 
     You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-radiocarbon-dating/raw/main/project/class-model-tsvs/RadiocarbonDating.tsv) and pressing 'Save Link As'.
 
