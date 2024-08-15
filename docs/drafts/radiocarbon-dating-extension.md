@@ -1,4 +1,4 @@
-# Ancient Extension
+# Radiocarbon Dating Extension
 
 !!! warning
 
@@ -6,7 +6,7 @@
 
 Our current proposal for ancient DNA specific metadata fields can be found on GitHub.
 
-You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-ancient/raw/latest/projects/class-model-tsvs/Ancient.tsv) and pressing 'Save Link As'.
+You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-radiocarbon-dating/raw/main/project/class-model-tsvs/RadiocarbonDating.tsv) and pressing 'Save Link As'.
 
 This will download from GitHub a TSV (table separate value) file that can be viewed in a text editor or spreadsheet program.
 
