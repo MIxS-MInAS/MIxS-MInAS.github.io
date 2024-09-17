@@ -12,7 +12,7 @@ Previously:
 
 - Kelly Blevins (Durham University 🇬🇧, 2023)
 
-## Development Team (2022-2023)
+## Feedback Contributors
 
 - Alex Hübner (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Maxime Borry (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
@@ -29,9 +29,6 @@ Previously:
 - Mohamed Sarhan (Institute for Biomedicine, Eurac research 🇮🇹)
 - Abby Gancz (Pennsylvania State University 🇺🇲)
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇲)
-
-## Additional Contributors
-
 - Casey Kirkpatrick (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 / Department of Anthropology, University of Western Ontario 🇨🇦)
 - Alina Hiß (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Lorenza Coppola Bove (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪 / University of Granada, Spain 🇪🇸)

@@ -6,7 +6,7 @@
 
 Our current proposal for ancient DNA specific metadata fields can be found on GitHub under the [dedicated repository](https://github.com/MIxS-MInAS/extension-ancient).
 
-!!! success "To download"
+!!! success "To download human readable version"
 
     You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-ancient/raw/latest/projects/class-model-tsvs/Ancient.tsv) and pressing 'Save Link As'.
 
