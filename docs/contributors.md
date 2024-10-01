@@ -35,13 +35,17 @@ Previously:
 - Alexander Herbig (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Bastien Llamas (University of Adelaide 🇦🇺)
 - Yassine Souilmi (University of Adelaide 🇦🇺)
+- Robbi Davidson (University of Adelaide 🇦🇺)
 - Zoé Pochon (Centre for Palaeogenetics 🇸🇪)
 - Piotr Rozwalak (Friedrich-Schiller-Universität Jena 🇩🇪)
 - Rodrigo Barquera (Max-Planck-Institut für evolutionäre Anthropologie 🇩🇪)
 - Biancamaria Bonucci (University of Tartu 🇪🇪)
-- Frank Maixner (Eurac Research Institute for Mummy Studies 🇮🇹)
+- Frank Maixner (Eurac Research - Institute for Mummy Studies 🇮🇹)
+- Christina Wurst (Eurac Research - Institute for Mummy Studies 🇮🇹)
+- Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Magnus Johannsen (University of Copenhagen 🇩🇰)
 - Yuejiao Huang (University of Copenhagen 🇩🇰)
+- Wenqin Yu (Peking University 🇨🇳)
 
 ## Additional Acknowledgments
 
