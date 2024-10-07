@@ -46,6 +46,7 @@ Previously:
 - Magnus Johannsen (University of Copenhagen 🇩🇰)
 - Yuejiao Huang (University of Copenhagen 🇩🇰)
 - Wenqin Yu (Peking University 🇨🇳)
+- Deon de Jager (University of Copenhagen 🇩🇰)
 
 ## Additional Acknowledgments
 
