@@ -43,6 +43,7 @@ Previously:
 - Frank Maixner (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Christina Wurst (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
+- Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Magnus Johannsen (University of Copenhagen 🇩🇰)
 - Yuejiao Huang (University of Copenhagen 🇩🇰)
 - Wenqin Yu (Peking University 🇨🇳)
