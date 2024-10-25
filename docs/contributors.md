@@ -48,6 +48,7 @@ Previously:
 - Yuejiao Huang (University of Copenhagen 🇩🇰)
 - Wenqin Yu (Peking University 🇨🇳)
 - Deon de Jager (University of Copenhagen 🇩🇰)
+- Heike H. Zimmermann (Geological Survey of Denmark and Greenland 🇩🇰)
 
 ## Additional Acknowledgments
 
