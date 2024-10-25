@@ -49,6 +49,7 @@ Previously:
 - Wenqin Yu (Peking University 🇨🇳)
 - Deon de Jager (University of Copenhagen 🇩🇰)
 - Heike H. Zimmermann (Geological Survey of Denmark and Greenland 🇩🇰)
+- Kevin G. Daly (UCD School of Agriculture and Food Science, Dublin 🇮🇪)
 
 ## Additional Acknowledgments
 
