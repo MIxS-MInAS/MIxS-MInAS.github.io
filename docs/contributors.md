@@ -50,7 +50,7 @@ Previously:
 - Deon de Jager (University of Copenhagen 🇩🇰)
 - Heike H. Zimmermann (Geological Survey of Denmark and Greenland 🇩🇰)
 - Victor Yan Kin Lee (University of Copenhagen 🇩🇰)
-- Ophélie Lebrasseur (Laboratoire CAGT, CNRS 🇫🇷)
+- Ophélie Lebrasseur (Laboratoire CAGT - CNRS 🇫🇷)
 - Kevin G. Daly (UCD School of Agriculture and Food Science, Dublin 🇮🇪)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
 - Abby Gancz (Pennsylvania State University 🇺🇲)
