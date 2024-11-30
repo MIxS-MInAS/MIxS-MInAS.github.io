@@ -9,11 +9,11 @@
 - 💾 Palaeogenomic data is routinely shared on public databases
 - 🏷️ Metadata? Not so good…
 
-**The MInAS project aims to develop standardised metadata reporting schemes of ancient DNA samples and sequencing data via community-based consensus and training.**
+_The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) project aims to develop standardised metadata reporting schemes of ancient DNA samples and sequencing data via community-based consensus and training._
 
 This project builds from and interacts with the [Genomics Standards Consortium's](https://www.gensc.org/) (GSC) [MIxS project](https://www.gensc.org/pages/standards-intro.html).
 
-See the [project proposal](/proposal) submitted to the GSC for further context and motivations behind the project. For the planned phases of the project, see [Project Phases](/phases). To see the latest drafts, please see the respective [Draft](/draft) page.
+See the [project proposal](/proposal) submitted to the GSC for further context and motivations behind the project. For the planned phases of the project, see [Project Phases](/phases). To see the latest drafts, please see the respective [Draft](/drafts) page.
 
 🤝 We are activately looking for other palaeogenomic communities and groups to get involved with the project - please get in contact if you are interested.
 
