@@ -2,6 +2,8 @@
 
 <!-- UPDATE VERSION HERE ON EACH UPDATE -->
 
+> 🛑 This draft is now deprecated due to changes in the structure of the MInAS project to better align with the MIxS infrastructure. Please see the latest drafts on the other pages in this section.
+
 !!! info "Version"
 
     The current version is: `v0.0.2`.
