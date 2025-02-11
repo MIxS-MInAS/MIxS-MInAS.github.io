@@ -79,10 +79,10 @@ Currently the MInAS safety officers can be considered the primary project coordi
 
 - [James A. Fellows Yates](https://www.eva.mpg.de/archaeogenetics/staff/james-fellows-yates/)
 - [Antonio Fernandez-Guerra](https://globe.ku.dk/research/geogenetics/microbial-ecogenomics-group/)
-- [Kelly Blevins](https://www.durham.ac.uk/staff/kelly-blevins/)
+- [Meriam Guellil](https://www.heas.at/about/members/meriam-guellil/)
 
 ## 9. License and attribution
 
-This is modified after the Code of Conduct distributed by [Stumptown Syndicate](http://stumptownsyndicate.org) and [Conf Code of Conduct](https://confcodeofconduct.com/) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/). 
+This is modified after the Code of Conduct distributed by [Stumptown Syndicate](http://stumptownsyndicate.org) and [Conf Code of Conduct](https://confcodeofconduct.com/) under a [Creative Commons Attribution-ShareAlike license](http://creativecommons.org/licenses/by-sa/3.0/).
 
 Portions of text derived from the [Django Code of Conduct](https://www.djangoproject.com/conduct/) and the [Geek Feminism Anti-Harassment Policy](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy).
