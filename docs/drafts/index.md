@@ -10,9 +10,19 @@ The MInAS project drafts can be split into three different sections:
 
 You can see the drafts of each stages in the respective pages in this section.
 
+## Viewing the current schema
+
+The best way to view and test the current schema is via the MInAS fork of DataHarmonizer [^1].
+This is a web-based tool that allows you to view and test the schema in a user-friendly way.
+You can find the MInAS fork of DataHarmonizer [here](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
+
+The best way to view and test the current schema is via the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
+Use the 'Template' dropdown menu to select the [combination](combinations) of your choice.
+
 ## Notes on Terminology
 
-The following terms are used throughout the drafts. They aim to align as much as possible with the [GSC definitions](http://www.gensc.org/pages/standards-intro.html), but may get out of sync at points as the GSC project develops.
+The following terms are used throughout the drafts.
+They aim to align as much as possible with the [GSC definitions](http://www.gensc.org/pages/standards-intro.html), but may get out of sync at points as the GSC project develops.
 
 ### MIxS Objects
 
@@ -43,4 +53,6 @@ Deprecated requirement level
 
 ### Missing Values
 
-Mandatory fields in MIxS checklists just mean that they must be filled. However in some cases, that information may not exist or be publically available (for a variety of reasons). In this case, the GSC and MIxS use INSDC defined standardised 'missing value' reporting terms which have different levels of granuality. You can see these terms [on the INSDC website](https://www.insdc.org/submitting-standards/missing-value-reporting/).
+Mandatory fields in MIxS checklists just mean that they must be filled. However in some cases, that information may not exist or be publically available (for a variety of reasons). In this case, the GSC and MIxS use INSDC defined standardised 'missing value' reporting terms which have different levels of granularity. You can see these terms [on the INSDC website](https://www.insdc.org/submitting-standards/missing-value-reporting/).
+
+[^1]: **Original repository**: [https://github.com/cidgoh/DataHarmonizer](https://github.com/cidgoh/DataHarmonizer), **Publication**: Gill, I. S., Griffiths, E. J., Dooley, D., Cameron, R., Savić Kallesøe, S., John, N. S., Sehar, A., Gosal, G., Alexander, D., Chapel, M., Croxen, M. A., Delisle, B., Di Tullio, R., Gaston, D., Duggan, A., Guthrie, J. L., Horsman, M., Joshi, E., Kearny, L., … Hsiao, W. W. L. (2023). The DataHarmonizer: a tool for faster data harmonization, validation, aggregation and analysis of pathogen genomics contextual information. Microbial Genomics, 9(1), 000908. [https://doi.org/10.1099/mgen.0.000908](https://doi.org/10.1099/mgen.0.000908)

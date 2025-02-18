@@ -6,12 +6,14 @@
 
 Our current proposal for radiocarbon dating (C14) specific metadata fields can be found on GitHub under the [dedicated repository](https://github.com/MIxS-MInAS/extension-radiocarbon-dating).
 
-!!! success "To download human readable version"
+!!! note "Viewing current combinations"
 
-    You can download the latest version by right clicking this link [here](https://github.com/MIxS-MInAS/extension-radiocarbon-dating/raw/main/project/class-model-tsvs/RadiocarbonDating.tsv) and pressing 'Save Link As'.
+    The best way to view and test the current schema is via the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
+    Use the 'Template' dropdown menu to select the RadiocarbonDating option.
 
-    This will download from GitHub a TSV (table separate value) file that can be viewed in a text editor or spreadsheet program.
+A MIxS extension refers to a MIxS to a sample type-specific collection of metadata terms, which are then attached to a main MIxS 'checklist' of metadata terms (e.g. for a genome, metagenome, marker sequence) to generate a full 'combination'.
 
+<!--
 A legend of the columns is as follows. Bolded terms are the _recommend_ columns for reading the file. All others are for development purposes only.
 
 | Column               | Description                                                                                                                     |
@@ -33,6 +35,7 @@ A legend of the columns is as follows. Bolded terms are the _recommend_ columns 
 | structured_pattern   | A legacy pattern describing how the entered metadata should be formatted.                                                       |
 | Expected_value       | A shorter version description of the what should be entered for the term.                                                       |
 | **Preferred_unit**   | Which measurement unit is preferred (e.g., years, degrees celsius, etc.).                                                       |
+-->
 
 For feedback, on the current proposals, please see the contact information on the homepage.
 

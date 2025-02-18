@@ -8,11 +8,13 @@ The development phases may run in parallel at points.
 
 The initial phase of the MInAS project will see the development of a new MIxS [extension](https://github.com/GenomicsStandardsConsortium/mixs/wiki/6.-MIxS-environmental-packages) (previously known as environmental packages), that includes new terms specific for, and will be required for all ancient samples uploaded to e.g. [INSDC databases](https://www.insdc.org/).
 
+Additional packages will be generated where deemed necessary.
+
 This package will then be incorporated into the main MIxS project.
 
 ## Phase Two: standard ancient DNA submission combinations
 
-This phase will involve the community in selecting the default and/or 'standard' MIxS checklists and relevent extensions that will be required for data submission of different ancient DNA sub-fields (all with the 'ancient' MIxS extension).
+This phase will involve the community in selecting the default and/or 'standard' MIxS checklists and relevant extensions that will be required for data submission of different ancient DNA sub-fields (all with the 'ancient' MIxS extension).
 
 These standard submission combinations will be recorded here, and also submitted to INSDC repositories to act as the default metadata schemas for all ancient samples.
 
