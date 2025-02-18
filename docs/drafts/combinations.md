@@ -11,6 +11,8 @@ Our current proposal for ancient DNA specific metadata fields can be found on Gi
     The best way to view and test the current schema is via the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
     Use the 'Template' dropdown menu to select the combination of your choice (see table below for guidance).
 
+## Description
+
 A MIxS combination refers to a MIxS checklist of metadata terms (e.g. for a genome, metagenome, marker sequence) plus one or more sample type-specific metadata 'extensions'.
 
 A MInAS combination consists of an existing MIxS combination plus the [Ancient](ancient-extension.md) extension. Optionally this can also include the radiocarbon dating extension - however this is not yet at a sufficient state for inclusion.
@@ -20,6 +22,8 @@ As the MInAS project develops, these default minimum-information submission comb
 
 The table below includes examples of which checklist would be used for which sample/sequence type.
 Note the table is only for guidance, and may not represent the latest state of the combinations.
+
+## Examples
 
 === "MInAS submission combinations (proposal)"
 
