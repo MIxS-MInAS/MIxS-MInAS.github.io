@@ -1,21 +1,21 @@
-Full name,Example
-MigsOrgHostAssociatedAncient,Ancient animal mitochondrial genome from a skeleton
-MigsOrgHumanAssociatedAncient,Ancient human mitochondrial genome from a skeleton
-MiuvigHostAssociatedAncient,Ancient animal-derived virus genome from a skeleton
-MiuvigHumanAssociatedAncient,Ancient human-derived virus genome from a skeleton
-MimagHostAssociatedAncient,Ancient animal-derived metagenome-(de novo) assembled genome (MAG) from a tooth
-MimagHumanAssociatedAncient,General human-derived metagenome-(de novo) assembled genome (MAG) from a tooth
-MimagHumanOralAncient,Ancient human dental calculus-derived metagenome-(de novo) assembled genome (MAG)
-MimagHumanGutAncient,Human palaeofaeces-derived metagenome-(de novo) assembled genome (MAG)
-MimagHumanSkinAncient,Human mummy skin-derived metagenome-(de novo) assembled genome (MAG)
-MimagSedimentAncient,Ancient sediment-derived metagenome-(de novo) assembled genome (MAG)
-MimagSoilAncient,Ancient soil-derived metagenome-(de novo) assembled genome (MAG)
-MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences
-MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences
-MimsHumanOralAncient,Human dental calculus-derived ancient DNA short-read sequences
-MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences
-MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences
-MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences
-MimsSoilAncient,Soil-derived ancient DNA short-read sequences
-MimsPlantAssociatedAncient,Plant-derived ancient DNA short-read sequences
-MimsSymbiontAssociatedAncient,Parasite-derived ancient DNA short-read sequences
+Full name,General Example,Explicit Example
+MigsOrgHostAssociatedAncient,Ancient animal mitochondrial genome from a skeleton, Woolly mammoth mitochondrial genome from a femur for uploading to NCBI GenBank
+MigsOrgHumanAssociatedAncient,Ancient human mitochondrial genome from a skeleton, Human mitochondrial genome from a tooth for uploading to NCBI GenBank
+MiuvigHostAssociatedAncient,Ancient animal-derived virus genome from a skeleton,  Avian Influenza genome reconstructed from a chicken bone for uploading to NCBI GenBank
+MiuvigHumanAssociatedAncient,Ancient human-derived virus genome from a skeleton, Hepatitis B virus genome reconstructed from human tooth for uploading to NCBI GenBank
+MimagHostAssociatedAncient,Ancient animal-derived metagenome-(de novo) assembled genome (MAG) from a tooth,Bacterial MAG from a pig tooth for uploading to MGnify
+MimagHumanAssociatedAncient,General human-derived metagenome-(de novo) assembled genome (MAG) from a tooth,Bacterial MAG from a human femur for uploading to MGnify
+MimagHumanOralAncient,Ancient human dental calculus-derived metagenome-(de novo) assembled genome (MAG), Bacterial MAG from human dental calculus or tooth for uploading to MGnify
+MimagHumanGutAncient,Human palaeofaeces-derived metagenome-(de novo) assembled genome (MAG), Bacterial MAG from human paleofaeces for uploading to MGnify
+MimagHumanSkinAncient,Human mummy skin-derived metagenome-(de novo) assembled genome (MAG), Viral MAG from human mummy skin sample for uploading to MGnify
+MimagSedimentAncient,Ancient sediment-derived metagenome-(de novo) assembled genome (MAG),Bacteriophage MAG from a mid-depth lake sediment core for uploading to MGnify
+MimagSoilAncient,Ancient soil-derived metagenome-(de novo) assembled genome (MAG),Bacterial MAG from an upper-level cave sediment sample for uploading to MGnify
+MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences,Shotgun sequenced human femur for pathogen detection or reads of an Auroch femur 
+MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences,Shotgun or 1240k captured reads from a tooth used for population genomics
+MimsHumanOralAncient,Human tooth or dental calculus-derived ancient DNA short-read sequences,Shotgun or captured sequenced reads from a human tooth or dental calculus used for microbiome taxonomic profiling/pathogen screening/genome reconstruction
+MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences,Shotgun sequenced reads from human palaeofaeces later used for MAG reconstruction
+MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences,Shotgun sequence reads from mummy skin sample for population-genomics analysis
+MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences,Shotgun sequenced or captured lake core reads for ecological taxonomic profiling
+MimsSoilAncient,Soil-derived ancient DNA short-read sequences,Shotgun sequenced or captured cave core reads for ecological taxonomic profiling
+MimsPlantAssociatedAncient,Plant-derived ancient DNA short-read sequences,Shotgun reads or chloroplast captured short reads for plant population analysis 
+MimsSymbiontAssociatedAncient,Parasite-derived ancient DNA short-read sequences,Shotgun sequenced or captured symbiont reads 

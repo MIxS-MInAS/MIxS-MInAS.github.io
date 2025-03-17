@@ -1,0 +1,12 @@
+name: mixs-minas-website
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - conda-forge::mkdocs=1.6.1
+  - conda-forge::mkdocs-get-deps=0.2.0
+  - conda-forge::mkdocs-material=9.6.4
+  - conda-forge::mkdocs-material-extensions=1.3.1
+  - conda-forge::mkdocs-table-reader-plugin=3.1.0
+  - pip:
+      - mkdocs-section-index

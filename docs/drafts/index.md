@@ -17,7 +17,7 @@ This is a web-based tool that allows you to view and test the schema in a user-f
 You can find the MInAS fork of DataHarmonizer [here](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
 
 The best way to view and test the current schema is via the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
-Use the 'Template' dropdown menu to select the [combination](combinations) of your choice.
+Use the 'Template' dropdown menu to select the [combination](combinations.md) of your choice.
 
 ## Notes on Terminology
 
