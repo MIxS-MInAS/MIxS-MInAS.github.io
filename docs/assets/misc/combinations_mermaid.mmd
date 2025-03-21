@@ -21,14 +21,16 @@ flowchart TD
     SampleFastqSymbiont ----> MimsSymbiontAncient([MimsSymbiontAncient])
 
     q13{"The body site the sample is from is"}
-    q13 --> FastqHumanOral["The oral cavity (e.g. tooth, calculus)"]
+    q13 --> FastqHumanOral["Tooth or from the oral cavity (e.g. molar, calculus)"]
     q13 --> FastqHumanGut["The gut (e.g. palaeofaeces)"]
     q13 --> FastqHumanSkin["The skin (e.g. a mummy)"]
-    q13 --> FastqHumanOther["Any other location (e.g. non-dental skeleton)"]
+    q13 --> FastqHumanBone["Bone (e.g., petrous, long-bone)"]
+    q13 --> FastqHumanOther["Any other location (i.e., not from bone, tooth/oral cavity, gut, or skin)"]
 
     FastqHumanOral --> MimsHumanGutOralAncient([MimsHumanOralAncient])
     FastqHumanGut --> MimsHumanGutAncient([MimsHumanGutAncient])
     FastqHumanSkin --> MimsHumanSkinAncient([MimsHumanSkinAncient])
+    FastqHumanBone --> MimsHumanAssociatedAncient([MimsHumanAssociatedAncient])
     FastqHumanOther --> MimsHumanAssociatedAncient([MimsHumanAssociatedAncient])
 
     q14{"The sampling location of the sediment/soil was"}
@@ -79,7 +81,7 @@ flowchart TD
     q8 --> FastaHumanOral["The oral cavity (e.g. tooth, calculus)"]
     q8 --> FastaHumanGut["The gut (e.g. palaeofaeces)"]
     q8 --> FastaHumanSkin["The skin (e.g. a mummy)"]
-    q8 --> FastaHumanOther["Any other location (e.g. non-dental skeleton)"]
+    q8 --> FastaHumanOther["Petrous, bone, any other s(e.g. non-dental skeleton)"]
 
     FastaHumanOral --> MimagHumanGutOralAncient([MimagHumanOralAncient])
     FastaHumanGut --> MimagHumanGutAncient([MimagHumanGutAncient])
