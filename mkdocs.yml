@@ -8,6 +8,7 @@ nav:
   - Project Phases: phases.md
   - Drafts:
       - drafts/index.md
+      - drafts/selecter.md
       - "MInAS submission combinations": drafts/combinations.md
       - "Ancient Extension": drafts/ancient-extension.md
       - "Radiocarbon Dating Extension": drafts/radiocarbon-dating-extension.md
