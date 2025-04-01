@@ -31,6 +31,12 @@ Otherwise, you can see the examples in the table below.
 
 ## Examples
 
+Ultra explicit guidance:
+
+- Ancient SNP capture human DNA data: `MimsHumanAssociatedAncient`
+- Ancient human pathogen-enriched data from a bone: `MimsHumanAssociatedAncient`
+- Ancient human pathogen-enriched data from a tooth: `MimsHumanOralAncient`
+
 === "MInAS submission combinations (proposal)"
 
     {{ read_csv('docs/assets/checklists/versions/combinations-2025-02-11.csv') }}
