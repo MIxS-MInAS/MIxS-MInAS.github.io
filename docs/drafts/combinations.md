@@ -31,9 +31,9 @@ Otherwise, you can see the examples in the table below.
 
 ## Examples
 
-Ultra explicit guidance:
+Ultra explicit guidance for common sample/data types:
 
-- Ancient SNP capture human DNA data: `MimsHumanAssociatedAncient`
+- Ancient SNP-capture human DNA data: `MimsHumanAssociatedAncient`
 - Ancient human pathogen-enriched data from a bone: `MimsHumanAssociatedAncient`
 - Ancient human pathogen-enriched data from a tooth: `MimsHumanOralAncient`
 
