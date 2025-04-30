@@ -14,14 +14,15 @@ Previously:
 
 ## Feedback Contributors
 
-- Meriam van Os (University of Otago, Otago 🇳🇿)
+- Meriam van Os (University of Otago 🇳🇿)
 - Bastien Llamas (University of Adelaide 🇦🇺)
 - Yassine Souilmi (University of Adelaide 🇦🇺)
 - Robbi Davidson (University of Adelaide 🇦🇺)
 - Wenqin Yu (Peking University 🇨🇳)
 - He Yu (Peking University 🇨🇳)
-- Yichen Liu (Institute of Vertebrate Paleontology and Paleoanthropology, 🇨🇳)
-- Zhengquan Gu (Institute of Tibetan Plateau Research, 🇨🇳)
+- Rui Wang (Xiamen University 🇨🇳)
+- Yichen Liu (Institute of Vertebrate Paleontology and Paleoanthropology 🇨🇳)
+- Zhengquan Gu (Institute of Tibetan Plateau Research 🇨🇳)
 - Magnus Johannsen (University of Copenhagen 🇩🇰)
 - Yuejiao Huang (University of Copenhagen 🇩🇰)
 - Deon de Jager (University of Copenhagen 🇩🇰)
@@ -48,7 +49,7 @@ Previously:
 - Eleftheria Orfanou (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Kathrin Nägele (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Thiseas C. Lamnidis (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
-- Kevin G. Daly (UCD School of Agriculture and Food Science, Dublin 🇮🇪)
+- Kevin G. Daly (UCD School of Agriculture and Food Science 🇮🇪)
 - Mohamed Sarhan (Eurac research Institute for Biomedicine 🇮🇹)
 - Frank Maixner (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Christina Wurst (Eurac Research - Institute for Mummy Studies 🇮🇹)
