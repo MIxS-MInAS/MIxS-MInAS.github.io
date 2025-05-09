@@ -33,6 +33,7 @@ Previously:
 - Alena Kushniarevich (University of Tartu 🇪🇪)
 - Biancamaria Bonucci (University of Tartu 🇪🇪)
 - Ophélie Lebrasseur (Laboratoire CAGT - CNRS 🇫🇷)
+- Maria Lopopolo (Institut Pasteur 🇫🇷)
 - Alex Hübner (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Maxime Borry (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Irina Velsko (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
