@@ -57,6 +57,7 @@ Previously:
 - Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
+- Martyna Molak (University of Warsaw 🇵🇱)
 - Eric Capo (Umeå University 🇸🇪)
 - Peter D. Heintzman (Stockholm University 🇸🇪)
 - Zoé Pochon (Centre for Palaeogenetics 🇸🇪)
