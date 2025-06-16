@@ -61,9 +61,9 @@ Previously:
 - Eric Capo (Umeå University 🇸🇪)
 - Peter D. Heintzman (Stockholm University 🇸🇪)
 - Zoé Pochon (Centre for Palaeogenetics 🇸🇪)
-- Abby Gancz (Pennsylvania State University 🇺🇲)
-- Christina Warinner (Harvard University 🇺🇲)
-- Nasreen Broomand (University of California, Santa Cruz 🇺🇲)
+- Abby Gancz (Pennsylvania State University 🇺🇸)
+- Christina Warinner (Harvard University 🇺🇸)
+- Nasreen Broomand (University of California, Santa Cruz 🇺🇸)
 
 ## Additional Acknowledgments
 
