@@ -69,6 +69,28 @@ Previously:
 - Christina Warinner (Harvard University 🇺🇸)
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇸)
 
+- Eleni Seferidou (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
+- Maïté Rivollat (Université Bordeaux 1 🇫🇷)
+- Mélanie Pruvost (Université Bordeaux 1 🇫🇷)
+- Carl Baden (Center for GeoGenetics 🇩🇰)
+- Stephen Clayton (University of Tübingen 🇩🇪)
+- Charoula Fotiadou (University of Tübingen 🇩🇪)
+- Maarten Larmuseau (KU Leuven 🇧🇪)
+- Noah Gaens (KU Leuven 🇧🇪)
+- Toomas Kivisild (KU Leuven 🇧🇪)
+- Arve Lee Willingham Grijalba (Institut Pasteur 🇫🇷)
+- Nicolás Rascovan (Institut Pasteur 🇫🇷)
+- Carles Lalueza Fox (Museu de Ciències Naturals de Barcelona 🇪🇸)
+- Lachie Scarsbrook (University of Oxford 🇬🇧)
+- Alice Dobinson (University of Oxford 🇬🇧)
+- Kristina Tabbada (University of Oxford 🇬🇧)
+- Alberto Carmagnini (Ludwig Maximilian University of Munich 🇩🇪)
+- Martin Tesicky (Ludwig Maximilian University of Munich 🇩🇪)
+- Pedro Morell Miranda (Centre for Palaeogenetics 🇸🇪)
+- Pablo Librado (Institut de Biologia Evolutiva 🇪🇸)
+- Vanessa Villalba (Institut de Biologia Evolutiva 🇪🇸)
+- Laura Claudia Verdes (Institut de Biologia Evolutiva 🇪🇸)
+
 ## Additional Acknowledgments
 
 - Initial logo design: Irene Rainer (Graphic Designer, MPI-EVA, Leipzig)
