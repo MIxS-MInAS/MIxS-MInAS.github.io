@@ -79,6 +79,7 @@ Previously:
 - Pablo Librado (Institut de Biologia Evolutiva 🇪🇸)
 - Vanessa Villalba (Institut de Biologia Evolutiva 🇪🇸)
 - Laura Claudia Verdesca (Institut de Biologia Evolutiva 🇪🇸)
+- Jordi Carbó (Institut de Biologia Evolutiva 🇪🇸)
 - Eric Capo (Umeå University 🇸🇪)
 - Peter D. Heintzman (Stockholm University 🇸🇪)
 - Zoé Pochon (Centre for Palaeogenetics 🇸🇪)
