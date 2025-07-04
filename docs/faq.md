@@ -24,6 +24,10 @@ _TODO_
 
 _TODO_
 
+- Lat:lon
+- geo_loc_names
+  - Includes country, town/city/village, region etc.
+
 ## How to describe sample environment and site types
 
 _TODO_
@@ -98,6 +102,11 @@ _There is no `host_taxid` in the MIxS sediment checklist, thus not used here_
 
 _TODO_
 
+- Wider description
+- What to do if no age information?
+  - E.g. go for a very very wide range, and add to description
+- Describe each method of dating
+
 ## How to fill in sample collection date information
 
 _TODO_
@@ -113,3 +122,29 @@ _TODO_
 ## How to correctly prepare your ancient data for submission
 
 _TODO_
+
+## How to reference other academic non-genetic publications related to the individual
+
+If you wish to associate your data with other contextual information, such as anthropological/osteological reports, or archaeological site reports about a specific information, the DOIs or URLs should go in the `relevant_electronic_resource` field.
+
+## How to reference other non-genetic data related to the sample
+
+If you wish to associate your data with other non-genetic contextual data (such as imaging or scan data), give the DOIs or URLs should to this data in the `relevant_electronic_resource` field.
+
+## How to fill in age of death information
+
+This information is already represented in the HostAssociated and HumanAsosiated checklists, and can be filled in using the `host_age and ` and `host_life_stage`
+
+## How to indicate 'merged' individuals
+
+- In context of INSDC: Re-use ENA codes to link together!
+
+## How to reference exinct species
+
+- Check is not already in NCBI taxonomy (many already are!)
+- If not: Request NCBI Taxonomy ID from NCBI!
+- If not allowed or recognised: Use generic ID (e.g. `Mammuthus sp.` ) plus `host_common_name`
+
+## How do I specify the legal owners of a sample
+
+- Specify this under the `permit_authority` and/or '`curating_institution`' fields.
