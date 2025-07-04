@@ -21,6 +21,7 @@ Previously:
 - Eleni Seferidou (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Thiseas C. Lamnidis (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Martyna Molak (University of Warsaw 🇵🇱)
+- Jānis Ķimsis (Latvian Biomedical Research and Study Centre 🇱🇻)
 
 ## Feedback Contributors
 
