@@ -9,7 +9,7 @@
 - 💾 Palaeogenomic data is routinely shared on public databases
 - 🏷️ Metadata? Not so good…
 
-_The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) project aims to develop standardised metadata reporting schemes of ancient DNA samples and sequencing data via community-based consensus and training._
+_The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) project aims to develop standardised metadata reporting schemes for any ancient DNA sample and sequencing data via community-based consensus and training._
 
 🏗️ This project builds from and interacts with the [Genomics Standards Consortium's](https://www.gensc.org/) (GSC) [MIxS project](https://www.gensc.org/pages/standards-intro.html).
 
