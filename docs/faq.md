@@ -115,6 +115,11 @@ _TODO_
 
 _TODO_
 
+Note that all metadata terms are only for guidance.
+Labelling data as having restrictions will not directly prevent other researchers from ignoring such restrictions.
+Ensure to process your data and upload in accordance with the agreements you may have.
+For example, if only non-human sequences of a human skeleton are allowed to be analysed in your agreement, you should only upload the non-human sequences to public databases or upload all data to restricted access databases (e.g. the EBI's EGA).
+
 ## How to fill in metadata for capture data
 
 _TODO_
