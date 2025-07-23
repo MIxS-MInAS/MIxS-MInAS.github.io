@@ -89,6 +89,7 @@ Previously:
 - Marina Silva (Francis Crick Institute 🇬🇧)
 - Lucy van Dorp (University College London 🇬🇧)
 - George Adams (University College London 🇬🇧)
+- Mark G. Thomas (University College London 🇬🇧)
 - Lachie Scarsbrook (University of Oxford 🇬🇧)
 - Alice Dobinson (University of Oxford 🇬🇧)
 - Kristina Tabbada (University of Oxford 🇬🇧)
