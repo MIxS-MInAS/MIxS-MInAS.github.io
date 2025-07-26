@@ -10,9 +10,9 @@ nav:
           - schema/index.md
           - schema/selecter.md
           - "MInAS submission combinations": schema/combinations.md
-          - "Ancient Extension": schema/ancient-extension.md
-          - "Radiocarbon Dating Extension": schema/radiocarbon-dating-extension.md
-          - "MIxS Term Updates": schema/existing-term-updates.md
+          - "Ancient extension": schema/ancient-extension.md
+          - "Radiocarbon dating extension": schema/radiocarbon-dating-extension.md
+          - "MIxS term updates": schema/existing-term-updates.md
           - "Deprecated": schema/draft.md
     - Documentation:
           - User Documentation:
@@ -24,7 +24,7 @@ nav:
                 - "Overview": documentation/project-documentation/overview.md
                 - "Contributing": documentation/project-documentation/contributing.md
                 - "Running feedback sessions": documentation/project-documentation/feedback-session-protocol.md
-                - "Example Use Cases": documentation/project-documentation/example-sample-data-description-use-cases.md
+                - "Example use cases": documentation/project-documentation/example-sample-data-description-use-cases.md
     - Contributors: contributors.md
     - Getting Involved: contact.md
     - "Code of Conduct": code-of-conduct.md
