@@ -16,15 +16,15 @@ _The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) 
 !!! example "View the schema"
 
       To view the latest version of the MInAS schema, please see the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
-      Use the 'Template' dropdown to select a relevant [combination](drafts/combinations.md), and the help sidebar for metadata term definitions.
-      For more details see the [drafts](drafts/index.md) pages.
+      Use the 'Template' dropdown to select a relevant [combination](schema/combinations.md), and the help sidebar for metadata term definitions.
+      For more details see the [drafts](schema/index.md) pages.
 
-ℹ️ See the [project proposal](proposal.md) submitted to the GSC for further context and motivations behind the project.
-For the planned phases of the project, see [Project Phases](phases.md).
-To see the latest drafts, please see the respective [Draft](drafts/index.md) page.
+ℹ️ See the [project proposal](about/proposal.md) submitted to the GSC for further context and motivations behind the project.
+For the planned phases of the project, see [Project Phases](about/phases.md).
+To see the latest drafts, please see the respective [Draft](schema/index.md) page.
 
-🤝 We are actively looking for other palaeogenomic communities and groups to get involved with the project - please see [Get Involved](get-involved.md) if you are interested.
+🤝 We are actively looking for other palaeogenomic communities and groups to get involved with the project - please see [Get Involved](about/get-involved.md) if you are interested.
 
 👨‍👩‍👧‍👦 The MInAS project was originally spearheaded by the [SPAAM Community](https://spaam-community.github.io), however has developed it's own community encompassing all areas of palaeogenomics.
 
-❓ For more information, see our communication channels in [Get Involved](get-involved.md) or [Contact](contact.md).
+❓ For more information, see our communication channels in [Get Involved](about/get-involved.md) or [Contact](contact.md).

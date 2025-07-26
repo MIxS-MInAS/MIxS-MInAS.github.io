@@ -2,69 +2,82 @@ site_name: MIxS-MInAS
 site_url: https://mixs-minas.org/
 repo_url: https://github.com/MIxS-MInAS/MIxS-MInAS.github.io
 nav:
-  - Home: index.md
-  - "Get Involved": get-involved.md
-  - Proposal: proposal.md
-  - Project Phases: phases.md
-  - Drafts:
-      - drafts/index.md
-      - drafts/selecter.md
-      - "MInAS submission combinations": drafts/combinations.md
-      - "Ancient Extension": drafts/ancient-extension.md
-      - "Radiocarbon Dating Extension": drafts/radiocarbon-dating-extension.md
-      - "MIxS Term Updates": drafts/existing-term-updates.md
-      - "Deprecated": drafts/draft.md
-  - FAQ: faq.md
-  - Contributors: contributors.md
-  - Contact: contact.md
-  - "Code of Conduct": code-of-conduct.md
+    - Home: index.md
+    - About:
+          - Proposal: about/proposal.md
+          - Project Phases: about/phases.md
+          - "Get Involved": about/get-involved.md
+    - Drafts:
+          - schema/index.md
+          - schema/selecter.md
+          - "MInAS submission combinations": schema/combinations.md
+          - "Ancient Extension": schema/ancient-extension.md
+          - "Radiocarbon Dating Extension": schema/radiocarbon-dating-extension.md
+          - "MIxS Term Updates": schema/existing-term-updates.md
+          - "Deprecated": schema/draft.md
+    - Documentation:
+          - User Documentation:
+                - FAQ: documentation/user-documentation/faq.md
+          - Developer Documentation:
+                - "Overview": documentation/developer-documentation/overview.md
+          - Project Documentation:
+                - "Overview": documentation/project-documentation/overview.md
+                - "Running feedback sessions": documentation/project-documentation/feedback-session-protocol.md
+                - "Example Use Cases": documentation/project-documentation/example-sample-data-description-use-cases.md
+    - Contributors: contributors.md
+    - Contact: contact.md
+    - "Code of Conduct": code-of-conduct.md
 theme:
-  name: material
-  font:
-    text: Albert Sans
-  logo: assets/images/logos/minas-logo-rectangle-monochrome.png
-  favicon: assets/images/logos/minas-favicon.png
-  palette:
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
+    name: material
+    font:
+        text: Albert Sans
+    logo: assets/images/logos/minas-logo-rectangle-monochrome.png
+    favicon: assets/images/logos/minas-favicon.png
+    palette:
+        # Palette toggle for automatic mode
+        - media: "(prefers-color-scheme)"
+          toggle:
+              icon: material/brightness-auto
+              name: Switch to light mode
 
-    # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+        # Palette toggle for light mode
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
 
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
+          toggle:
+              icon: material/brightness-7
+              name: Switch to dark mode
 
-    # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
+        # Palette toggle for dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          toggle:
+              icon: material/brightness-4
+              name: Switch to system preference
 markdown_extensions:
-  - pymdownx.superfences
-  - pymdownx.tabbed:
-      alternate_style: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
-  - footnotes
+    - pymdownx.superfences
+    - pymdownx.tabbed:
+          alternate_style: true
+    - admonition
+    - pymdownx.details
+    - pymdownx.tasklist:
+          clickable_checkbox: true
+    - footnotes
 plugins:
-  - search
-  - table-reader
-  - section-index
+    - search
+    - table-reader
+    - section-index
+    - git-revision-date-localized:
+          type: iso_date
+
 extra_javascript:
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascripts/tablesort.js
+    - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+    - javascripts/tablesort.js
 extra:
-  consent:
-    title: Cookie consent
-    description: >-
-      This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish
-    actions:
-      - accept
-      - reject
+    consent:
+        title: Cookie consent
+        description: >-
+            This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish
+        actions:
+            - accept
+            - reject

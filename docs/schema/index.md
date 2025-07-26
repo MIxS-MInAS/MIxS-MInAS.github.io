@@ -19,6 +19,8 @@ You can find the MInAS fork of DataHarmonizer [here](https://www.mixs-minas.org/
 The best way to view and test the current schema is via the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).
 Use the 'Template' dropdown menu to select the [combination](combinations.md) of your choice.
 
+Not sure which combination to use? Try the [MInAS Selecter](selecter.md) to help you choose the right combination for your data.
+
 ## Notes on Terminology
 
 The following terms are used throughout the drafts.
