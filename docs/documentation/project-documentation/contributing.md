@@ -6,7 +6,7 @@ The primary method for contributing to the MInAS project is through "Feedback Se
 
 Enthusiastic and committed volunteers can also join the development team, that is responsible for the day-to-day maintenance of the metadata schema and checklists, including aggregating the feedback from feedback sessions and producing tooling and documentation.
 
-## Contributor
+## Contributors and participating in feedback sessions
 
 A feedback session is an occasional 3h online meeting that contributors are invited to attend.
 We encourage members of the same group or lab to attend via the same connection (e.g. from the same seminar room)
@@ -36,7 +36,7 @@ Once the feedback session is over, the developer team will contact everyone who 
 
 Contributors may be contacted again in the future for further feedback on later versions of MInAS.
 
-## Developer
+## Developer tasks and responsibilities
 
 Developers have three main roles in the MInAS project:
 
