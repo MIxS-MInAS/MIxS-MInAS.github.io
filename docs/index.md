@@ -6,8 +6,8 @@
 
 ## About
 
-- 💾 Palaeogenomic data is routinely shared on public databases
-- 🏷️ Metadata? Not so good…
+-   💾 Palaeogenomic data is routinely shared on public databases
+-   🏷️ Metadata? Not so good…
 
 _The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) project aims to develop standardised metadata reporting schemes for any ancient DNA sample and sequencing data via community-based consensus and training._
 
@@ -23,8 +23,8 @@ _The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) 
 For the planned phases of the project, see [Project Phases](about/phases.md).
 To see the latest drafts, please see the respective [Draft](schema/index.md) page.
 
-🤝 We are actively looking for other palaeogenomic communities and groups to get involved with the project - please see [Get Involved](about/get-involved.md) if you are interested.
+🤝 We are actively looking for other palaeogenomic communities and groups to get involved with the project - please see [Get Involved](contact.md) if you are interested.
 
 👨‍👩‍👧‍👦 The MInAS project was originally spearheaded by the [SPAAM Community](https://spaam-community.github.io), however has developed it's own community encompassing all areas of palaeogenomics.
 
-❓ For more information, see our communication channels in [Get Involved](about/get-involved.md) or [Contact](contact.md).
+❓ For more information, see our communication channels in [Get Involved]contact.md).

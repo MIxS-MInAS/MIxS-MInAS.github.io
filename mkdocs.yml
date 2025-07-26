@@ -6,7 +6,6 @@ nav:
     - About:
           - Proposal: about/proposal.md
           - Project Phases: about/phases.md
-          - "Get Involved": about/get-involved.md
     - Drafts:
           - schema/index.md
           - schema/selecter.md
@@ -17,6 +16,7 @@ nav:
           - "Deprecated": schema/draft.md
     - Documentation:
           - User Documentation:
+                - "Overview": documentation/user-documentation/overview.md
                 - FAQ: documentation/user-documentation/faq.md
           - Developer Documentation:
                 - "Overview": documentation/developer-documentation/overview.md
@@ -26,7 +26,7 @@ nav:
                 - "Running feedback sessions": documentation/project-documentation/feedback-session-protocol.md
                 - "Example Use Cases": documentation/project-documentation/example-sample-data-description-use-cases.md
     - Contributors: contributors.md
-    - Contact: contact.md
+    - Getting Involved: contact.md
     - "Code of Conduct": code-of-conduct.md
 theme:
     name: material

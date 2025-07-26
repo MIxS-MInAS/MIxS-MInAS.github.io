@@ -44,7 +44,7 @@ Enthusiastic and committed volunteers can also join the **development team**, th
     2. Attend monthly development meetings for project planning
     3. Aggregate and clean the feedback from the feedback sessions
 
-    In feedback sessions, developers are responsible for organising times and locations of the session, giving introductory presentations, training contributors on how to use the MInAS DataHarmonizer interface, answering questions, and chairing the feedback and discussion round table. After the sessions, they cleanup the feedback into standardised tables in preparation for 'Development workshops'. See the [Contributor](#contributor) section for more details on the feedback sessions.
+    In feedback sessions, developers are responsible for organising times and locations of the session, giving introductory presentations, training contributors on how to use the MInAS DataHarmonizer interface, answering questions, and chairing the feedback and discussion round table. After the sessions, they cleanup the feedback into standardised tables in preparation for 'Development workshops'. See the Contributor section for more details on the feedback sessions.
 
     In the monthly development meetings, developers contribute to the planning of the next feedback sessions, helping guide the longer-term direction of the project, solving any issues that have arisen during feedback decisions. Developers also help design new methods of gathering feedback and generally help to ensure MInAS keeps up to date with addressing the needs of the palaeogenomics community.
 

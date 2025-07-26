@@ -8,6 +8,8 @@ This page answers some common questions about the schema, including how to fill 
 
     We are currently gathering potential sections to provide guidance too.
 
+    Please send us your suggestions via your preferred communication channel as listed on the [get involved](../../contact.md) page.
+
 ## What is MInAS?
 
 _TODO_
@@ -24,9 +26,9 @@ _TODO_
 
 _TODO_
 
-- Lat:lon
-- geo_loc_names
-  - Includes country, town/city/village, region etc.
+-   Lat:lon
+-   geo_loc_names
+    -   Includes country, town/city/village, region etc.
 
 ## How to describe sample environment and site types
 
@@ -42,16 +44,16 @@ These represent different types of taxonomic information for different purposes.
 
 For all ancient DNA sequencing data (e.g FASTQ files or BAM files), that you upload to the INSDC databases (ENA, DDBJ, NCBI) you should use the following guidance:
 
-- samp_taxon_id: should always be the 'special' NCBI taxonomy ID for metagenome (256318) or more specific metagenome IDs.
-  - You can also use more specific metagenome taxon IDs, such as those for specific environments (e.g. soil, marine, etc.).
-  - This is because _all_ ancient DNA is intrinsically metagenomic in nature, as they contain other organisms from the burial environment, and not just the host organism.
-- host_taxid:
-  - This taxon ID should be the NCBI taxonomy ID for the host organism that the sample was taken from.
-  - For example, if your bone sample was taken from a human, you would use the NCBI taxonomy for _Homo sapiens_ (9606).
-- genomic_probe_capture_id
-  - This taxon ID should be used to describe which genomes are represented within the probe oligos.
-  - For example, if your library was 'captured' for _Yersinia pestis_, you should specify a taxon ID of 632.
-  - If you have more than one strains or species, you can either specify multiple taxon IDs (depending on the interface), or a higher level (E.g. genus) taxon ID.
+-   samp_taxon_id: should always be the 'special' NCBI taxonomy ID for metagenome (256318) or more specific metagenome IDs.
+    -   You can also use more specific metagenome taxon IDs, such as those for specific environments (e.g. soil, marine, etc.).
+    -   This is because _all_ ancient DNA is intrinsically metagenomic in nature, as they contain other organisms from the burial environment, and not just the host organism.
+-   host_taxid:
+    -   This taxon ID should be the NCBI taxonomy ID for the host organism that the sample was taken from.
+    -   For example, if your bone sample was taken from a human, you would use the NCBI taxonomy for _Homo sapiens_ (9606).
+-   genomic_probe_capture_id
+    -   This taxon ID should be used to describe which genomes are represented within the probe oligos.
+    -   For example, if your library was 'captured' for _Yersinia pestis_, you should specify a taxon ID of 632.
+    -   If you have more than one strains or species, you can either specify multiple taxon IDs (depending on the interface), or a higher level (E.g. genus) taxon ID.
 
 ### Example
 
@@ -102,10 +104,10 @@ _There is no `host_taxid` in the MIxS sediment checklist, thus not used here_
 
 _TODO_
 
-- Wider description
-- What to do if no age information?
-  - E.g. go for a very very wide range, and add to description
-- Describe each method of dating
+-   Wider description
+-   What to do if no age information?
+    -   E.g. go for a very very wide range, and add to description
+-   Describe each method of dating
 
 ## How to fill in sample collection date information
 
@@ -142,14 +144,14 @@ This information is already represented in the HostAssociated and HumanAsosiated
 
 ## How to indicate 'merged' individuals
 
-- In context of INSDC: Re-use ENA codes to link together!
+-   In context of INSDC: Re-use ENA codes to link together!
 
 ## How to reference exinct species
 
-- Check is not already in NCBI taxonomy (many already are!)
-- If not: Request NCBI Taxonomy ID from NCBI!
-- If not allowed or recognised: Use generic ID (e.g. `Mammuthus sp.` ) plus `host_common_name`
+-   Check is not already in NCBI taxonomy (many already are!)
+-   If not: Request NCBI Taxonomy ID from NCBI!
+-   If not allowed or recognised: Use generic ID (e.g. `Mammuthus sp.` ) plus `host_common_name`
 
 ## How do I specify the legal owners of a sample
 
-- Specify this under the `permit_authority` and/or '`curating_institution`' fields.
+-   Specify this under the `permit_authority` and/or '`curating_institution`' fields.
