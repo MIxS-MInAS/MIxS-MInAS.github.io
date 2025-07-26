@@ -22,6 +22,7 @@ nav:
                 - "Overview": documentation/developer-documentation/overview.md
           - Project Documentation:
                 - "Overview": documentation/project-documentation/overview.md
+                - "Contributing": documentation/project-documentation/contributing.md
                 - "Running feedback sessions": documentation/project-documentation/feedback-session-protocol.md
                 - "Example Use Cases": documentation/project-documentation/example-sample-data-description-use-cases.md
     - Contributors: contributors.md
