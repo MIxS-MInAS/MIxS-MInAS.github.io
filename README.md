@@ -8,10 +8,10 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 
-- `mkdocs new [dir-name]` - Create a new project.
-- `mkdocs serve` - Start the live-reloading docs server.
-- `mkdocs build` - Build the documentation site.
-- `mkdocs -h` - Print help message and exit.
+-   `mkdocs new [dir-name]` - Create a new project.
+-   `mkdocs serve` - Start the live-reloading docs server.
+-   `mkdocs build` - Build the documentation site.
+-   `mkdocs -h` - Print help message and exit.
 
 ## Project layout
 
@@ -22,7 +22,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Local Development Notes
 
-Requires `mkdocs-material` theme to be installed `pip install mkdocs-material mkdocs-table-reader-plugin mkdocs-section-index`. See `.github/workflows/ci.yml` for latest used on production website if in doubt.
+Requires `mkdocs-material` theme to be installed `pip install mkdocs-material mkdocs-table-reader-plugin mkdocs-section-index mkdocs-git-revision-date-localized-plugin`. See `.github/workflows/ci.yml` for latest used on production website if in doubt, or refer to `environment.yml` for a conda environment.
 
 To update the rendered tables on the `docs/drafts.md` page:
 
@@ -31,4 +31,4 @@ To update the rendered tables on the `docs/drafts.md` page:
 3. Run the script
 4. Update `docs/draft.md` to the latest version at the top of the page, and the paths to the files at the bottom of the page.
 
-Custom domain is `www.mixs-minas.org`. `CNAME` file also needs to be under `docs/` with `mkdocs gh-deploy`. 
+Custom domain is `www.mixs-minas.org`. `CNAME` file also needs to be under `docs/` with `mkdocs gh-deploy`.
