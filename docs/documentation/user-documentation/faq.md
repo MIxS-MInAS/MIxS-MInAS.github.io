@@ -100,6 +100,18 @@ I have a sediment capture library for Narwhal DNA
 
 _There is no `host_taxid` in the MIxS sediment checklist, thus not used here_
 
+I have a negative control
+
+| Metadata term | Taxon ID Name | Taxon ID |
+| ------------- | ------------- | -------- |
+| samp_taxon_id | blank sample  | 2582415  |
+
+_There is no specific taxonomy terms for positive and negative controls_
+
+## How do fill in negative controls?
+
+_TODO_
+
 ## How to fill in sample age information
 
 _TODO_
