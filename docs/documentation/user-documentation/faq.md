@@ -167,3 +167,7 @@ This information is already represented in the HostAssociated and HumanAsosiated
 ## How do I specify the legal owners of a sample
 
 -   Specify this under the `permit_authority` and/or '`curating_institution`' fields.
+
+## How do I record where the sample is typically stored
+
+TODO

@@ -127,7 +127,6 @@ Details
 -   Publication: [https://doi.org/10.1038/s41586-022-05453-y](https://doi.org/10.1038/s41586-022-05453-y)
 -   ENA study accession: PRJEB55522
 -   Contact: Anonymous (not provided)
--
 
 ## Example 6
 
