@@ -103,6 +103,12 @@ Previously:
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇸)
 - Xavier Roca Rada (Brown University 🇺🇸)
 
+## Advisory Contributors
+
+- Lynn Schriml (University of Maryland 🇺🇸)
+- Montana Smith (Pacific Northwest National Laboratory 🇺🇸)
+- Mark Andrew Miller (Lawrence Berkeley National Laboratory, 🇺🇸)
+
 ## Additional Acknowledgments
 
 - Initial logo design: Irene Rainer (Graphic Designer, MPI-EVA, Leipzig)
