@@ -20,6 +20,7 @@ nav:
                 - FAQ: documentation/user-documentation/faq.md
           - Developer Documentation:
                 - "Overview": documentation/developer-documentation/overview.md
+                - "Release protocol": documentation/developer-documentation/release-protocol.md
           - Project Documentation:
                 - "Overview": documentation/project-documentation/overview.md
                 - "Contributing": documentation/project-documentation/contributing.md
@@ -56,7 +57,12 @@ theme:
               icon: material/brightness-4
               name: Switch to system preference
 markdown_extensions:
-    - pymdownx.superfences
+    - pymdownx.superfences:
+            # make exceptions to highlighting of code:
+        custom_fences:
+            - name: mermaid
+              class: mermaid
+              format: !!python/name:mermaid2.fence_mermaid_custom
     - pymdownx.tabbed:
           alternate_style: true
     - admonition
@@ -70,6 +76,7 @@ plugins:
     - section-index
     - git-revision-date-localized:
           type: iso_date
+    - mermaid2
 
 extra_javascript:
     - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js

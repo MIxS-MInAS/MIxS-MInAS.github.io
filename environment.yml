@@ -12,3 +12,4 @@ dependencies:
     - conda-forge::mkdocs-git-revision-date-localized-plugin=1.2.9
     - pip:
           - mkdocs-section-index
+          - mkdocs-mermaid2-plugin
