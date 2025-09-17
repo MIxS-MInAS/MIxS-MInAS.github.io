@@ -108,6 +108,7 @@ Previously:
 - Lynn Schriml (University of Maryland 🇺🇸)
 - Montana Smith (Pacific Northwest National Laboratory 🇺🇸)
 - Mark Andrew Miller (Lawrence Berkeley National Laboratory, 🇺🇸)
+- Peter Woollard (EMBL-EBI,🇬🇧)
 
 ## Additional Acknowledgments
 
