@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIxS-MInAS Combinations Selector</title>
+    <!-- Load Alpine.js from a CDN -->
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js"
+    ></script>
+    <!-- Load Tailwind CSS from a CDN (for development only, use a proper setup for production) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Load Font Awesome from a CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Load Mermaid for diagram visualization -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10.6.1/dist/mermaid.min.js"></script>
+    <style>
+      @import url("https://fonts.bunny.net/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+      [x-cloak] {
+        display: none !important;
+      }
+
+      body {
+        font-family: "Inter", "system-ui", sans-serif;
+        background-color: #f9fafb;
+        color: #111827;
+      }
+
+      .step-item {
+        position: relative;
+        padding-left: 1.5rem;
+        margin-bottom: 1rem;
+      }
+
+      .step-item::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0.35rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        background-color: #e0f2fe;
+        border: 2px solid #0ea5e9;
+        z-index: 2;
+      }
+
+      .step-item::after {
+        content: "";
+        position: absolute;
+        left: 0.3rem;
+        top: 1.2rem;
+        width: 0.15rem;
+        height: calc(100% - 0.25rem);
+        background-color: #e0f2fe;
+        z-index: 1;
+      }
+
+      .step-item:last-child::after {
+        display: none;
+      }
+
+      .step-current::before {
+        background-color: #0ea5e9;
+        border: 2px solid #0ea5e9;
+      }
+
+      .step-complete::before {
+        background-color: #0ea5e9;
+        border: 2px solid #0ea5e9;
+      }
+
+      .step-future::before {
+        background-color: #f0f9ff;
+        border: 2px solid #e0f2fe;
+      }
+
+      .fade-in {
+        animation: fadeIn 0.3s ease-out;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(5px);
+        }
+
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .code-editor {
+        font-family: "Courier New", monospace;
+        line-height: 1.5;
+        background-color: #1e293b;
+        color: #e2e8f0;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        white-space: pre-wrap;
+        overflow-x: auto;
+      }
+
+      .mermaid-container {
+        overflow: auto;
+        background: white;
+        border-radius: 0.5rem;
+      }
+
+      /* Height limit for the diagram */
+      #diagram-container {
+        max-height: 70vh;
+        overflow: auto;
+        background: #fff;
+        padding: 1rem;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      /* Ensure the diagram scales properly */
+      #diagram-container svg {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+    <!-- Initialize Mermaid -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        mermaid.initialize({
+          startOnLoad: true,
+          theme: "forest",
+          securityLevel: "loose",
+          flowchart: {
+            useMaxWidth: false,
+            htmlLabels: true,
+          },
+        });
+      });
+    </script>
+    <!-- Define the Alpine.js component globally before the page loads -->
+    <script>
+      window.combinationselector = function () {
+        return {
+          loading: true,
+          error: false,
+          errorMessage: "",
+          currentNode: null,
+          allNodes: {},
+          nodeConnections: [],
+          selections: [],
+          showDiagram: false,
+          diagramText: "",
+
+          init() {
+            this.currentNode = {
+              type: "",
+              question: "",
+              choices: [],
+              standard: "",
+              description: "",
+            };
+
+            this.fetchData();
+          },
+
+          async fetchData() {
+            this.loading = true;
+            this.error = false;
+            this.currentNode = null;
+            this.selections = [];
+
+            try {
+              const response = await fetch(
+                "https://raw.githubusercontent.com/MIxS-MInAS/MIxS-MInAS.github.io/refs/heads/master/docs/assets/misc/combinations_mermaid.mmd"
+              );
+
+              if (!response.ok) {
+                throw new Error(
+                  `Failed to fetch combinations data: ${response.status} ${response.statusText}`
+                );
+              }
+
+              const mermaidData = await response.text();
+              this.diagramText = mermaidData;
+
+              const parsedTree = this.parseMermaid(mermaidData);
+
+              if (!parsedTree) {
+                const alt = Object.values(this.allNodes).find(
+                  (n) => n.type === "question"
+                );
+                this.currentNode = alt;
+              } else {
+                this.currentNode = parsedTree;
+              }
+            } catch (err) {
+              console.error("Error loading combinations data:", err);
+              this.error = true;
+              this.errorMessage =
+                err.message || "Failed to load combinations data";
+            } finally {
+              this.loading = false;
+            }
+          },
+
+          toggleDiagram() {
+            this.showDiagram = !this.showDiagram;
+            if (this.showDiagram) {
+              this.renderDiagram();
+            }
+          },
+
+          renderDiagram() {
+            const container = document.getElementById("diagram-container");
+            if (container) {
+              const mermaidElement = document.createElement("pre");
+              mermaidElement.className = "mermaid";
+              mermaidElement.textContent = this.diagramText;
+
+              container.innerHTML = "";
+              container.appendChild(mermaidElement);
+
+              setTimeout(() => {
+                mermaid.init(undefined, ".mermaid");
+              }, 100);
+            }
+          },
+
+          parseMermaid(mermaidContent) {
+            try {
+              const lines = mermaidContent.split("\n");
+
+              const nodes = {};
+              const connections = [];
+
+              const createBaseNode = (id, type) => ({
+                id,
+                type,
+                paths: new Set(),
+                connections: [],
+                pathContexts: new Map(),
+              });
+
+              lines.forEach((line) => {
+                if (!line.trim() || line.trim().startsWith("%")) return;
+
+                const questionMatch = line.match(
+                  /\s*(\w+)\s*\{\s*\"?(.*?)\"?\s*\}/
+                );
+                if (questionMatch) {
+                  const [, id, question] = questionMatch;
+                  nodes[id] = {
+                    ...createBaseNode(id, "question"),
+                    question: question.trim(),
+                    choices: [],
+                  };
+                  return;
+                }
+
+                const resultMatch = line.match(
+                  /\s*(\w+)\s*\(\[\s*\"?(.*?)\"?\s*\]\)/
+                );
+                if (resultMatch) {
+                  const [, id, standard] = resultMatch;
+                  nodes[id] = {
+                    ...createBaseNode(id, "result"),
+                    standard: standard.trim(),
+                    description: `This is the appropriate combination for ${standard.trim()} data.`,
+                  };
+                  return;
+                }
+
+                const optionMatch = line.match(
+                  /\s*(\w+)\s*\[\s*\"?(.*?)\"?\s*\]/
+                );
+                if (optionMatch && !questionMatch && !resultMatch) {
+                  const [, id, text] = optionMatch;
+                  nodes[id] = {
+                    ...createBaseNode(id, "choice"),
+                    text: text.trim(),
+                  };
+                }
+              });
+
+              const connRegex = /^\s*([^\s\[\(\{]+).*?(-+>).*?([^\s\[\(\{]+)/;
+              lines.forEach((line) => {
+                const connectionMatch = line.match(connRegex);
+                if (!connectionMatch) return;
+
+                const [, source, , target] = connectionMatch;
+                if (!nodes[source] || !nodes[target]) return;
+
+                const connection = {
+                  source,
+                  target,
+                  paths: new Set([source]),
+                };
+
+                connections.push(connection);
+                nodes[source].connections.push(connection);
+                nodes[target].connections.push(connection);
+
+                const sourcePaths = nodes[source].paths;
+                if (sourcePaths.size === 0) {
+                  sourcePaths.add(source);
+                }
+
+                sourcePaths.forEach((path) => {
+                  nodes[target].paths.add(path);
+                  connection.paths.add(path);
+                });
+              });
+
+              connections.forEach(({ source, target }) => {
+                const sourceNode = nodes[source];
+                const targetNode = nodes[target];
+
+                if (sourceNode?.type === "question") {
+                  const choiceText =
+                    targetNode.type === "choice"
+                      ? targetNode.text
+                      : targetNode.type === "question"
+                        ? targetNode.question
+                        : targetNode.type === "result"
+                          ? targetNode.standard
+                          : targetNode.id;
+
+                  if (!sourceNode.choices.some((c) => c.nodeId === target)) {
+                    sourceNode.choices.push({
+                      text: choiceText,
+                      nodeId: target,
+                      paths: new Set(targetNode.paths),
+                    });
+                  }
+                }
+              });
+
+              this.nodeConnections = connections;
+              this.allNodes = nodes;
+
+              const rootNodeId = "q1";
+              if (!nodes[rootNodeId]) {
+                throw new Error("Could not find root node q1");
+              }
+
+              return nodes[rootNodeId];
+            } catch (error) {
+              console.error("Error parsing mermaid:", error);
+              return null;
+            }
+          },
+
+          followPathToNonChoice(
+            startNodeId,
+            depth = 0,
+            maxDepth = 20,
+            pathContext = null
+          ) {
+            if (
+              depth >= maxDepth ||
+              !startNodeId ||
+              !this.allNodes[startNodeId]
+            ) {
+              return startNodeId;
+            }
+            const currentNode = this.allNodes[startNodeId];
+            if (currentNode.type !== "choice") {
+              return startNodeId;
+            }
+            const nextConn = currentNode.connections.find(
+              (conn) =>
+                conn.source === startNodeId &&
+                (!pathContext || conn.paths.has(pathContext))
+            );
+            if (!nextConn) {
+              return startNodeId;
+            }
+            return this.followPathToNonChoice(
+              nextConn.target,
+              depth + 1,
+              maxDepth,
+              pathContext
+            );
+          },
+
+          selectChoice(choice) {
+            if (!choice || !choice.nodeId || !this.allNodes[choice.nodeId]) {
+              return;
+            }
+
+            this.selections.push({
+              question: this.currentNode.question,
+              choice: choice.text,
+            });
+
+            let nextNodeId = choice.nodeId;
+
+            nextNodeId = this.followPathToNonChoice(nextNodeId);
+
+            this.currentNode = this.allNodes[nextNodeId];
+
+            if (window.innerWidth < 1024) {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          },
+
+          goBack() {
+            if (this.selections.length === 0) return;
+
+            this.selections.pop();
+
+            if (this.selections.length > 0) {
+              let node = this.allNodes["q1"];
+
+              for (let i = 0; i < this.selections.length; i++) {
+                const selection = this.selections[i];
+
+                const choice = node.choices.find(
+                  (c) => c.text === selection.choice
+                );
+
+                if (choice && choice.nodeId) {
+                  const nextNodeId = this.followPathToNonChoice(choice.nodeId);
+                  if (this.allNodes[nextNodeId]) {
+                    node = this.allNodes[nextNodeId];
+                  }
+                }
+              }
+
+              this.currentNode = node;
+            } else {
+              this.currentNode =
+                this.allNodes["q1"] ||
+                Object.values(this.allNodes).find(
+                  (node) => node.type === "question"
+                );
+            }
+          },
+
+          goToStep(stepIndex) {
+            if (stepIndex < 0 || stepIndex >= this.selections.length) return;
+
+            this.selections = this.selections.slice(0, stepIndex + 1);
+
+            let node = this.allNodes["q1"];
+
+            for (let i = 0; i < this.selections.length; i++) {
+              const selection = this.selections[i];
+
+              const choice = node.choices.find(
+                (c) => c.text === selection.choice
+              );
+
+              if (choice && choice.nodeId) {
+                const nextNodeId = this.followPathToNonChoice(choice.nodeId);
+                if (this.allNodes[nextNodeId]) {
+                  node = this.allNodes[nextNodeId];
+                }
+              }
+            }
+
+            this.currentNode = node;
+          },
+
+          resetTree() {
+            this.selections = [];
+
+            const rootNodeId = "q1";
+            if (this.allNodes[rootNodeId]) {
+              this.currentNode = this.allNodes[rootNodeId];
+            } else {
+              const alternativeRoot = Object.values(this.allNodes).find(
+                (node) => node.type === "question"
+              );
+
+              if (alternativeRoot) {
+                this.currentNode = alternativeRoot;
+              } else {
+                this.error = true;
+                this.errorMessage =
+                  "Cannot find root node to reset the selector";
+              }
+            }
+
+            if (window.innerWidth < 1024) {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+          },
+
+          extractAllPaths() {
+            const paths = [];
+            const visited = new Set();
+
+            const dfs = (nodeId, currentPath = []) => {
+              if (!nodeId || !this.allNodes[nodeId]) return;
+
+              const node = this.allNodes[nodeId];
+
+              currentPath.push({
+                id: nodeId,
+                type: node.type,
+                text:
+                  node.type === "question"
+                    ? node.question
+                    : node.type === "result"
+                      ? node.standard
+                      : node.text || nodeId,
+              });
+
+              if (node.type === "result") {
+                paths.push([...currentPath]);
+              } else {
+                const connections = this.nodeConnections.filter(
+                  (conn) => conn.source === nodeId
+                );
+
+                for (const conn of connections) {
+                  if (!visited.has(`${nodeId}-${conn.target}`)) {
+                    visited.add(`${nodeId}-${conn.target}`);
+                    dfs(conn.target, [...currentPath]);
+                  }
+                }
+              }
+            };
+
+            dfs("q1");
+
+            return paths;
+          },
+        };
+      };
+    </script>
+  </head>
+
+  <body>
+    <div
+      x-data="combinationselector()"
+      x-cloak
+      class="max-w-7xl mx-auto px-4 py-8"
+    >
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+        <!-- Mermaid Diagram Viewer -->
+        <div
+          class="col-span-12 mb-6 bg-white p-4 rounded-lg shadow"
+          x-show="showDiagram"
+          x-transition
+        >
+          <h3 class="font-semibold mb-3">Mermaid Diagram Visualization</h3>
+          <div class="mermaid-container p-4 border border-gray-200 rounded-lg">
+            <div id="diagram-container"></div>
+          </div>
+        </div>
+
+        <!-- Main Content Area -->
+        <div class="lg:col-span-8 order-2 lg:order-1">
+          <!-- Loading State -->
+          <div
+            class="p-8 flex flex-col items-center justify-center min-h-[300px]"
+            x-show="loading"
+          >
+            <div
+              class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"
+            ></div>
+            <p class="text-gray-600">Loading combinations selector...</p>
+          </div>
+
+          <!-- Error State -->
+          <div
+            class="bg-white rounded-lg border border-gray-200 p-8"
+            x-show="!loading && error"
+          >
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="flex items-center justify-center w-16 h-16 bg-red-100 rounded-full mb-4"
+              >
+                <i
+                  class="fa-solid fa-triangle-exclamation text-red-600 text-xl"
+                ></i>
+              </div>
+              <h2 class="text-xl font-semibold text-gray-800 mb-2">
+                Error Loading Combinations Data
+              </h2>
+              <p class="text-gray-600 mb-6" x-text="errorMessage"></p>
+              <button
+                @click="fetchData()"
+                class="inline-flex items-center px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-md transition-colors duration-200"
+              >
+                <i class="fa-solid fa-arrows-rotate mr-2"></i>
+                Try Again
+              </button>
+            </div>
+          </div>
+
+          <!-- Question Card -->
+          <div
+            class="bg-white rounded-lg border border-gray-200 overflow-hidden fade-in"
+            x-show="!loading && !error && currentNode && currentNode.type === 'question'"
+          >
+            <div
+              class="p-6 border-b border-gray-100 bg-blue-50 flex justify-between items-center"
+            >
+              <h2
+                class="text-xl font-medium text-gray-800"
+                x-text="currentNode ? currentNode.question : ''"
+              ></h2>
+              <button
+                @click="goBack()"
+                class="text-blue-600 hover:text-blue-800 flex items-center transition-colors duration-200"
+                x-show="selections.length > 0"
+              >
+                <i class="fa-solid fa-arrow-left mr-2"></i>
+                Back
+              </button>
+            </div>
+            <div class="p-6">
+              <div class="space-y-3">
+                <template
+                  x-for="(choice, index) in currentNode && currentNode.choices ? currentNode.choices : []"
+                  :key="index"
+                >
+                  <button
+                    @click="selectChoice(choice)"
+                    class="w-full text-left p-4 rounded-md border border-gray-200 hover:border-blue-500 hover:bg-blue-50 transition-colors duration-200 flex items-center group"
+                  >
+                    <span class="flex-grow" x-text="choice.text"></span>
+                    <i
+                      class="fa-solid fa-chevron-right text-gray-400 group-hover:text-blue-500"
+                    ></i>
+                  </button>
+                </template>
+              </div>
+            </div>
+          </div>
+
+          <!-- Result Card -->
+          <div
+            class="fade-in"
+            x-show="!loading && !error && currentNode && currentNode.type === 'result'"
+          >
+            <div
+              class="bg-white rounded-lg border border-gray-200 overflow-hidden mb-6"
+            >
+              <div
+                class="bg-blue-600 p-6 text-white flex justify-between items-center"
+              >
+                <div class="flex items-center">
+                  <i class="fa-solid fa-check-circle text-2xl mr-3"></i>
+                  <h2 class="text-xl font-semibold">Recommended combination</h2>
+                </div>
+                <button
+                  @click="goBack()"
+                  class="text-white hover:text-blue-100 flex items-center transition-colors duration-200"
+                >
+                  <i class="fa-solid fa-arrow-left mr-2"></i>
+                  Back
+                </button>
+              </div>
+              <div class="p-6">
+                <div class="bg-blue-50 p-4 rounded-md mb-6">
+                  <h3
+                    class="text-lg font-semibold text-blue-800"
+                    x-text="currentNode ? currentNode.standard : ''"
+                  ></h3>
+                  <p
+                    class="text-blue-700 mt-2"
+                    x-text="currentNode ? currentNode.description : ''"
+                  ></p>
+                </div>
+
+                <div class="mt-6">
+                  <h4
+                    class="text-sm font-medium text-gray-700 uppercase tracking-wide mb-4"
+                  >
+                    Selection criteria
+                  </h4>
+                  <div class="space-y-4">
+                    <template x-for="(step, index) in selections" :key="index">
+                      <div
+                        class="bg-gray-50 p-4 rounded-md"
+                        x-show="step.choice"
+                      >
+                        <div
+                          class="text-sm font-medium text-gray-900"
+                          x-text="step.question"
+                        ></div>
+                        <div
+                          class="text-sm text-gray-700 mt-1"
+                          x-text="step.choice"
+                        ></div>
+                      </div>
+                    </template>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              @click="resetTree()"
+              class="inline-flex items-center px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors duration-200"
+            >
+              <i class="fa-solid fa-rotate-right mr-2"></i>
+              Start new selection
+            </button>
+          </div>
+        </div>
+
+        <!-- Selection Progress Sidebar -->
+        <div class="lg:col-span-4 order-1 lg:order-2">
+          <div
+            class="bg-white rounded-lg border border-gray-200 p-6 mb-6 lg:sticky lg:top-6"
+          >
+            <h2
+              class="text-lg font-medium text-gray-800 mb-4 flex items-center"
+            >
+              <i class="fa-solid fa-list-check text-blue-600 mr-2"></i>
+              Your selection path
+            </h2>
+
+            <!-- Display when nothing is selected yet -->
+            <div
+              x-show="selections.length === 0 && !loading"
+              class="text-sm text-gray-500 p-4 bg-gray-50 rounded-md border border-gray-100 flex items-center"
+            >
+              <i class="fa-solid fa-circle-info text-gray-400 mr-2"></i>
+              <span>Make selections to find your recommended combination</span>
+            </div>
+
+            <!-- Selection Steps -->
+            <div class="mt-6">
+              <!-- Past selections -->
+              <div class="space-y-3">
+                <template x-for="(step, index) in selections" :key="index">
+                  <div
+                    class="p-3 rounded-md border border-gray-100 bg-blue-50 hover:bg-blue-100 cursor-pointer transition-colors duration-200"
+                    x-show="step.choice"
+                    @click="goToStep(index)"
+                  >
+                    <div class="flex items-start">
+                      <div class="flex-shrink-0 mt-1 mr-3">
+                        <div
+                          class="h-5 w-5 rounded-full bg-blue-500 flex items-center justify-center text-white text-xs"
+                        >
+                          <span x-text="index + 1"></span>
+                        </div>
+                      </div>
+                      <div>
+                        <div
+                          class="text-sm font-medium text-gray-900"
+                          x-text="step.question"
+                        ></div>
+                        <div
+                          class="text-sm text-gray-700 mt-1 font-medium"
+                          x-text="step.choice"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+                </template>
+              </div>
+
+              <!-- Current question step -->
+              <div
+                class="p-3 mt-3 rounded-md border border-blue-200 bg-blue-100"
+                x-show="currentNode && currentNode.type === 'question'"
+              >
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1 mr-3">
+                    <div
+                      class="h-5 w-5 rounded-full bg-blue-600 flex items-center justify-center text-white text-xs"
+                    >
+                      <i class="fa-solid fa-circle-question fa-xs"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div
+                      class="text-sm font-medium text-blue-800"
+                      x-text="currentNode ? currentNode.question : ''"
+                    ></div>
+                    <div class="text-sm text-blue-600 mt-1 italic">
+                      Select an option
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Result step -->
+              <div
+                class="p-3 mt-3 rounded-md border border-green-200 bg-green-100"
+                x-show="currentNode && currentNode.type === 'result'"
+              >
+                <div class="flex items-start">
+                  <div class="flex-shrink-0 mt-1 mr-3">
+                    <div
+                      class="h-5 w-5 rounded-full bg-green-600 flex items-center justify-center text-white text-xs"
+                    >
+                      <i class="fa-solid fa-check fa-xs"></i>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="text-sm font-medium text-green-800">
+                      Combination found
+                    </div>
+                    <div
+                      class="text-sm text-green-700 mt-1 font-medium"
+                      x-text="currentNode ? currentNode.standard : ''"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button
+              @click="resetTree()"
+              class="mt-6 w-full flex items-center justify-center px-4 py-3 bg-gray-100 hover:bg-gray-200 rounded-md text-gray-700 font-medium transition-colors duration-200"
+              x-show="selections.length > 0"
+            >
+              <i class="fa-solid fa-rotate-right mr-2"></i>
+              Start over
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add fallback text display for diagram if needed -->
+    <div id="mermaid-fallback" class="hidden">
+      <pre class="p-4 bg-gray-100 rounded text-sm overflow-auto max-h-96"></pre>
+    </div>
+  </body>
+</html>
