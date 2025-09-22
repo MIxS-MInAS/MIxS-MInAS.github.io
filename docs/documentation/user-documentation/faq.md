@@ -24,11 +24,13 @@ _TODO_
 
 ## How to fill in geographic metadata
 
-_TODO_
-
--   Lat:lon
--   geo_loc_names
-    -   Includes country, town/city/village, region etc.
+-   Geographic location (latitude and longitude):
+    -  This is the geographical origin of the sample as defined by latitude and longitude. The MIxS term [´lat_lon´](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates, which should be reported in decimal degrees, limited to 8 decimal points, and in WGS84 system. The latitude and longitude values are separated by a single whitespace. E.g. ´-39.27774231, 175.61028236´. While limited to 8 decimal points, you will rarely need such precision, unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/). See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+    -  If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: ´-39.2 175.5´. 
+-   Geographic location (name):
+    -   This is the name of the place from which the sample originates, as defined by the country or sea name followed by a specific region name. The MIxS term [geo_loc_names](https://genomicsstandardsconsortium.github.io/mixs/0000010/) is used to record this information in the format ´Country:Region, Locality´. E.g. ´Canada:Vancouver´, ´France:Cote d’Azur, Antibes´, ´Atlantic Ocean:Charlie Gibbs Fracture Zone´.
+    -   Country or sea names should be chosen from the [INSDC country list](http://insdc.org/country.html), or the [GAZ ontology](http://purl.bioontology.org/ontology/GAZ)
+    -   ´geo_loc_name´ is _not intended_ for the archaeological/palaeontological/ecological site name (if relevant). Instead, include the site name under the MInAS-specific term ´site_name´.
 
 ## How to describe sample environment and site types
 
@@ -125,7 +127,7 @@ _TODO_
 
 _TODO_
 
-## How do to record ethical and legal permission information
+## How to record ethical and legal permission information
 
 _TODO_
 
@@ -152,7 +154,7 @@ If you wish to associate your data with other non-genetic contextual data (such 
 
 ## How to fill in age of death information
 
-This information is already represented in the HostAssociated and HumanAsosiated checklists, and can be filled in using the `host_age and ` and `host_life_stage`
+This information is already represented in the HostAssociated and HumanAsosiated checklists, and can be filled in using the `host_age` and `host_life_stage`
 
 ## How to indicate 'merged' individuals
 
