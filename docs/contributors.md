@@ -81,6 +81,7 @@ Previously:
 - Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
+- Tristan Cordier (Norwegian Research Centre and Bjerknes Centre for Climate Research 🇳🇴)
 - Carles Lalueza Fox (Museu de Ciències Naturals de Barcelona 🇪🇸)
 - Pablo Librado (Institut de Biologia Evolutiva 🇪🇸)
 - Vanessa Villalba (Institut de Biologia Evolutiva 🇪🇸)
@@ -102,6 +103,7 @@ Previously:
 - Christina Warinner (Harvard University 🇺🇸)
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇸)
 - Xavier Roca Rada (Brown University 🇺🇸)
+- David Harning (University of Colorado Boulder, 🇺🇸)
 
 ## Advisory Contributors
 
