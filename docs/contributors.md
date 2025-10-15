@@ -84,7 +84,7 @@ Previously:
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Laura Gedminienė (Nature Research Centre 🇱🇹)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
-- Ying Liu (Tromsø Museum 🇳🇴)
+- Ying Liu (UiT The Arctic University of Norway 🇳🇴)
 - Andreas Altenburger (UiT The Arctic University of Norway 🇳🇴)
 - Tristan Cordier (NORCE and Bjerknes Centre for Climate Research 🇳🇴)
 - Carles Lalueza Fox (Museu de Ciències Naturals de Barcelona 🇪🇸)
