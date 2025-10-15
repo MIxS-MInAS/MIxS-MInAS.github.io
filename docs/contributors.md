@@ -74,6 +74,7 @@ Previously:
 - Charoula M. Fotiadou (University of Tübingen 🇩🇪)
 - Alberto Carmagnini (Ludwig Maximilian University of Munich 🇩🇪)
 - Martin Tesicky (Ludwig Maximilian University of Munich 🇩🇪)
+-
 - Kevin G. Daly (UCD School of Agriculture and Food Science 🇮🇪)
 - Mohamed Sarhan (Eurac research Institute for Biomedicine 🇮🇹)
 - Frank Maixner (Eurac Research - Institute for Mummy Studies 🇮🇹)
@@ -81,6 +82,7 @@ Previously:
 - Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
+- Ying Liu (Tromsø Museum 🇳🇴)
 - Tristan Cordier (NORCE and Bjerknes Centre for Climate Research 🇳🇴)
 - Carles Lalueza Fox (Museu de Ciències Naturals de Barcelona 🇪🇸)
 - Pablo Librado (Institut de Biologia Evolutiva 🇪🇸)
