@@ -82,7 +82,7 @@ Previously:
 - Christina Wurst (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
-- Laura Gedminiene (Vilnius University 🇱🇹)
+- Laura Gedminiene (Nature Research Centre 🇱🇹)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
 - Ying Liu (Tromsø Museum 🇳🇴)
 - Andreas Altenburger (The Arctic Museum of Norway 🇳🇴)
