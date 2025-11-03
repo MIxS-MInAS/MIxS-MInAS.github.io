@@ -118,6 +118,7 @@ Previously:
 - Montana Smith (Pacific Northwest National Laboratory 🇺🇸)
 - Mark Andrew Miller (Lawrence Berkeley National Laboratory, 🇺🇸)
 - Peter Woollard (EMBL-EBI,🇬🇧)
+- Joana Pauperio (EMBL-EBI,🇬🇧)
 
 ## Additional Acknowledgments
 
