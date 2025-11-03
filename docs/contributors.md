@@ -110,15 +110,15 @@ Previously:
 - Nasreen Broomand (University of California, Santa Cruz 🇺🇸)
 - Madeline Slimp (University of California, Santa Cruz 🇺🇸)
 - Xavier Roca Rada (Brown University 🇺🇸)
-- David Harning (University of Colorado Boulder, 🇺🇸)
+- David Harning (University of Colorado Boulder 🇺🇸)
 
 ## Advisory Contributors
 
 - Lynn Schriml (University of Maryland 🇺🇸)
 - Montana Smith (Pacific Northwest National Laboratory 🇺🇸)
-- Mark Andrew Miller (Lawrence Berkeley National Laboratory, 🇺🇸)
-- Peter Woollard (EMBL-EBI,🇬🇧)
-- Joana Pauperio (EMBL-EBI,🇬🇧)
+- Mark Andrew Miller (Lawrence Berkeley National Laboratory 🇺🇸)
+- Peter Woollard (EMBL-EBI 🇬🇧)
+- Joana Pauperio (EMBL-EBI 🇬🇧)
 
 ## Additional Acknowledgments
 
