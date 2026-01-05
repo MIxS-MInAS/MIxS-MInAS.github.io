@@ -17,7 +17,7 @@ Previously:
 - Deon de Jager (University of Copenhagen 🇩🇰)
 - Carl Baden (Center for GeoGenetics 🇩🇰)
 - Victor Yan Kin Lee (University of Copenhagen 🇩🇰)
-- Ophélie Lebrasseur (Centre for Anthropobiology and Genomics of Toulouse 🇫🇷)
+- Ophélie Lebrasseur (French National Research Institute for Sustainable Development 🇫🇷)
 - Eleni Seferidou (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Thiseas C. Lamnidis (Max Planck Institute for Evolutionary Anthropology 🇩🇪)
 - Martyna Molak (University of Warsaw 🇵🇱)
