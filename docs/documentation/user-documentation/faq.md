@@ -23,14 +23,20 @@ _TODO_
 _TODO_
 
 ## How to fill in geographic metadata
+There are two primary ways of providing the geographic location of a sample with existing MIxS terms: `Geographic location (latitude and longitude)` and `Geographic location (country and/or sea,region)`. Both of these are required fields and we suggest filling in at both terms with as precise information as possible. There is also a third term that is specific to the ancient DNA MInAS checklist, `Name of site or location where sample was originated`, which should be used to record the name of the archaeological/palaeontological site.
 
--   Geographic location (latitude and longitude):
-    -  This is the geographical origin of the sample as defined by latitude and longitude. The MIxS term [`lat_lon`](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates, which should be reported in decimal degrees, limited to 8 decimal points, and in WGS84 system. The latitude and longitude values are separated by a single whitespace. E.g. `-39.27774231, 175.61028236`. While limited to 8 decimal points, you will rarely need such precision, unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/). See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
-    -  If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`. 
--   Geographic location (name):
-    -   This is the name of the place from which the sample originates, as defined by the country or sea name followed by a specific region name. The MIxS term [`geo_loc_names`](https://genomicsstandardsconsortium.github.io/mixs/0000010/) is used to record this information in the format `Country:Region, Locality`. E.g. `Canada:Vancouver`, `France:Cote d’Azur, Antibes`, `Atlantic Ocean:Charlie Gibbs Fracture Zone`.
+-   **Geographic location (latitude and longitude)**:
+    -  The MIxS term [`Geographic location (latitude and longitude)`](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates in decimal degrees, limited to 8 decimal points and separated by a single whitespace (e.g. `-39.27774231 175.61028236`). While limited to 8 decimal points, you will rarely need such precision, unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/). See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+    -  If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`.
+
+-   **Geographic location (country and/or sea,region)**:
+    -   The MIxS term [`Geographic location (country and/or sea,region)`](https://genomicsstandardsconsortium.github.io/mixs/0000010/) is used to record this information in the format `Country:Region, Locality`.
     -   Country or sea names should be chosen from the [INSDC country list](http://insdc.org/country.html), or the [GAZ ontology](http://purl.bioontology.org/ontology/GAZ)
-    -   `geo_loc_name` is not intended for the archaeological/palaeontological/ecological site name (if relevant). Instead, include the site name under the MInAS-specific term `site_name`.
+    -   This term is not intended for the archaeological/palaeontological/ecological site name (if relevant). Instead, include the site name under the MInAS-specific term `Name of site or location where sample was originated`.
+
+-   **Example**:
+    - Take the site entered as "Grotta dell'Uzzo (Trapani, Sicily)" from [De Martino et al. (2025)](https://doi.org/10.1126/science.adt2642) (Table S1).
+    - The `Geographic location (country and/or sea,region)` MIxS term would be filled in as "Italy:Sicily, Trapani" and the name of the archaeological site would be entered under the MInAS term `Name of site or location where sample was originated` as "Grotta dell'Uzzo".
 
 ## How to describe sample environment and site types
 
