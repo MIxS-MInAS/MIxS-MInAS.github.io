@@ -23,7 +23,16 @@ _TODO_
 _TODO_
 
 ## How to fill in geographic metadata
-There are two primary ways of providing the geographic location of a sample with existing MIxS terms: `Geographic location (latitude and longitude)` and `Geographic location (country and/or sea,region)`. Both of these are required fields and we suggest filling in at both terms with as precise information as possible. There is also a third term that is specific to the ancient DNA MInAS checklist, `Name of site or location where sample was originated`, which should be used to record the name of the archaeological/palaeontological site.
+There are two primary ways of providing the geographic location of a sample with existing MIxS terms: `Geographic location (latitude and longitude)` and `Geographic location (country and/or sea,region)`. 
+These fields are used to record the museum location if the specimen originated from a museum, because this is where the sampling with intention to sequence occurred (see the ENA [FAQs](https://ena-docs.readthedocs.io/en/latest/faq/spatiotemporal-metadata.html#i-have-an-ancient-dna-sample-how-do-i-provide-the-spatiotemporal-information-for-my-sample-which-location-and-date-should-be-reported)). 
+If the specimen was excavated from an archaeological/palaeontlogical site with the intention to sequence (without first going via a museum) then the site information goes in the above terms.
+Both of these are required fields and we suggest filling in at both terms with as precise information as possible. 
+
+If the specimen is from a museum, we still need to record the original location of the specimen, which is the site from which it was excavated. 
+In this case, use the MInAS site terms: 
+    -    _insert site_location term_
+    -    _insert site_lat_lon tarm_
+    -    `Name of site or location where sample was originated`, which should be used to record the name of the archaeological/palaeontological site.
 
 -   **Geographic location (latitude and longitude)**:
     -  The MIxS term [`Geographic location (latitude and longitude)`](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates in decimal degrees, limited to 8 decimal points and separated by a single whitespace (e.g. `-39.27774231 175.61028236`). While limited to 8 decimal points, you will rarely need such precision, unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/). See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
