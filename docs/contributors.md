@@ -25,6 +25,13 @@ Previously:
 
 ## Feedback Contributors
 
+- Josefina Motti (Universidad Nacional del Centro de la Provincia de Buenos Aires 🇦🇷)
+- Darío A. Ramírez (Instituto de Antropología de Córdoba/CONICET 🇦🇷)
+- Rodrigo Nores (Instituto de Antropología de Córdoba/CONICET 🇦🇷)
+- Nicolás Pastor (Universidad Nacional de Córdoba/CONICET 🇦🇷)
+- Pablo M. Fernández (Instituto Nacional de Antropología y Pensamiento Latinoamericano/CONICET 🇦🇷)
+- Cristina Dejean (Universidad de Buenos Aires 🇦🇷)
+- Valeria Arencibia (Universidad Maimónides/CONICET 🇦🇷)
 - Meriam van Os (University of Otago 🇳🇿)
 - Bastien Llamas (University of Adelaide 🇦🇺)
 - Yassine Souilmi (University of Adelaide 🇦🇺)
@@ -32,6 +39,7 @@ Previously:
 - Maarten Larmuseau (KU Leuven 🇧🇪)
 - Noah Gaens (KU Leuven 🇧🇪)
 - Toomas Kivisild (KU Leuven 🇧🇪)
+- Constanza de la Fuente (Universidad de Chile, 🇨🇱)
 - He Yu (Peking University 🇨🇳)
 - Rui Wang (Xiamen University 🇨🇳)
 - Yichen Liu (Institute of Vertebrate Paleontology and Paleoanthropology 🇨🇳)
@@ -84,6 +92,8 @@ Previously:
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Laura Gedminienė (Nature Research Centre 🇱🇹)
 - Miriam Bravo (Universidad Nacional Autónoma de México 🇲🇽)
+- Bárbara Moguel (Universidad de las Américas Puebla, México)
+- Federico A. Sánchez Quinto (Universidad Nacional Autónoma de México, 🇲🇽)
 - Ying Liu (UiT The Arctic University of Norway 🇳🇴)
 - Andreas Altenburger (UiT The Arctic University of Norway 🇳🇴)
 - Tristan Cordier (NORCE and Bjerknes Centre for Climate Research 🇳🇴)
