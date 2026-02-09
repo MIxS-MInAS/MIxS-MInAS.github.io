@@ -1,0 +1,1827 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mixs-minas.org/documentation/project-documentation/feedback-session-protocol/">
+      
+      
+        <link rel="prev" href="../contributing/">
+      
+      
+        <link rel="next" href="../example-sample-data-description-use-cases/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/logos/minas-favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Running feedback sessions - MIxS-MInAS</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Albert+Sans:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Albert Sans";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#minas-feedback-sessions-protocol" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="MIxS-MInAS" class="md-header__button md-logo" aria-label="MIxS-MInAS" data-md-component="logo">
+      
+  <img src="../../../assets/images/logos/minas-logo-rectangle-monochrome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MIxS-MInAS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Running feedback sessions
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/MIxS-MInAS/MIxS-MInAS.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="MIxS-MInAS" class="md-nav__button md-logo" aria-label="MIxS-MInAS" data-md-component="logo">
+      
+  <img src="../../../assets/images/logos/minas-logo-rectangle-monochrome.png" alt="logo">
+
+    </a>
+    MIxS-MInAS
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/MIxS-MInAS/MIxS-MInAS.github.io" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    About
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    About
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/proposal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proposal
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../about/phases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Phases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../schema/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drafts
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Drafts
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schema/selecter/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MInAS checklist selection help
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schema/combinations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MInAS submission combinations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schema/ancient-extension/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ancient extension
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schema/radiocarbon-dating-extension/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Radiocarbon dating extension
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schema/existing-term-updates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MIxS term updates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../schema/draft/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deprecated
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_1" id="__nav_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    User Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    User Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-documentation/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../user-documentation/faq/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FAQ
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_2" id="__nav_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Developer Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Developer Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../developer-documentation/overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Documentation
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Project Documentation
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../overview/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../contributing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributing
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Running feedback sessions
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Running feedback sessions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purpose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preparation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-the-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running the sessions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Running the sessions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checklist-for-before-you-start-the-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist for before you start the session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-session-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-session tasks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email Templates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Email Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initial-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Initial Contact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirmation-poll-and-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirmation, Poll, and Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datetime-confirmation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Date/Time Confirmation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-meeting-catchup-contributor-listing-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-meeting catchup - contributor listing (markdown)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../example-sample-data-description-use-cases/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Example use cases
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Contributors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contact/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Involved
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../code-of-conduct/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Code of Conduct
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#purpose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Purpose
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Preparation
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-the-sessions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Running the sessions
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Running the sessions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checklist-for-before-you-start-the-session" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Checklist for before you start the session
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#post-session-tasks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-session tasks
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#email-templates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Email Templates
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Email Templates">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#initial-contact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Initial Contact
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#confirmation-poll-and-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Confirmation, Poll, and Instructions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#datetime-confirmation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Date/Time Confirmation
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#post-meeting-catchup-contributor-listing-markdown" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Post-meeting catchup - contributor listing (markdown)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="minas-feedback-sessions-protocol">MInAS Feedback Sessions Protocol</h1>
+<h2 id="purpose">Purpose</h2>
+<p>This document describes and provides recommendations on how to run a MInAS Feedback session. The purpose of such a feedback session is to get perspectives, suggestions, recommendations etc from as many different palaeogenomics research groups as possible on the MInAS metadata reporting checklist. By incorporating such feedback we can improve the quality of the checklist to make it as applicable to as many research groups as possible, and maximise ‘buy-in’ and use of the checklist.</p>
+<h2 id="preparation">Preparation</h2>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Select a reasonable group(s) or communities to present to (typically decided in monthly dev meetings)<ul>
+<li>Should work on ancient DNA, or related overlapping fields (archaeology, museum curators, etc.)</li>
+<li>Enough participants for useful feedback (=&gt;5 is a good number)</li>
+<li>Include participants with sufficient experience (e.g. mixture of students, postdocs, and PIs, rather than just PhD students)</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox"/> Contact the groups and communities<ul>
+<li>See email templates <a href="#email-templates">below</a></li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox"/> Arrange with them one or two sessions to include:<ul>
+<li>1h introduction</li>
+<li>30m-1h Activity time</li>
+<li>1h feedback round</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox"/> Ask them to prepare Use cases for 1-2 of their samples (examples <a href="../example-sample-data-description-use-cases/">here</a>)</li>
+<li class="task-list-item"><input type="checkbox"/> If they agree, note this down on the <a href="https://docs.google.com/spreadsheets/d/1_Q8BguJk7DivUinQgYa5Q3ngJQ8Aq70WdzfjU_SlWq8/edit?usp=drive_link">sign up sheet</a></li>
+<li class="task-list-item"><input type="checkbox"/> Identify the most relevant submission package combination for the group, based on the combinations on the <a href="https://www.mixs-minas.org/MInAS-DataHarmonizer/">MInAS DataHarmonizer</a> Template dropdown</li>
+</ul>
+<h2 id="running-the-sessions">Running the sessions</h2>
+<h3 id="checklist-for-before-you-start-the-session">Checklist for before you start the session</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Make a directory in the <a href="https://drive.google.com/drive/folders/1JghCjeaaYZ4t5VD9Rq44qB7DGAXyxTK9?usp=drive_link">events folder</a> on Google Drive for your session - follow the <code>&lt;YYYY-MM-DD≥FeedbackSession-&lt;Group&gt;</code> structure as with the others</li>
+<li class="task-list-item"><input type="checkbox"/> <strong>Make a copy</strong> of the <a href="https://drive.google.com/drive/folders/12wsqbZ7ztKR17w9NA3ZHQ2Rq57OiUVbh?usp=drive_link">template slides</a> for you to fill in and replace all red text with your info<ul>
+<li>Feel free to make translated versions of the templates slides and put in the templates folder!</li>
+</ul>
+</li>
+<li class="task-list-item"><input type="checkbox"/> <strong>Make copies</strong> of <a href="https://drive.google.com/drive/folders/12wsqbZ7ztKR17w9NA3ZHQ2Rq57OiUVbh?usp=drive_link">feedback tables</a> for you to fill in after the event</li>
+<li class="task-list-item"><input type="checkbox"/> Prepare a ‘scratch document’ on Google Drive document/word document/pen and paper, to note down all the feedback during the final section of the workshop</li>
+</ul>
+<h3 id="introduction">Introduction</h3>
+<ul>
+<li>Present the slides you prepared before the event to introduce the project</li>
+<li>Emphasise:<ul>
+<li>The main concepts and terminology</li>
+<li>Community project! Needs everyone’s agreement as far as possible!</li>
+<li>If provide feedback, will be included co-authorship for any eventual publication</li>
+<li>PIs <em>must</em> also try it out (not just students! - PIs have more experience!)</li>
+<li>May ask for a second round of feedback sessions in future with more mature proposal to ensure they are happy with it</li>
+</ul>
+</li>
+<li>Describe their task before next session (or if a single session, in the feedback round)<ul>
+<li>On the <a href="https://www.mixs-minas.org/MInAS-DataHarmonizer/">MInAS DataHarmonizer</a> select the proposed submission combination for the group from the Template dropdown, and try filling in 1-2 samples from their current project (based on their pre-prepared use case)</li>
+<li>Make it clear that columns are (currently) in a suboptimal order, so make sure to check all other columns if they think a metadata term is potentially ‘missing’</li>
+<li>They should record on paper or in their own word/google docs, their thoughts of what metadata terms work for them, what do not (and why!), what metadata is missing, etc. to allow them to contribute to the round-table discussion</li>
+</ul>
+</li>
+<li>Take a census of who is here (number and number per specialisation)</li>
+<li>Write down the names of the attendees that actually gave feedback</li>
+</ul>
+<h3 id="feedback">Feedback</h3>
+<ul>
+<li>Ask for people to discuss amongst the group in a round-table format:<ul>
+<li>Their general experiences filling the try out sheet</li>
+<li>What terms were unclear/problematic?</li>
+<li>What metadata was missing (checklists/ancient extension etc.)?</li>
+</ul>
+</li>
+<li>Try to facilitate the discussions as much as possible (think like a chairperson)<ul>
+<li>Prompt a diversity of people to speak (even if quiet)</li>
+<li>Ask the group if everyone agrees with a particular persons feedback</li>
+<li>Don’t try to push back or reject feedback, but be constructive. For example, if someone says ‘this term is missing!’ but you know it <em>does</em> exist already, tell them it does - but ask why they couldn’t find it</li>
+</ul>
+</li>
+<li><strong>Throughout the feedback session you (the presenter) should record the final consensus feedback of the group in the in a scratch document</strong><ul>
+<li>By consensus feedback, we mean we don’t want to make changes based on a single person's opinion that is not shared by anyone else</li>
+<li>If the group or multiple people agree with a particular issue or opinion that someone brings up, this should be recorded</li>
+</ul>
+</li>
+<li><strong>Throughout the feedback session, you should also separately (e.g. on google drive), note down <em>who</em> is giving feedback</strong><ol>
+<li>Ideally get their full names and affiliations</li>
+</ol>
+</li>
+<li>If you can, record the general consensus of the discussions to provide back to the MInAS developer group</li>
+<li>At the end of the session<ul>
+<li>Thank everyone for their time</li>
+<li>Final reminder to get them to tell you if they want to be listed on the website and included in any potential publication</li>
+<li>Remind them of where to go to get more actively involved in the project</li>
+</ul>
+</li>
+</ul>
+<h2 id="post-session-tasks">Post-session tasks</h2>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox"/> Transfer cleaned up version of all the feedback to the two Feedback Tables prepared prior the event</li>
+<li class="task-list-item"><input type="checkbox"/> Update the <a href="https://docs.google.com/spreadsheets/d/1_Q8BguJk7DivUinQgYa5Q3ngJQ8Aq70WdzfjU_SlWq8/edit?usp=drive_link">sign up sheet</a> to indicate you’ve finished this session</li>
+<li class="task-list-item"><input type="checkbox"/> Present the feedback at the next MInAS monthly developer meeting</li>
+<li class="task-list-item"><input type="checkbox"/> Contact all participants to thank them, and confirm if they want to be listed on the website and included in any potential publication (see email template <a href="#email-templates">below</a>)</li>
+</ul>
+<h2 id="email-templates">Email Templates</h2>
+<h3 id="initial-contact">Initial Contact</h3>
+<p><strong>Subject</strong>: Invitation to participate in ancient DNA metadata standards workshop</p>
+<p>Dear [NAME],</p>
+<p>We are contacting you on behalf of the MInAS Initiative (<a href="https://mixs-minas.org">https://mixs-minas.org</a>). You may have already heard of it in the context of the <em>SPAAM community</em> and <em>ISBA society</em>, but if not, the aim of MInAS is to develop a metadata reporting standard for all ancient DNA sequencing data. By developing this standard, we aim to promote more open data sharing and reproducible analysis in the field.</p>
+<p>In collaboration with the <em>Genomics Standard Consortium’s</em> MIxS initiative and <em>European Nucleotide Archive</em>, we have built a <a href="https://www.mixs-minas.org/MInAS-DataHarmonizer/">draft</a> of a dedicated ancient DNA metadata standard (whether for use in LIMS systems, reporting in publications, and for data upload to INSDC archives such as the ENA and SRA).</p>
+<p><strong>We are now looking for community feedback</strong> prior incorporation into the INSDC databases, <strong>and would like to invite you and your group to participate in an 2-3hr online workshop</strong> to contribute to the ancient DNA metadata standard.</p>
+<p>The workshop will entail an introduction into the project, as well a practical component to test the current draft standard, followed by a roundtable discussion. We are interested in collecting feedback across all career stages and disciplines in ancient DNA research! All participants who actively provide feedback during the workshop will be acknowledged on the MInAS website and will be given the option to be a co-author of the MInAS publication (examples of previous MIxS genomic data standards publications: <a href="http://dx.doi.org/10.1038/nbt.1823">MIxS and MIMARKS</a>, <a href="http://dx.doi.org/10.1038/nbt.3893">MIMAG and MISAG</a>).</p>
+<p>If you are interested in having you and your group participate, we would like to include you in a <strong>feedback workshop planned for the</strong> <strong>end of June</strong>. Please let us know and we will send more information, including a poll to set a date and time of the workshop.</p>
+<p>Kind Regards,<br />
+<strong>&lt;YOUR NAME&gt;</strong></p>
+<p>- On behalf of the MInAS initiative</p>
+<h3 id="confirmation-poll-and-instructions">Confirmation, Poll, and Instructions</h3>
+<p>Dear all,</p>
+<p>Thank you for kindly agreeing to have you and your group collaborate with the MInAS initiative via the ‘feedback session’ workshop.</p>
+<p>Next, we need to find out from you the best date and time to run the 2-3h workshop, in coordination with the other groups who will also participate.</p>
+<p><strong>If a group leader: please forward this email to everyone from your group who you expect to attend (or anyone else in your institution this might concern and interest)!</strong></p>
+<p>[WHERE]</p>
+<p>We will run the workshop on <strong>&lt;VIDEO CALL PLATFORM OF YOUR CHOICE&gt;</strong>.</p>
+<p>[WHEN]</p>
+<p>To find the best date at the end of June, <strong>please fill out this poll</strong> to find the best time for you: <strong>&lt;LINK TO POLLING PLATFORM OF YOUR CHOICE&gt;</strong></p>
+<p>To fill out:</p>
+<ol>
+<li><strong>&lt;POLLING PLATFORM USAGE INSTRUCTION &gt;</strong></li>
+<li><strong>&lt;POLLING PLATFORM USAGE INSTRUCTION &gt;</strong></li>
+<li><strong>&lt;POLLING PLATFORM USAGE INSTRUCTION &gt;</strong></li>
+</ol>
+<p>If you have any problems with the form, please let us know</p>
+<p>[HOW]</p>
+<p>For some information on how the workshop will go:</p>
+<ol>
+<li>The online workshop will consist of approximately 2-3 hours.</li>
+<li>Before the workshop we will send you an optional preparation task that will speed up the workshop (in the next email)</li>
+<li>We will start with a brief introductory talk (20-30m) on the context of the initiative.</li>
+<li>For about 1h-1.5h, in 'break out' rooms we will ask you to 'try out' the current draft schema based on the preparation task. You can discuss within your group how well it works for you - in particular what metadata terms are missing, or descriptions that could be improved etc.</li>
+<li>For the final hour there is a larger feedback round where you report back your findings to entire workshop participants and we can build a consensus amongst all the groups of the feedback.</li>
+</ol>
+<p>If anything is unclear, please let us know - otherwise we will look forward to all of your participation and feedback.</p>
+<p>Kind regards,<br />
+<strong>&lt;YOUR NAME&gt;</strong></p>
+<p>- On behalf of the MInAS initiative</p>
+<h3 id="datetime-confirmation">Date/Time Confirmation</h3>
+<p>Dear all,</p>
+<p>Thanks to everyone who has responded to the poll for the MInAS Ancient DNA metadata standards workshop.</p>
+<p>[WHEN]</p>
+<p>I have now set the time and date of the meeting to <strong>&lt;DATE&gt;</strong>, <strong>&lt;TIME&gt;</strong> <strong>&lt;TIMEZONE&gt;</strong> Please add this to your calendars!</p>
+<p>If you would like a Google calendar invite link: <strong>&lt;LINK TO URL&gt;</strong></p>
+<p><strong>If you cannot make this date, I will send a poll for a catch up event </strong>&lt;WHEN&gt;**</p>
+<p>[WHERE]</p>
+<p>We will meet on <strong>&lt;VIDEO CALL PLATFORM&gt;</strong> on the following link (already in the Google event invite): <strong>&lt;LINK&gt;</strong></p>
+<p>[PREPARATION]</p>
+<ol>
+<li>As a reminder, the invitation extends to your entire group - the more people who participate the more effective the feedback will be.<ul>
+<li>Therefore we recommend, if possible, you book a seminar room with a computer/camera for your group to attend the workshop.</li>
+<li>Otherwise, you are welcome to share the link details above to your group members who wish join individually.</li>
+</ul>
+</li>
+<li>Prior to the workshop, <strong>we would suggest that you prepare a short text with a sample and data description for a sample</strong> you have published before or for students that they will publish in the future (similar as you would in an academic journal under materials and methods).<br />
+   The sample/data description should include all the information you personally would like to see other researchers reporting about their public data.</li>
+</ol>
+<p>This is not mandatory, but we have found it greatly improves the testing experience as well as the quality of feedback of the workshop participants.</p>
+<p><strong>This text does not need to be shared with us</strong>, but will help make it easier for you to try out the proposed metadata schema during the workshop.<br />
+ We attach a PDF file with multiple examples that you can use as a guide.</p>
+<p>We are looking forward to a lively discussion with you all on June 25th!</p>
+<p>Kind regards,</p>
+<p><strong>&lt;YOUR NAME&gt;</strong>
+- On behalf of the MInAS initiative, GSC, and ENA.</p>
+<h3 id="post-meeting-catchup-contributor-listing-markdown">Post-meeting catchup - contributor listing (markdown)</h3>
+<p>Dear <strong>&lt;NAME&gt;</strong></p>
+<p>Thanks again for participating in the feedback round of <a href="https://mixs-minas.org/">MInAS</a> on <strong>&lt;MONTH&gt;</strong> <strong>&lt;DAY&gt;</strong>! We greatly appreciate your input.</p>
+<p>As I said at the the workshop, the development team will start processing and incorporating your proposals over the next two months with feedback from other ancient DNA groups.</p>
+<p>Furthermore, as also stated, everyone who gives feedback/actively participated has the opportunity to both be <a href="https://www.mixs-minas.org/contributors/">listed on the website</a> as a contributor, and also has the option included in any future publications.</p>
+<p>I would like to confirm with you that you would like to be listed as a project contributor, and if so, please reply to this email and provide with me your preferred:</p>
+<ul>
+<li>Name</li>
+<li>Affiliation (single one!)</li>
+<li>Country of affiliation</li>
+</ul>
+<p>Note we will also use this list to eventually compile the author list when we reach the publication preparation stage of the project.</p>
+<p>As always, if you are interested in receiving regular updates on the MInAS project, would like to be involved in a future workshop, or get more deeply involved with the project, please sign up to our mailing list and the slack channel as described <a href="https://www.mixs-minas.org/get-involved/">here</a>.</p>
+<p>Cheers,<br />
+<strong>&lt;YOUR NAME&gt;</strong></p>
+<p>- On behalf of the MInAS initiative</p>
+
+
+
+
+
+
+
+  
+    
+  
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="February 9, 2026 15:19:37 UTC">2026-02-09</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+
+  
+
+<h4>Cookie consent</h4>
+<p>This website uses cookies to improve your experience. We'll assume you're ok with this, but you can opt-out if you wish</p>
+<input class="md-toggle" type="checkbox" id="__settings" checked>
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="github" checked>
+      <span class="task-list-indicator"></span>
+      GitHub
+    </label>
+  </li>
+
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">Accept</button>
+    
+    
+    
+  
+    
+    
+      <button type="reset" class="md-button md-button--primary">Reject</button>
+    
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>
