@@ -36,6 +36,7 @@ Previously:
 - Bastien Llamas (University of Adelaide 🇦🇺)
 - Yassine Souilmi (University of Adelaide 🇦🇺)
 - Robbi Davidson (University of Adelaide 🇦🇺)
+- Gözde Âtag (University of Vienna, 🇦🇹)
 - Maarten Larmuseau (KU Leuven 🇧🇪)
 - Noah Gaens (KU Leuven 🇧🇪)
 - Toomas Kivisild (KU Leuven 🇧🇪)
@@ -121,6 +122,8 @@ Previously:
 - Madeline Slimp (University of California, Santa Cruz 🇺🇸)
 - Xavier Roca Rada (Brown University 🇺🇸)
 - David Harning (University of Colorado Boulder 🇺🇸)
+- Alida de Flamingh (University of Illinois at Urbana-Champaign 🇺🇸)
+- Ayshin Ghalichi (University of Texas, 🇺🇸)
 
 ## Advisory Contributors
 
