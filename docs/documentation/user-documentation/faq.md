@@ -23,12 +23,29 @@ _TODO_
 _TODO_
 
 ## How to fill in geographic metadata
+There are two primary ways of providing the geographic location of a sample with existing MIxS terms: `Geographic location (latitude and longitude)` and `Geographic location (country and/or sea,region)`. 
+These fields are used to record the museum location if the specimen originated from a museum, because this is where the sampling with intention to sequence occurred (see the ENA [FAQs](https://ena-docs.readthedocs.io/en/latest/faq/spatiotemporal-metadata.html#i-have-an-ancient-dna-sample-how-do-i-provide-the-spatiotemporal-information-for-my-sample-which-location-and-date-should-be-reported)). 
+If the specimen was excavated from an archaeological/palaeontlogical site with the intention to sequence (without first going via a museum) then the site information goes in the above terms.
+Both of these are required fields and we suggest filling in at both terms with as precise information as possible. 
 
-_TODO_
+If the specimen is from a museum, we still need to record the original location of the specimen, which is the site from which it was excavated. 
+In this case, use the MInAS site terms: 
+    -    _insert site_location term_
+    -    _insert site_lat_lon tarm_
+    -    `Name of site or location where sample was originated`, which should be used to record the name of the archaeological/palaeontological site.
 
--   Lat:lon
--   geo_loc_names
-    -   Includes country, town/city/village, region etc.
+-   **Geographic location (latitude and longitude)**:
+    -  The MIxS term [`Geographic location (latitude and longitude)`](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates in decimal degrees, limited to 8 decimal points and separated by a single whitespace (e.g. `-39.27774231 175.61028236`). While limited to 8 decimal points, you will rarely need such precision, unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/). See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+    -  If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`.
+
+-   **Geographic location (country and/or sea,region)**:
+    -   The MIxS term [`Geographic location (country and/or sea,region)`](https://genomicsstandardsconsortium.github.io/mixs/0000010/) is used to record this information in the format `Country:Region, Locality`.
+    -   Country or sea names should be chosen from the [INSDC country list](http://insdc.org/country.html), or the [GAZ ontology](http://purl.bioontology.org/ontology/GAZ)
+    -   This term is not intended for the archaeological/palaeontological/ecological site name (if relevant). Instead, include the site name under the MInAS-specific term `Name of site or location where sample was originated`.
+
+-   **Example**:
+    - Take the site entered as "Grotta dell'Uzzo (Trapani, Sicily)" from [De Martino et al. (2025)](https://doi.org/10.1126/science.adt2642) (Table S1).
+    - The `Geographic location (country and/or sea,region)` MIxS term would be filled in as "Italy:Sicily, Trapani" and the name of the archaeological site would be entered under the MInAS term `Name of site or location where sample was originated` as "Grotta dell'Uzzo".
 
 ## How to describe sample environment and site types
 
@@ -125,7 +142,7 @@ _TODO_
 
 _TODO_
 
-## How do to record ethical and legal permission information
+## How to record ethical and legal permission information
 
 _TODO_
 
@@ -152,7 +169,7 @@ If you wish to associate your data with other non-genetic contextual data (such 
 
 ## How to fill in age of death information
 
-This information is already represented in the HostAssociated and HumanAsosiated checklists, and can be filled in using the `host_age and ` and `host_life_stage`
+This information is already represented in the HostAssociated and HumanAsosiated checklists, and can be filled in using the `host_age` and `host_life_stage`
 
 ## How to indicate 'merged' individuals
 
