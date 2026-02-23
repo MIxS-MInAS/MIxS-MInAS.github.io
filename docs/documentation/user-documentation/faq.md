@@ -148,7 +148,8 @@ In these cases, refer to the documentation of the place you are submitting your 
 
 - Information is missing for unknown reasons:
     - `missing`
-- missing: not collected
+- Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
+    - `missing: not collected`
 - not applicable: control sample
 - missing: endangered species
 
