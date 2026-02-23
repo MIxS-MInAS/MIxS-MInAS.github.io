@@ -150,7 +150,8 @@ In these cases, refer to the documentation of the place you are submitting your 
     - `missing`
 - Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
     - `missing: not collected`
-- not applicable: control sample
+- Information is missing because the sample is a negative control:
+    - `not applicable: control sample`
 - missing: endangered species
 
 ## How to fill in sample age information
