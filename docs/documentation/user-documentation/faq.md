@@ -126,7 +126,6 @@ More details and examples follow below.
   - it can not be shared for privacy reasons;
   - it can not be shared due to data agreement restrictions;
   - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
-- Missing data should only be reported for **mandatory** fields, not for **recommended** or **optional** fields. For the latter two, simply leave the field blank if the (meta)data are missing.
 
 Each of these cases have specific ways of encoding 'missingness' as per the INSDC guidelines. 
 
