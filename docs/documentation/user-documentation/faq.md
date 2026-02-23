@@ -140,6 +140,10 @@ The _top level_ indicates that the data are missing, while the _lower-_ and _rep
 - Always report the _top level_ (i.e. "not applicable" or "missing") even when reporting at the more granular levels, in which case separate the _top level_ and _lower/reporting level_ terms with ": ".
 - If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
 
+Note that the way that you can use the missing data categories in a particular metadata entry will depend on the implementer of the MIxS-MInAS standard.
+For example, in some implementations, numeric-only metadata terms may not allow non-number characters and thus will fail validation when giving e.g. `not applicable: control sample` category.
+In these cases, refer to the documentation of the place you are submitting your metadata to. 
+
 ### Examples
 - missing
 - missing: not collected
