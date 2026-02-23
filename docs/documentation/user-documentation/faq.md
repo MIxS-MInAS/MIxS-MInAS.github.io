@@ -115,6 +115,7 @@ _TODO_
 ## How to fill in missing data
 
 Follow the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
+
 - Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
   - the data is truly missing, meaning it is not known and can not be known;
   - it can not be shared for privacy reasons;
