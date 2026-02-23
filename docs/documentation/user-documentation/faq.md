@@ -117,6 +117,7 @@ Fields in MIxS that are mandatory always require something filled into the given
 If you do not have this information, you must encode this using the specific 'missing information' categories as below.
 
 While optional fields in MIxS can be left blank, if you have a specific reason the information will never be able to be reported (see examples below), then it is good to use these missing data categories there also.
+
 Follow the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
 
 - Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
