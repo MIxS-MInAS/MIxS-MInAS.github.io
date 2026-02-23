@@ -146,7 +146,8 @@ In these cases, refer to the documentation of the place you are submitting your 
 
 ### Examples
 
-- missing
+- Information is missing for unknown reasons:
+    - `missing`
 - missing: not collected
 - not applicable: control sample
 - missing: endangered species
