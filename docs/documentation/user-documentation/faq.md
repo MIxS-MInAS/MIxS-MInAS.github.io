@@ -129,7 +129,14 @@ More details and examples follow below.
 
 Each of these cases have specific ways of encoding 'missingness' as per the INSDC guidelines. 
 
-- There are three levels at which you can report missing data, with an increasing amount of specificity for each: _**top level**_, _**lower level**_, and _**reporting level**_. Be as specific/granular as possible when reporting missing values. The _top level_ indicates that the data are missing, while the _lower-_ and _reporting_ levels give a reason (from the [controlled vocabulary](https://www.insdc.org/technical-specifications/missing-value-reporting/)) why the data are missing.
+- There are three levels at which you can report missing data, with an increasing amount of specificity for each:
+
+- _**top level**_ 
+- _**lower level**_
+- _**reporting level**_
+
+Be as specific/granular as possible when reporting missing values. 
+The _top level_ indicates that the data are missing, while the _lower-_ and _reporting_ levels give a reason (from the [controlled vocabulary](https://www.insdc.org/technical-specifications/missing-value-reporting/)) why the data are missing.
 - Always report the _top level_ (i.e. "not applicable" or "missing") even when reporting at the more granular levels, in which case separate the _top level_ and _lower/reporting level_ terms with ": ".
 - If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
 
