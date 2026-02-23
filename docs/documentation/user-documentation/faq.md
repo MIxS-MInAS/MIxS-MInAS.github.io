@@ -122,6 +122,9 @@ Follow the [INSDC Missing Value Reporting](https://www.insdc.org/technical-speci
   - it can not be shared due to data agreement restrictions;
   - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
 - Missing data should only be reported for **mandatory** fields, not for **recommended** or **optional** fields. For the latter two, simply leave the field blank if the (meta)data are missing.
+
+Each of these cases have specific ways of encoding 'missingness' as per the INSDC guidelines. 
+
 - There are three levels at which you can report missing data, with an increasing amount of specificity for each: _**top level**_, _**lower level**_, and _**reporting level**_. Be as specific/granular as possible when reporting missing values. The _top level_ indicates that the data are missing, while the _lower-_ and _reporting_ levels give a reason (from the [controlled vocabulary](https://www.insdc.org/technical-specifications/missing-value-reporting/)) why the data are missing.
 - Always report the _top level_ (i.e. "not applicable" or "missing") even when reporting at the more granular levels, in which case separate the _top level_ and _lower/reporting level_ terms with ": ".
 - If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
