@@ -152,7 +152,8 @@ In these cases, refer to the documentation of the place you are submitting your 
     - `missing: not collected`
 - Information is missing because the sample is a negative control:
     - `not applicable: control sample`
-- missing: endangered species
+- Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
+    - `missing: restricted access`
 
 ## How to fill in sample age information
 
