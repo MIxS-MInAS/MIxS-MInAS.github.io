@@ -145,6 +145,7 @@ For example, in some implementations, numeric-only metadata terms may not allow 
 In these cases, refer to the documentation of the place you are submitting your metadata to. 
 
 ### Examples
+
 - missing
 - missing: not collected
 - not applicable: control sample
