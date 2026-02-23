@@ -118,7 +118,8 @@ If you do not have this information, you must encode this using the specific 'mi
 
 While optional fields in MIxS can be left blank, if you have a specific reason the information will never be able to be reported (see examples below), then it is good to use these missing data categories there also.
 
-Follow the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
+Use missing value terms from the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
+More details and examples follow below.
 
 - Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
   - the data is truly missing, meaning it is not known and can not be known;
