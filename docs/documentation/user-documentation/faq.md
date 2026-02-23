@@ -35,7 +35,9 @@ In this case, use the MInAS site terms:
     -    `Name of site or location where sample was originated`, which should be used to record the name of the archaeological/palaeontological site.
 
 -   **Geographic location (latitude and longitude)**:
-    -  The MIxS term [`Geographic location (latitude and longitude)`](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates in decimal degrees, limited to 8 decimal points and separated by a single whitespace (e.g. `-39.27774231 175.61028236`). While limited to 8 decimal points, you will rarely need such precision, unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/). See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+    -  The MIxS term [`Geographic location (latitude and longitude)`](https://genomicsstandardsconsortium.github.io/mixs/0000009/) is used to record the coordinates in decimal degrees, limited to 8 decimal points and separated by a single whitespace (e.g. `-39.27774231 175.61028236`). While limited to 8 decimal points, you will rarely need such precision[^1]. See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+
+[^1]: Unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/)
     -  If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`.
 
 -   **Geographic location (country and/or sea,region)**:
