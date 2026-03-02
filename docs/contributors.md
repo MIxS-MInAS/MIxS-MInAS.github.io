@@ -129,7 +129,8 @@ Previously:
 - Xavier Roca Rada (Brown University 🇺🇸)
 - David Harning (University of Colorado Boulder 🇺🇸)
 - Alida de Flamingh (University of Illinois at Urbana-Champaign 🇺🇸)
-- Ayshin Ghalichi (University of Texas, 🇺🇸)
+- Ayshin Ghalichi (University of Texas at Austin, 🇺🇸)
+- Ainash Childebayeva (University of Texas at Austin, 🇺🇸)
 
 ## Advisory Contributors
 
