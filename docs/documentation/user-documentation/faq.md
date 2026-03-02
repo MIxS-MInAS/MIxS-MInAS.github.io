@@ -108,9 +108,52 @@ I have a negative control
 
 _There is no specific taxonomy terms for positive and negative controls_
 
-## How do fill in negative controls?
+## How do I fill in negative controls?
 
 _TODO_
+
+## How to fill in missing data
+Fields in MIxS that are mandatory always require something filled into the given metadata entry. 
+If you do not have this information, you must encode this using the specific 'missing information' categories as below.
+
+While optional fields in MIxS can be left blank, if you have a specific reason the information will never be able to be reported (see examples below), then it is good to use these missing data categories there also.
+
+Use missing value terms from the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
+More details and examples follow below.
+
+- Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
+  - the data is truly missing, meaning it is not known and can not be known;
+  - it can not be shared for privacy reasons;
+  - it can not be shared due to data agreement restrictions;
+  - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
+
+Each of these cases have specific ways of encoding 'missingness' as per the INSDC guidelines. 
+
+- There are three levels at which you can report missing data, with an increasing amount of specificity for each:
+
+- _**top level**_ 
+- _**lower level**_
+- _**reporting level**_
+
+Be as specific/granular as possible when reporting missing values. 
+The _top level_ indicates that the data are missing, while the _lower-_ and _reporting_ levels give a reason (from the [controlled vocabulary](https://www.insdc.org/technical-specifications/missing-value-reporting/)) why the data are missing.
+- Always report the _top level_ (i.e. "not applicable" or "missing") even when reporting at the more granular levels, in which case separate the _top level_ and _lower/reporting level_ terms with ": ".
+- If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
+
+Note that the way that you can use the missing data categories in a particular metadata entry will depend on the implementer of the MIxS-MInAS standard.
+For example, in some implementations, numeric-only metadata terms may not allow non-number characters and thus will fail validation when giving e.g. `not applicable: control sample` category.
+In these cases, refer to the documentation of the place you are submitting your metadata to. 
+
+### Examples
+
+- Information is missing for unknown reasons:
+    - `missing`
+- Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
+    - `missing: not collected`
+- Information is missing because the sample is a negative control:
+    - `not applicable: control sample`
+- Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
+    - `missing: restricted access`
 
 ## How to fill in sample age information
 
