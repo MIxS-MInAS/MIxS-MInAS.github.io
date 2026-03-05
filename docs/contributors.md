@@ -93,7 +93,7 @@ Previously:
 - Christina Wurst (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Alexandra Mussauer (Eurac Research - Institute for Mummy Studies 🇮🇹)
 - Stefania Zingale (Eurac Research - Institute for Mummy Studies 🇮🇹)
-- Ketty Bello (Eurac Research – Institute for Mummy Studies 🇮🇹)
+- Ketty Bello (University of Trento 🇮🇹)
 - Claudio Ottoni (University of Rome Tor Vergata 🇮🇹)
 - Marco De Martino (University of Rome Tor Vergata 🇮🇹)
 - Gabriele Scorrano (University of Rome Tor Vergata 🇮🇹)
