@@ -18,7 +18,7 @@ flowchart TD
     SampleFastqAnimal ----> MimsHostAssociatedAncient([MimsHostAssociatedAncient])
     SampleFastqSediment --> q14
     SampleFastqPlant ----> MimsPlantAssociatedAncient(["MimsPlantAssociatedAncient"])
-    SampleFastqSymbiont ----> MimsSymbiontAncient([MimsSymbiontAncient])
+    SampleFastqSymbiont ----> MimsSymbiontAncient([MimsSymbiontAncient - planned])
 
     q13{"The body site the sample is from is"}
     q13 --> FastqHumanOral["Tooth or from the oral cavity (e.g., molar, calculus)"]
@@ -65,16 +65,16 @@ flowchart TD
     q10{"The sampling location of the sediment/soil was"}
     q10 --> SampleFastaLake["Aquatic"]
     q10 --> SampleFastaTerrestrial["Terrestrial"]
-    SampleFastaLake --> MimagSedimentAncient(["MimagSedimentAncient"])
-    SampleFastaTerrestrial -->  MimagSoilAncient(["MimagSoilAncient"])
+    SampleFastaLake --> MimagSedimentAncient(["MimagSedimentAncient - planned"])
+    SampleFastaTerrestrial -->  MimagSoilAncient(["MimagSoilAncient - planned"])
 
     q6{"The 'species' of the sequence from the human sample is"}
     q6 --> SeqFastaHuman["Human (e.g. mitochondrion)"]
     q6 --> SeqFastaVirus["Virus genome"]
     q6 --> SeqFastaHumanMetagenome["Assembled microbiome or metagenome"]
 
-    SeqFastaHuman ---> MigsOrgHumanAssociatedAncient([MigsOrgHumanAssociatedAncient])
-    SeqFastaVirus ---> MiuvigOrgHumanAssociatedAncient([MiuvigOrgHumanAssociatedAncient])
+    SeqFastaHuman ---> MigsOrgHumanAssociatedAncient([MigsOrgHumanAssociatedAncient - planned])
+    SeqFastaVirus ---> MiuvigOrgHumanAssociatedAncient([MiuvigOrgHumanAssociatedAncient - planned])
     SeqFastaHumanMetagenome["Assembled microbiome or metagenome"] --> q8
 
     q8{"The body site the sample is from is"}
@@ -83,16 +83,16 @@ flowchart TD
     q8 --> FastaHumanSkin["The skin (e.g. a mummy)"]
     q8 --> FastaHumanOther["Petrous, bone, any other s(e.g. non-dental skeleton)"]
 
-    FastaHumanOral --> MimagHumanGutOralAncient([MimagHumanOralAncient])
-    FastaHumanGut --> MimagHumanGutAncient([MimagHumanGutAncient])
-    FastaHumanSkin --> MimagHumanSkinAncient([MimagHumanSkinAncient])
-    FastaHumanOther --> MimagHumanAssociatedAncient([MimagHumanAssociatedAncient])
+    FastaHumanOral --> MimagHumanGutOralAncient([MimagHumanOralAncient - planned])
+    FastaHumanGut --> MimagHumanGutAncient([MimagHumanGutAncient - planned])
+    FastaHumanSkin --> MimagHumanSkinAncient([MimagHumanSkinAncient - planned])
+    FastaHumanOther --> MimagHumanAssociatedAncient([MimagHumanAssociatedAncient - planned])
 
     q7{"The 'species' of the sequence from the animal sample is"}
     q7 ----> SeqFastaAnimal["Animal (e.g. mitochondrion)"]
     q7 ----> SeqFastaAnimalVirus["Virus genome"]
     q7 ---->  SeqFastaAnimalMetagenome["Assembled microbiome or metagenome"]
 
-    SeqFastaAnimal --> MigsOrgHostAssociatedAncient([MigsOrgHostAssociatedAncient])
-    SeqFastaAnimalVirus --> MiuvigOrgHostAssociatedAncient([MiuvigOrgHostAssociatedAncient])
-    SeqFastaAnimalMetagenome --> MimagHostAssociatedAncient([MimagHostAssociatedAncient])
+    SeqFastaAnimal --> MigsOrgHostAssociatedAncient([MigsOrgHostAssociatedAncient - planned])
+    SeqFastaAnimalVirus --> MiuvigOrgHostAssociatedAncient([MiuvigOrgHostAssociatedAncient - planned])
+    SeqFastaAnimalMetagenome --> MimagHostAssociatedAncient([MimagHostAssociatedAncient - planned])
