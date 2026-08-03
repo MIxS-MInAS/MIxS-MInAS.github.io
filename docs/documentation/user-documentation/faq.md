@@ -119,6 +119,7 @@ _TODO_
   - it can not be shared for privacy reasons;
   - it can not be shared due to data agreement restrictions;
   - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
+
 Fields in MIxS that are mandatory (or 'required') always require something filled into the given metadata entry. 
 If you do not have this information, you must encode this using the specific 'missing information' categories as below.
 
