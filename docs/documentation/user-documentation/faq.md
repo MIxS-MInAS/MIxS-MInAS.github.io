@@ -31,18 +31,14 @@ If the specimen was excavated from an archaeological/palaeontlogical site with t
 
 However, if the specimen was excavated/retrieved and then deposited in a museum (or other) collection and only after that was a sample taken explicitly for sequencing, then the locality details of the museum/collection must be recorded in these fields! See the ENA [FAQs](https://ena-docs.readthedocs.io/en/latest/faq/spatiotemporal-metadata.html#i-have-an-ancient-dna-sample-how-do-i-provide-the-spatiotemporal-information-for-my-sample-which-location-and-date-should-be-reported) regarding this. 
 
-Both of these are required fields and we suggest filling in at both terms with as precise information as possible. 
+Both of these are required fields and we suggest filling in at both the coordinate and location name terms with as precise information as possible. 
 
 If the specimen is from a museum, we still need to record the original location of the specimen, which is the site from which it was excavated (e.g. burial site or natural environment prior archiving in a museum). 
 In this case, use the MInAS site terms: 
-    -    [original site location](https://genomicsstandardsconsortium.github.io/mixs/0001357/)
-    - [original geographic location (latitude)](https://genomicsstandardsconsortium.github.io/mixs/0001358/)
-    - [original geographic location (longitude)](https://genomicsstandardsconsortium.github.io/mixs/0001359/)
-    
-    -   `orig_site_loc`, which should be the local geographic name (e.g. closest town/region/named area on a map)
-    -   `orig_site_lat`, which should be the latitude of the original burial site/natural environment 
-    -  `orig_site_lon`, which should be the longitude of the original burial site/natural environment
-    -   `orig_site_name`, which should be used to record the name of the archaeological/palaeontological site.
+    - [original geographic location (latitude)](https://genomicsstandardsconsortium.github.io/mixs/0001358/), which should be the latitude of the original burial site/natural environment
+    - [original geographic location (longitude)](https://genomicsstandardsconsortium.github.io/mixs/0001359/), which should be the longitude of the original burial site/natural environment
+    - [original site location](https://genomicsstandardsconsortium.github.io/mixs/0001357/), which should be the local geographic name (e.g. closest town/region/named area on a map)
+    - [name of site or location where sample originated](https://genomicsstandardsconsortium.github.io/mixs/0001356/), which should be used to record the name of the archaeological/palaeontological site.
 
 -   **Some general tips**:
     -  Coordinates reported in decimal degrees are limited to 8 decimal points and _separated by a single whitespace_ (e.g. `-39.27774231 175.61028236`). 
