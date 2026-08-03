@@ -128,11 +128,6 @@ While optional fields in MIxS can be left blank, if you have a specific reason t
 The way for encoding missing value terms in MIxS is derived from the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
 These specifications can be summarised as follows (examples are given below):
 
-- Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
-  - the data is truly missing, meaning it is not known and can not be known;
-  - it can not be shared for privacy reasons;
-  - it can not be shared due to data agreement restrictions;
-  - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
 
 Each of these cases have specific ways of encoding 'missingness' as per the INSDC guidelines. 
 
