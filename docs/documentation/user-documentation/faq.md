@@ -140,6 +140,7 @@ There are three levels at which you can report missing data, with an increasing 
 
 Be as specific/granular as possible when reporting missing values, i.e., try and specify to the reporting level as far as possible. 
 The _top level_ only indicates that the data are missing. The _lower-_ and _reporting_ levels then additional provide a reason for the missingness (from the [controlled vocabulary](https://www.insdc.org/technical-specifications/missing-value-reporting/)).
+
 Some additional recommendations:
 
 - Always report the _top level_ (i.e. "not applicable" or "missing") 
