@@ -126,6 +126,7 @@ If you do not have this information, you must encode this using the specific 'mi
 While optional fields in MIxS can be left blank, if you have a specific reason the information will never be able to be reported (see examples below), then it is also good to use these missing data categories there.
 
 The way for encoding missing value terms in MIxS is derived from the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
+The list of allowed missing values terms for MIxS can be found [here](https://genomicsstandardsconsortium.github.io/mixs/InsdcMissingValueEnum/).
 These specifications can be summarised as follows (examples are given below):
 
 
