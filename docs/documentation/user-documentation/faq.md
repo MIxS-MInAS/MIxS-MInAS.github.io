@@ -24,11 +24,34 @@ _TODO_
 
 ## How to fill in geographic metadata
 
-_TODO_
+There are two primary ways of providing the geographic location of a sample with existing MIxS terms: `Geographic location (latitude and longitude)` and `Geographic location (country and/or sea,region)`. 
+These fields are used to record the location that a specimen/sample was collected from with the intention of sequencing.
 
-- Lat:lon
-- geo_loc_names
-  - Includes country, town/city/village, region etc.
+If the specimen was excavated from an archaeological/palaeontlogical site with the intention to sequence (without first going via a museum) then the site information goes in the above terms.
+
+However, if the specimen was excavated/retrieved and then deposited in a museum (or other) collection and only after that was a sample taken explicitly for sequencing, then the locality details of the museum/collection must be recorded in these fields! See the ENA [FAQs](https://ena-docs.readthedocs.io/en/latest/faq/spatiotemporal-metadata.html#i-have-an-ancient-dna-sample-how-do-i-provide-the-spatiotemporal-information-for-my-sample-which-location-and-date-should-be-reported) regarding this. 
+
+Both of these are required fields and we suggest filling in at both the coordinate and location name terms with as precise information as possible. 
+
+If the specimen is from a museum, we still need to record the original location of the specimen, which is the site from which it was excavated (e.g. burial site or natural environment prior archiving in a museum). 
+In this case, use the MInAS site terms: 
+    - [original geographic location (latitude)](https://genomicsstandardsconsortium.github.io/mixs/0001358/), which should be the latitude of the original burial site/natural environment
+    - [original geographic location (longitude)](https://genomicsstandardsconsortium.github.io/mixs/0001359/), which should be the longitude of the original burial site/natural environment
+    - [original site location](https://genomicsstandardsconsortium.github.io/mixs/0001357/), which should be the local geographic name (e.g. closest town/region/named area on a map)
+    - [name of site or location where sample originated](https://genomicsstandardsconsortium.github.io/mixs/0001356/), which should be used to record the name of the archaeological/palaeontological site.
+
+-   **Some general tips**:
+    -  Coordinates reported in decimal degrees are limited to 8 decimal points and _separated by a single whitespace_ (e.g. `-39.27774231 175.61028236`). 
+    - While limited to 8 decimal points, you will rarely need such precision[^1]. See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+
+[^1]: Unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/)
+    -  If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`.
+
+    -   This term is not intended for the archaeological/palaeontological/ecological site name (if relevant). Instead, include the site name under the MInAS-specific term `Name of site or location where sample was originated`, see [here](https://genomicsstandardsconsortium.github.io/mixs/0001356/).
+
+-   **Example**:
+    - Take the site entered as "Grotta dell'Uzzo (Trapani, Sicily)" from [De Martino et al. (2025)](https://doi.org/10.1126/science.adt2642) (Table S1).
+    - The `Geographic location (country and/or sea,region)` MIxS term would be filled in as "Italy:Sicily, Trapani" and the name of the archaeological site would be entered under the MInAS term `Name of site or location where sample was originated` as "Grotta dell'Uzzo".
 
 ## How to describe sample environment and site types
 
@@ -175,7 +198,7 @@ In these cases, refer to the documentation of the place you are submitting your 
 
 _TODO_
 
-## How do to record ethical and legal permission information
+## How to record ethical and legal permission information
 
 _TODO_
 
