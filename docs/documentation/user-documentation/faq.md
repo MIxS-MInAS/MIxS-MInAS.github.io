@@ -15,7 +15,7 @@ This page answers some common questions about the schema, including how to fill 
 The **M**inimum **In**formation about any **A**ncient **S**equence (**MInAS**) checklist is a standardised metadata reporting scheme for any ancient DNA sample and sequencing data.
 It is incorporated into the [Genomics Standards Consortium's](https://www.gensc.org/) (GSC) [Minimum Information about any Sequence](https://genomicsstandardsconsortium.github.io/mixs/) (MIxS) ecosystem as the [Ancient Extension](https://genomicsstandardsconsortium.github.io/mixs/0016024/).
 
-The Ancient extension provides metadata terms specific to the field of ancient DNA that have long been missing from MIxS (e.g. geological age of the sample, damage treatment of libraries, etc.) and thus also missing from online archives like the ENA, NCBI/SRA/GenBank, DDJB, etc.
+The Ancient extension provides metadata terms specific to the field of ancient DNA that have long been missing from MIxS (e.g. geological age of the sample, damage treatment of DNA before library builds, etc.) and thus also missing from online archives like the ENA, NCBI/SRA/GenBank, DDJB, etc.
 
 The MInAS checklist was co-developed with the ancient DNA community through many rounds of [feedback sessions](https://www.mixs-minas.org/documentation/project-documentation/feedback-session-protocol/) where more than 100 people from 61 institutions and 23 countries [contributed](https://www.mixs-minas.org/contributors/) to the development of these ancient DNA metadata terms.
 
