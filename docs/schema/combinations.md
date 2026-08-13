@@ -1,11 +1,5 @@
 # MInAS Combinations
 
-!!! warning
-
-    This can be considered a pre-alpha version, and has not been reviewed nor approved by the wider palaeogenomics community nor by the Genomics Standards Consortium.
-
-Our current proposal for ancient DNA specific metadata fields can be found on GitHub under the [dedicated repository](https://github.com/MIxS-MInAS/minas-combinations). The schema file is under `src/mixs/schema/`.
-
 !!! note "Viewing current combinations"
 
     The best way to view and test the current schema is via the [MInAS DataHarmonizer](https://www.mixs-minas.org/MInAS-DataHarmonizer/).

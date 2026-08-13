@@ -13,7 +13,6 @@ nav:
           - "Ancient extension": schema/ancient-extension.md
           - "Radiocarbon dating extension": schema/radiocarbon-dating-extension.md
           - "MIxS term updates": schema/existing-term-updates.md
-          - "Deprecated": schema/draft.md
     - Documentation:
           - User Documentation:
                 - "Overview": documentation/user-documentation/overview.md
