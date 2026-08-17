@@ -25,7 +25,10 @@ In general, ancient DNA is any DNA derived from samples that:
   - require special handling due to expected specific forms of degradation,
   - for which the age of the sample is not a nuisance parameter.
 
-This definition will not, however, apply in all cases. We are not able to _a priori_ know the level of molecular damage for any given material, whereas qualification as "ancient DNA sample" should be applicable to a sample even before it gets analysed. There will also be some ancient DNA samples that show little to no degradation as well as ancient DNA that do not strictly apply to any particular "organism" that had died at some particular time (e.g., sedaDNA). Additionally, for some datasets only some samples will qualify as "ancient" but still it will be practical to apply "ancient" metadata checklist across the whole dataset to ensure consistency and coherence.
+This definition will not, however, apply in all cases. 
+We are not able to _a priori_ know the level of molecular damage for any given material, whereas qualification as "ancient DNA sample" should be applicable to a sample even before it gets analysed. 
+There will also be some ancient DNA samples that show little to no degradation as well as ancient DNA that does not strictly apply to any particular "organism" that had died at some particular time (e.g., sedaDNA). 
+Additionally, for some datasets only some samples will qualify as "ancient" but still it will be practical to apply "ancient" metadata checklist across the whole dataset to ensure consistency and coherence.
 
 Thus, MInAS recommends case-by-case decisions based on applicability of the required metadata to a given dataset rather than imposing any clear-cut definitions.
 
