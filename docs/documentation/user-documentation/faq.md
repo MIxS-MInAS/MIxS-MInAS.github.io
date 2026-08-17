@@ -20,7 +20,7 @@ There is no single answer to this question.
 Ancient DNA is not strictly defined by age but rather by its condition - characterised by post-mortem molecular damage.
 
 In general, ancient DNA is any DNA derived from samples:
-  - had not been prepared specifically for DNA analyses,
+  - that had not been prepared specifically for DNA analyses,
   - were only considered for molecular analysis long after the organism died,
   - require special handling due to expected specific forms of degradation,
   - for which the age of the sample is not a nuisance parameter.
