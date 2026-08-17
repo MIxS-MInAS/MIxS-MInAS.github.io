@@ -16,7 +16,8 @@ _TODO_
 
 ## What do we define as ancient DNA?
 
-There is no single answer to this question. Ancient DNA is not strictly defined by age but rather by its condition - characterised by post-mortem molecular damage.
+There is no single answer to this question. 
+Ancient DNA is not strictly defined by age but rather by its condition - characterised by post-mortem molecular damage.
 
 In general, ancient DNA is any DNA derived from samples that:
   - had not been prepared specifically for DNA analyses,
