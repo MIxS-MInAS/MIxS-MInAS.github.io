@@ -34,22 +34,26 @@ However, if the specimen was excavated/retrieved and then deposited in a museum 
 Both of these are required fields and we suggest filling in at both the coordinate and location name terms with as precise information as possible.
 
 If the specimen is from a museum, we still need to record the original location of the specimen, which is the site from which it was excavated (e.g. burial site or natural environment prior archiving in a museum).
-In this case, use the MInAS site terms: - [original geographic location (latitude)](https://genomicsstandardsconsortium.github.io/mixs/0001358/), which should be the latitude of the original burial site/natural environment - [original geographic location (longitude)](https://genomicsstandardsconsortium.github.io/mixs/0001359/), which should be the longitude of the original burial site/natural environment - [original site location](https://genomicsstandardsconsortium.github.io/mixs/0001357/), which should be the local geographic name (e.g. closest town/region/named area on a map) - [name of site or location where sample originated](https://genomicsstandardsconsortium.github.io/mixs/0001356/), which should be used to record the name of the archaeological/palaeontological site.
+In this case, use the MInAS site terms:
 
-- **Some general tips**:
-  - Coordinates reported in decimal degrees are limited to 8 decimal points and _separated by a single whitespace_ (e.g. `-39.27774231 175.61028236`).
-  - While limited to 8 decimal points, you will rarely need such precision[^1]. See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+- [`original geographic location (latitude)`](https://genomicsstandardsconsortium.github.io/mixs/0001358/), which should be the latitude of the original burial site/natural environment
+- [`original geographic location (longitude)`](https://genomicsstandardsconsortium.github.io/mixs/0001359/), which should be the longitude of the original burial site/natural environment
+- [`original site location`](https://genomicsstandardsconsortium.github.io/mixs/0001357/), which should be the local geographic name (e.g. closest town/region/named area on a map)
+- [`name of site or location where sample originated`](https://genomicsstandardsconsortium.github.io/mixs/0001356/), which should be used to record the name of the archaeological/palaeontological site.
 
-[^1]:
-    Unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/)
+**Some general tips**:
 
-    - If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location. For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`.
+- Coordinates reported in decimal degrees are limited to 8 decimal points and _separated by a single whitespace_ (e.g. `-39.27774231 175.61028236`).
+- While limited to 8 decimal points, you will rarely need such precision[^1]. See [here](https://en.wikipedia.org/wiki/Decimal_degrees) to guide your decision on the appropriate level of precision to report.
+- If a site is protected or its location information is sensitive, record the geographic location to the finest level possible without compromising the site's location.
+  - For example, using the coordinates of a nearby town or landmark with reduced precision of the coordinates: `-39.2 175.5`.
 
-    - This term is not intended for the archaeological/palaeontological/ecological site name (if relevant). Instead, include the site name under the MInAS-specific term `Name of site or location where sample was originated`, see [here](https://genomicsstandardsconsortium.github.io/mixs/0001356/).
+[^1]: Unless you've extracted DNA from a [specific grain of sand](https://xkcd.com/2170/).
 
-- **Example**:
-  - Take the site entered as "Grotta dell'Uzzo (Trapani, Sicily)" from [De Martino et al. (2025)](https://doi.org/10.1126/science.adt2642) (Table S1).
-  - The `Geographic location (country and/or sea,region)` MIxS term would be filled in as "Italy:Sicily, Trapani" and the name of the archaeological site would be entered under the MInAS term `Name of site or location where sample was originated` as "Grotta dell'Uzzo".
+### Example:
+
+- Take the site entered as "Grotta dell'Uzzo (Trapani, Sicily)" from [De Martino et al. (2025)](https://doi.org/10.1126/science.adt2642) (Table S1).
+- The `Geographic location (country and/or sea,region)` MIxS term would be filled in as "Italy:Sicily, Trapani" and the name of the archaeological site would be entered under the MInAS term `Name of site or location where sample was originated` as "Grotta dell'Uzzo".
 
 ## How to describe sample environment and site types
 
@@ -149,11 +153,7 @@ While optional fields in MIxS can be left blank, if you have a specific reason t
 The way for encoding missing value terms in MIxS is derived from the [INSDC Missing Value Reporting](https://www.insdc.org/technical-specifications/missing-value-reporting/) specifications.
 The list of allowed missing values terms for MIxS can be found [here](https://genomicsstandardsconsortium.github.io/mixs/InsdcMissingValueEnum/).
 
-These specifications can be summarised as follows (examples are given below):
-
-Each of these cases have specific ways of encoding 'missingness' as per the INSDC guidelines.
-
-There are three levels at which you can report missing data, with an increasing amount of specificity for each:
+There are three levels at which you can report missing data, with an increasing amount of specificity for each (examples given below):
 
 - top level
 - lower level
@@ -162,17 +162,17 @@ There are three levels at which you can report missing data, with an increasing 
 Be as specific/granular as possible when reporting missing values, i.e., try and specify to the reporting level as far as possible.
 The _top level_ only indicates that the data are missing. The _lower-_ and _reporting_ levels then additional provide a reason for the missingness (from the [controlled vocabulary](https://www.insdc.org/technical-specifications/missing-value-reporting/)).
 
-Some additional recommendations:
+**Some additional recommendations**:
 
 - Always report the _top level_ (i.e. "not applicable" or "missing")
 - When reporting at the more granular levels, always use "missing: " as the _top level_ and then report the _lower/reporting level_ term, so for example: "missing: third party data".
 - See the [MIxS controlled vocabulary for missing data](https://genomicsstandardsconsortium.github.io/mixs/InsdcMissingValueEnum/) for more examples and permissible values.
-
 - If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
 
-Note that the way that you can use the missing data categories in a particular metadata entry will depend on the implementer of the MIxS-MInAS standard.
-For example, in some implementations, numeric-only metadata terms may not allow non-number characters and thus will fail validation when giving e.g. `missing: control sample` category.
-In these cases, refer to the documentation of the place you are submitting your metadata to.
+> [!NOTE]
+> The way that you can use the missing data categories in a particular metadata entry will depend on the implementer of the MIxS-MInAS standard (i.e. ENA, SRA, etc.).
+> For example, in some implementations, numeric-only metadata terms may not allow non-numeric characters in a text field and thus will fail validation when giving e.g. `missing: control sample`, as it is not a number.
+> In these cases, refer to the documentation of the place you are submitting your metadata to.
 
 ### Examples
 
@@ -181,7 +181,8 @@ In these cases, refer to the documentation of the place you are submitting your 
 - Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
   - `missing: not collected`
 - Information is missing because the sample is a negative control:
-  - `not applicable: control sample`
+  - `not applicable`, or
+  - `missing: control sample`
 - Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
   - `missing: restricted access`
 
