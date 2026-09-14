@@ -201,20 +201,18 @@ Sample collection date may refer to different sampling events. For this reason, 
   - Example A: The bone from which aDNA is to be extracted was excavated on the 21st of October 2015. The context_retrieval_date would hence be '2015-10-21'.
   - Example B: The bone from which aDNA is to be extracted was excavated during the 2009 excavation campaign which took place from May to September 2009. The context_retrieval_date would hence be '2009-07'.
   - Example C: The bone from which aDNA is to be extracted only has the year 1996 associated with its excavation. The context_retrieval_date would hence be '1996'.
-  - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001363/) for more information.
-  - This is an ancient extension term.
+This is an ancient extension term. See [here](https://genomicsstandardsconsortium.github.io/mixs/0001363/) for more information.
 
 - The `collection date (collection_date)` refers to the time of sampling/subsampling a specimen/core with the intention of sequencing. If the exact date is unknown, the date can be right truncated to include the year and month, or only the year.
   - Please note this is a core MIxS term and is **mandatory**/**required** to fill in. See [How to fill in missing data](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-missing-data) if you do not have this information.
   - Example A: A sample was taken from a bone held at Museum X on the 2nd of July 2025, for the purpose of ancient DNA analysis. The collection_date would hence be '2025-07-02'.
   - Example B: A core was sampled from the field on the 19th of April 2024, and a sample was retrieved for sedaDNA on the 21st of April 2024. The collection_date would hence be '2024-04-21'.
-  - See [here](https://genomicsstandardsconsortium.github.io/mixs/0000011/) for more information.
+See [here](https://genomicsstandardsconsortium.github.io/mixs/0000011/) for more information.
 
 - The `date of extraction of nucleic acids from sample (nucl_acid_extr_date)` refers to the date of extraction of the nucleic acid from the sample material for ancient DNA analysis. This is essentially the date on which the ancient DNA extraction was carried out as part of the laboratory procedure for ancient DNA analysis. If the exact date is unknown, the date can be right truncated to include the year and month, or only the year.
   - Example A: Ancient DNA from a soil sample was extracted at InGen's Palaeogenomics Lab on the 14th of February 2021, while the library building and amplification was undertaken on the 15th of February 2021, and the sequencing conducted on the 10th of March 2021. The nucl_acid_extr_date would hence be '2021-02-14'.
   - Example B: DNA from an archaeological bone was extracted in 2018 at InGen's Palaeogenomics Lab. The nucl_acid_extr_date would hence be '2018'.
-  - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
-  - This is an ancient extension term.
+This is an ancient extension term. See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
 
 > [!NOTE]
 > These date fields are **not** for recording the geological **age** of the specimen or sample, which should be done via the [`*_chrono_*`](https://www.mixs-minas.org/extension-ancient/) fields.
