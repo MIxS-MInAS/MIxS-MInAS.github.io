@@ -146,11 +146,12 @@ _TODO_
 
 ## How to fill in missing data
 
-- Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
-  - the data is truly missing, meaning it is not known and can not be known;
-  - it can not be shared for privacy reasons;
-  - it can not be shared due to data agreement restrictions;
-  - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
+Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
+
+- the data is truly missing, meaning it is not known and can not be known;
+- it can not be shared for privacy reasons;
+- it can not be shared due to data agreement restrictions;
+- it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
 
 Fields in MIxS that are mandatory (or 'required') always require something filled into the given metadata entry.
 If you do not have this information, you must encode this using the specific 'missing information' categories as below.
@@ -176,9 +177,12 @@ The _top level_ only indicates that the data are missing. The _lower-_ and _repo
 - See the [MIxS controlled vocabulary for missing data](https://genomicsstandardsconsortium.github.io/mixs/InsdcMissingValueEnum/) for more examples and permissible values.
 - If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
 
-> [!NOTE]
+> **Note**
+>
 > The way that you can use the missing data categories in a particular metadata entry will depend on the implementer of the MIxS-MInAS standard (i.e. ENA, SRA, etc.).
+>
 > For example, in some implementations, numeric-only metadata terms may not allow non-numeric characters in a text field and thus will fail validation when giving e.g. `missing: control sample`, as it is not a number.
+>
 > In these cases, refer to the documentation of the place you are submitting your metadata to.
 
 ### Examples
@@ -217,7 +221,8 @@ There are three fields for recording date information related to sequencing of a
   - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
   - This is an ancient extension term.
 
-> [!NOTE]
+> **Note**
+>
 > These date fields are **not** for recording the geological **age** of the specimen or sample, which should be done via the [`*_chrono_*`](https://www.mixs-minas.org/extension-ancient/) fields.
 > See [How to fill in sample age information](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-sample-age-information).
 
@@ -259,9 +264,17 @@ This information is already represented in the HostAssociated and HumanAsosiated
 
 ## How to reference exinct species
 
-- Check is not already in NCBI taxonomy (many already are!)
-- If not: Request NCBI Taxonomy ID from NCBI!
-- If not allowed or recognised: Use generic ID (e.g. `Mammuthus sp.` ) plus `host_common_name`
+First, check that your species not already in NCBI Taxonomy by searching for it here: https://www.ncbi.nlm.nih.gov/datasets/taxonomy/browser/.
+
+Unless you are the first to publish sequences from an extinct species (in which case, congratulations!), then the taxon should already be in the NCBI Taxonomy database, which is also used by the ENA.
+
+- If it does not exist, register it via the NCBI or the ENA:
+  - **NCBI**: By uploading raw sequencing data and/or assembled sequences (e.g. mitogenomes) to SRA/GenBank and entering a non-existent species in the taxon field, you should be presented with additional fields to register a new taxon.
+    For support, email the NCBI at info@ncbi.nlm.nih.gov.
+  - **ENA**: You can also [request a new taxon](https://ena-docs.readthedocs.io/en/latest/submit/samples/taxonomy-requests.html) via the ENA, who will ensure it is registered via the NCBI Taxonomy.
+    This is done via the Webin platform, similar to registering studies and samples.
+    Once you have clicked on "Register novel taxonomy", select "Register using spreadsheet", even if just registering one new taxon, as this shows the field descriptions and is also more stable than the "Register using form" option, which can be a bit buggy sometimes.
+- If the above steps fail, use the genus (e.g. `Mammuthus sp.` ) plus `host_common_name` and/or contact the support of the service you are using for assistance.
 
 ## How do I specify the legal owners of a sample
 
