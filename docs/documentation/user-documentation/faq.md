@@ -19,7 +19,7 @@ The Ancient extension provides metadata terms specific to the field of ancient D
 
 The MInAS checklist was co-developed with the ancient DNA community through many rounds of [feedback sessions](https://www.mixs-minas.org/documentation/project-documentation/feedback-session-protocol/) where more than 100 people from 61 institutions and 23 countries [contributed](https://www.mixs-minas.org/contributors/) to the development of these ancient DNA metadata terms.
 
-Our hope is that MInAS will contribute to improved metadata reporting in publications and repositories (ENA/SRA/DDJB), making it easier to find published ancient sequences and combine metadata from different studies, thereby facilitating future research and supporting responsible and efficient use of the limited specimens and samples out there.
+Our hope is that MInAS will contribute to improved metadata reporting in publications and repositories (ENA/SRA/DDJB), making it easier to find published ancient sequences and combine metadata from different studies, thereby facilitating future research and supporting responsible use of the limited specimens and samples out there.
 
 ## What do we define as ancient DNA?
 
