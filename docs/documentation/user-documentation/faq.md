@@ -218,9 +218,9 @@ There are three fields for recording date information related to sequencing of a
   - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
   - This is an ancient extension term.
 
-> [!NOTE]
-> These date fields are **not** for recording the geological **age** of the specimen or sample, which should be done via the [`*_chrono_*`](https://www.mixs-minas.org/extension-ancient/) fields.
-> See [How to fill in sample age information](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-sample-age-information).
+!!! note "Note"
+These date fields are **not** for recording the geological **age** of the specimen or sample, which should be done via the [`*_chrono_*`](https://www.mixs-minas.org/extension-ancient/) fields.
+See [How to fill in sample age information](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-sample-age-information).
 
 ## How to record ethical and legal permission information
 
