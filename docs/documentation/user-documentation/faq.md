@@ -76,20 +76,27 @@ These represent different types of taxonomic information for different purposes.
 
 For all ancient DNA sequencing data (e.g FASTQ files or BAM files), that you upload to the INSDC databases (ENA, DDBJ, NCBI) you should use the following guidance:
 
-- samp_taxon_id: should always be the 'special' NCBI taxonomy ID for metagenome (256318) or more specific metagenome IDs.
+`samp_taxon_id`:
+  - should always be the 'special' NCBI taxonomy ID for metagenome (256318) or more specific metagenome IDs.
   - You can also use more specific metagenome taxon IDs, such as those for specific environments (e.g. soil, marine, etc.).
   - This is because _all_ ancient DNA is intrinsically metagenomic in nature, as they contain other organisms from the burial environment, and not just the host organism.
-- host_taxid:
-  - This taxon ID should be the NCBI taxonomy ID for the host organism that the sample was taken from.
+
+`host_taxid`:
+  - This taxon ID should be the NCBI Taxonomy ID for the host organism that the sample was taken from.
   - For example, if your bone sample was taken from a human, you would use the NCBI taxonomy for _Homo sapiens_ (9606).
-- genomic_probe_capture_id
+> **Note**
+>
+> If you are submitting data to the ENA, there will be an additional `tax_id` field added by the ENA.
+> In this field, you should specify the same information as in `host_taxid`.
+
+`genomic_probe_capture_id`:
   - This taxon ID should be used to describe which genomes are represented within the probe oligos.
   - For example, if your library was 'captured' for _Yersinia pestis_, you should specify a taxon ID of 632.
-  - If you have more than one strains or species, you can either specify multiple taxon IDs (depending on the interface), or a higher level (E.g. genus) taxon ID.
+  - If you have more than one strains or species, you can either specify multiple taxon IDs (depending on the interface), or a higher level (e.g. genus, family) taxon ID.
 
 ### Example
 
-I have a 1240k capture library from a Human petrous bone
+I have a 1240k capture library from a human petrous bone
 
 | Metadata term            | Taxon ID Name             | Taxon ID |
 | ------------------------ | ------------------------- | -------- |
@@ -146,11 +153,11 @@ _TODO_
 
 ## How to fill in missing data
 
-- Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
-  - the data is truly missing, meaning it is not known and can not be known;
-  - it can not be shared for privacy reasons;
-  - it can not be shared due to data agreement restrictions;
-  - it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
+Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
+- the data is truly missing, meaning it is not known and can not be known;
+- it can not be shared for privacy reasons;
+- it can not be shared due to data agreement restrictions;
+- it is not applicable to that particular field (e.g. it is a negative control and the field does not apply)
 
 Fields in MIxS that are mandatory (or 'required') always require something filled into the given metadata entry.
 If you do not have this information, you must encode this using the specific 'missing information' categories as below.
@@ -183,14 +190,17 @@ The _top level_ only indicates that the data are missing. The _lower-_ and _repo
 
 ### Examples
 
-- Information is missing for unknown reasons:
+Information is missing for unknown reasons:
   - `missing`
-- Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
+
+Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
   - `missing: not collected`
-- Information is missing because the sample is a negative control:
+
+Information is missing because the sample is a negative control:
   - `not applicable`, or
   - `missing: control sample`
-- Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
+
+Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
   - `missing: restricted access`
 
 ## How to fill in sample age information
