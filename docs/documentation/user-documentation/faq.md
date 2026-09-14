@@ -177,9 +177,12 @@ The _top level_ only indicates that the data are missing. The _lower-_ and _repo
 - See the [MIxS controlled vocabulary for missing data](https://genomicsstandardsconsortium.github.io/mixs/InsdcMissingValueEnum/) for more examples and permissible values.
 - If using terms from the most granular level (_reporting level_), then exclude the _lower level_ term, as each _reporting level_ term is a "child" of the _lower level_, which can then be inferred based on the [table](https://www.insdc.org/technical-specifications/missing-value-reporting/).
 
-> [!NOTE]
+> **Note**
+>
 > The way that you can use the missing data categories in a particular metadata entry will depend on the implementer of the MIxS-MInAS standard (i.e. ENA, SRA, etc.).
+>
 > For example, in some implementations, numeric-only metadata terms may not allow non-numeric characters in a text field and thus will fail validation when giving e.g. `missing: control sample`, as it is not a number.
+>
 > In these cases, refer to the documentation of the place you are submitting your metadata to.
 
 ### Examples
@@ -218,9 +221,10 @@ There are three fields for recording date information related to sequencing of a
   - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
   - This is an ancient extension term.
 
-!!! note "Note"
-These date fields are **not** for recording the geological **age** of the specimen or sample, which should be done via the [`*_chrono_*`](https://www.mixs-minas.org/extension-ancient/) fields.
-See [How to fill in sample age information](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-sample-age-information).
+> **Note**
+>
+> These date fields are **not** for recording the geological **age** of the specimen or sample, which should be done via the [`*_chrono_*`](https://www.mixs-minas.org/extension-ancient/) fields.
+> See [How to fill in sample age information](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-sample-age-information).
 
 ## How to record ethical and legal permission information
 
