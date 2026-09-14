@@ -189,10 +189,16 @@ In these cases, refer to the documentation of the place you are submitting your 
 
 ## How to fill in sample age information
 
-- Wider description
-- What to do if no age information?
-  - E.g. go for a very very wide range, and add to description
-- Describe each method of dating
+Sample age is specfied by the terms `earliest_chrono_age` and `latest_chrono_age` as determined by a dating method. `earliest_chrono_age` refers to the maximum/oldest while `latest_chrono_age` to the minimum/youngest possible ages. If multiple dating measurements are available, use the earliest and latest respectively to provide the widest possible range of the sample age. The specific age unit (e.g. cal BP) should be specified by the terms `earliest_chrono_sys` and `latest_chrono_sys`.
+
+Protocols, i.e. the dating method used to obtain the reported age, can be specified with the term `chrono_age_protocol`.
+
+Additional information (e.g. the confidence of the reported age, uncalibrated radiocarbon date(s) and radiocarbon lab code(s), etc) is strongly recommended to be provided with the term `chrono_age_remarks`. See also https://miaard.github.io/miaard-schema/ that is currently under development.
+
+If precise age information is unavailable, opt for a very wide range and describe the methods with `chrono_age_remarks`. For example, a wide range may be determined from its archaeological phase (e.g. Early European Bronze Age). In case there is no age information at all, follow the missing data reporting guidelines.
+
+### Example
+TODO
 
 ## How to fill in sample collection date information
 
