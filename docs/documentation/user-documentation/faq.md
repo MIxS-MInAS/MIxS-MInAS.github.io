@@ -277,6 +277,10 @@ This information is already represented in the HostAssociated and HumanAsosiated
 
 - Specify this under the `permit_authority` and/or '`curating_institution`' fields.
 
-## How do I record where the sample is typically stored
+## How do I record where the sample (i.e. original source material) is stored?
 
-TODO
+_Note: By sample, we here refer to the original source material, be it bone, sediment or any other substrate from which the DNA is extracted._
+
+You can specify the sample's storage location through the `source_mat_id` field. This is a unique identifier that allows the identification of the museum/collection in which the sample is stored. 
+
+We recommend using NCBI's BioCollections, a curated dataset of metadata for culture collections, museums, herbaria and other natural history collections, with each museum/collection having its own Collection ID (https://www.ncbi.nlm.nih.gov/datasets/taxonomy/biocollections/). If the museum/collection is not included in the list, you will need to request its registration.
