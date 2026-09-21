@@ -1,0 +1,9 @@
+Full name,General Example,Explicit Example
+MimsHostAssociatedAncient,General skeleton-derived ancient DNA short-read sequences,Shotgun sequenced human femur for pathogen detection or reads of an Auroch femur 
+MimsHumanAssociatedAncient,Human skeleton-derived ancient DNA short-read sequences,Shotgun or 1240k captured reads from a tooth used for population genomics
+MimsHumanOralAncient,Human tooth or dental calculus-derived ancient DNA short-read sequences,Shotgun or captured sequenced reads from a human tooth or dental calculus used for microbiome taxonomic profiling/pathogen screening/genome reconstruction
+MimsHumanGutAncient,Human palaeofaeces-derived ancient DNA short-read sequences,Shotgun sequenced reads from human palaeofaeces later used for MAG reconstruction
+MimsHumanSkinAncient,Human mummy skin-derived ancient DNA short-read sequences,Shotgun sequence reads from mummy skin sample for population-genomics analysis
+MimsSedimentAncient,Sediment-derived ancient DNA short-read sequences,Shotgun sequenced or captured lake core reads for ecological taxonomic profiling
+MimsSoilAncient,Soil-derived ancient DNA short-read sequences,Shotgun sequenced or captured cave core reads for ecological taxonomic profiling
+MimsPlantAssociatedAncient,Plant-derived ancient DNA short-read sequences,Shotgun reads or chloroplast captured short reads for plant population analysis 
