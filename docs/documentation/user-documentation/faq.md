@@ -279,7 +279,9 @@ This information is already represented in the HostAssociated and HumanAsosiated
 
 ## How do I record where the sample (i.e. original source material) is stored?
 
-_Note: By sample, we here refer to the original source material, be it bone, sediment or any other substrate from which the DNA is extracted._
+>**Note**: 
+>
+>By sample, we here refer to the original source material, be it bone, sediment or any other substrate from which the DNA is extracted.
 
 You can specify the sample's storage location through the `source_mat_id` field. This is a unique identifier that allows the identification of the museum/collection in which the sample is stored. 
 
