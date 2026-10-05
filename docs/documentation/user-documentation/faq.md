@@ -194,7 +194,7 @@ Sample age is specfied by the terms `earliest_chrono_age` and `latest_chrono_age
 If multiple dating measurements are available, use the earliest and latest respectively to provide the widest possible range of the sample age. 
 The specific age unit (e.g. cal BP, ka, Ma) should be specified by the terms `earliest_chrono_sys` and `latest_chrono_sys`.
 
-Protocols, i.e. the dating method used to obtain the reported age, can be specified with the term `chrono_age_protocol`.
+The dating method used to obtain the reported age (e.g. radiocarbon dating, contextual dating) should be specified with the term `chrono_age_protocol`.
 
 Additional information (e.g. the confidence of the reported age, uncalibrated radiocarbon date(s) and radiocarbon lab code(s), etc) is strongly recommended to be provided with the term `chrono_age_remarks`. See also https://miaard.github.io/miaard-schema/ that is currently under development.
 
