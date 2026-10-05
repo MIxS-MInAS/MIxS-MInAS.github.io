@@ -189,7 +189,10 @@ In these cases, refer to the documentation of the place you are submitting your 
 
 ## How to fill in sample age information
 
-Sample age is specfied by the terms `earliest_chrono_age` and `latest_chrono_age` as determined by a dating method. `earliest_chrono_age` refers to the maximum/oldest while `latest_chrono_age` to the minimum/youngest possible ages. If multiple dating measurements are available, use the earliest and latest respectively to provide the widest possible range of the sample age. The specific age unit (e.g. cal BP) should be specified by the terms `earliest_chrono_sys` and `latest_chrono_sys`.
+Sample age is specfied by the terms `earliest_chrono_age` and `latest_chrono_age` as determined by a dating method. 
+`earliest_chrono_age` refers to the maximum/oldest while `latest_chrono_age` to the minimum/youngest possible ages. 
+If multiple dating measurements are available, use the earliest and latest respectively to provide the widest possible range of the sample age. 
+The specific age unit (e.g. cal BP, ka, Ma) should be specified by the terms `earliest_chrono_sys` and `latest_chrono_sys`.
 
 Protocols, i.e. the dating method used to obtain the reported age, can be specified with the term `chrono_age_protocol`.
 
