@@ -198,7 +198,9 @@ The dating method used to obtain the reported age (e.g. radiocarbon dating, cont
 
 Additional information (e.g. the confidence of the reported age, uncalibrated radiocarbon date(s) and radiocarbon lab code(s), etc) is strongly recommended to be provided with the term `chrono_age_remarks`. See also https://miaard.github.io/miaard-schema/ that is currently under development.
 
-If precise age information is unavailable, opt for a very wide range and describe the methods with `chrono_age_remarks`. For example, a wide range may be determined from its archaeological phase (e.g. Early European Bronze Age). In case there is no age information at all, follow the missing data reporting guidelines.
+If precise age information is unavailable, opt for a very wide range and describe the methods with `chrono_age_remarks`. 
+For example, a wide range may be determined from its archaeological phase, such as "Early European Bronze Age". 
+In case there is no age information at all, follow the missing data reporting [guidelines](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-missing-data).
 
 ### Example
 TODO
