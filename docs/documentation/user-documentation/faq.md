@@ -285,4 +285,4 @@ This information is already represented in the HostAssociated and HumanAsosiated
 
 You can specify the sample's storage location through the `source_mat_id` field. This is a unique identifier that allows the identification of the museum/collection in which the sample is stored. 
 
-We recommend using NCBI's BioCollections, a curated dataset of metadata for culture collections, museums, herbaria and other natural history collections, with each museum/collection having its own Collection ID (https://www.ncbi.nlm.nih.gov/datasets/taxonomy/biocollections/). If the museum/collection is not included in the list, you will need to request its registration.
+We recommend using NCBI's BioCollections, a curated dataset of metadata for culture collections, museums, herbaria and other natural history collections, with each museum/collection having its own Collection ID (https://www.ncbi.nlm.nih.gov/datasets/taxonomy/biocollections/). If the museum/collection is not included in the list, you or the collection manager or curator will need to request its registration.
