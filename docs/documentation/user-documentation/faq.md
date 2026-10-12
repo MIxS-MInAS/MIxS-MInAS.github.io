@@ -197,7 +197,7 @@ The specific age unit (e.g. cal BP, ka, Ma) should be specified by the terms `ea
 
 The dating method used to obtain the reported age (e.g. radiocarbon dating, contextual dating) should be specified with the term `chrono_age_protocol`.
 
-Additional information (e.g. the confidence of the reported age, uncalibrated radiocarbon date(s) and radiocarbon lab code(s), etc) is strongly recommended to be provided with the term `chrono_age_remarks`. See also https://miaard.github.io/miaard-schema/ that is currently under development.
+Additional information (e.g. the confidence of the reported age, uncalibrated radiocarbon date(s) and radiocarbon lab code(s), etc) is strongly recommended to be provided with the term `chrono_age_remarks`. 
 
 If precise age information is unavailable, opt for a very wide range and describe the methods with `chrono_age_remarks`. 
 For example, a wide range may be determined from its archaeological phase, such as "Early European Bronze Age". 
