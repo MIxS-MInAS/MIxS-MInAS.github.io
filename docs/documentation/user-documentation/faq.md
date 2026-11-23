@@ -23,7 +23,7 @@ In general, ancient DNA is any DNA derived from samples:
 
   - that had not been prepared specifically for DNA analyses,
   - that were only considered for molecular analysis long after the organism died,
-  - require special handling due to expected specific forms of degradation,
+  - that require special handling due to expected specific forms of degradation,
   - for which the age of the sample is a crucial piece of information which affects its processing and analysis directly.
 
 This definition will not, however, apply in all cases. 
