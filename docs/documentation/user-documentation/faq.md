@@ -76,20 +76,27 @@ These represent different types of taxonomic information for different purposes.
 
 For all ancient DNA sequencing data (e.g FASTQ files or BAM files), that you upload to the INSDC databases (ENA, DDBJ, NCBI) you should use the following guidance:
 
-- samp_taxon_id: should always be the 'special' NCBI taxonomy ID for metagenome (256318) or more specific metagenome IDs.
+`samp_taxon_id`:
+  - should always be the 'special' NCBI taxonomy ID for metagenome (256318) or more specific metagenome IDs.
   - You can also use more specific metagenome taxon IDs, such as those for specific environments (e.g. soil, marine, etc.).
   - This is because _all_ ancient DNA is intrinsically metagenomic in nature, as they contain other organisms from the burial environment, and not just the host organism.
-- host_taxid:
-  - This taxon ID should be the NCBI taxonomy ID for the host organism that the sample was taken from.
+
+`host_taxid`:
+  - This taxon ID should be the NCBI Taxonomy ID for the host organism that the sample was taken from.
   - For example, if your bone sample was taken from a human, you would use the NCBI taxonomy for _Homo sapiens_ (9606).
-- genomic_probe_capture_id
+> **Note**
+>
+> If you are submitting data to the ENA, there will be an additional `tax_id` field added by the ENA.
+> In this field, you should specify the same information as in `host_taxid`.
+
+`genomic_probe_capture_id`:
   - This taxon ID should be used to describe which genomes are represented within the probe oligos.
   - For example, if your library was 'captured' for _Yersinia pestis_, you should specify a taxon ID of 632.
-  - If you have more than one strains or species, you can either specify multiple taxon IDs (depending on the interface), or a higher level (E.g. genus) taxon ID.
+  - If you have more than one strains or species, you can either specify multiple taxon IDs (depending on the interface), or a higher level (e.g. genus, family) taxon ID.
 
 ### Example
 
-I have a 1240k capture library from a Human petrous bone
+I have a 1240k capture library from a human petrous bone
 
 | Metadata term            | Taxon ID Name             | Taxon ID |
 | ------------------------ | ------------------------- | -------- |
@@ -147,7 +154,6 @@ _TODO_
 ## How to fill in missing data
 
 Missing data is (meta)data that **can not** be reported. This can be due to various constraints, such as:
-
 - the data is truly missing, meaning it is not known and can not be known;
 - it can not be shared for privacy reasons;
 - it can not be shared due to data agreement restrictions;
@@ -187,14 +193,17 @@ The _top level_ only indicates that the data are missing. The _lower-_ and _repo
 
 ### Examples
 
-- Information is missing for unknown reasons:
+Information is missing for unknown reasons:
   - `missing`
-- Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
+
+Information is missing because it was not collected during a historical sampling event, or the collection records burnt down:
   - `missing: not collected`
-- Information is missing because the sample is a negative control:
+
+Information is missing because the sample is a negative control:
   - `not applicable`, or
   - `missing: control sample`
-- Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
+
+Information is missing because agreement with sample/data owner (e.g. native/indigenous groups, museum) do not permit sharing of this information:
   - `missing: restricted access`
 
 ## How to fill in sample age information
@@ -206,20 +215,35 @@ The _top level_ only indicates that the data are missing. The _lower-_ and _repo
 
 ## How to fill in sample collection date information
 
-There are three fields for recording date information related to sequencing of an ancient sample:
+Sample collection date may refer to different sampling events. 
+For this reason, three fields are provided for recording date-related information associated with the sequencing of a sample for ancient DNA analysis:
 
-- `date of retrieval from depositional context (context_retrieval_date)`, which is the date of excavation or retrieval from burial or depositional context, if known.
-  - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001363/) for more information.
-  - This is an ancient extension term.
+- The `date of retrieval from depositional context (context_retrieval_date)` refers to the date of excavation or retrieval from burial or depositional context, if known. 
+In cases where excavations are carried out over several weeks, months, or years, report its midpoint at a month or year level. 
+If the exact date is unknown, the date can be right-truncated to include the year and month, or only the year.
+  - Example A: The bone from which aDNA is to be extracted was excavated on the 21st of October 2015. The `context_retrieval_date` would hence be '2015-10-21'.
+  - Example B: The bone from which aDNA is to be extracted was excavated during the 2009 excavation campaign which took place from May to September 2009. The `context_retrieval_date` would hence be '2009-07'.
+  - Example C: The bone from which aDNA is to be extracted only has the year 1996 associated with its excavation. The `context_retrieval_date` would hence be '1996'.
 
-- `collection date (collection_date)`, which is the time of sampling/subsampling a specimen/core with the intention of sequencing.
-  - See [here](https://genomicsstandardsconsortium.github.io/mixs/0000011/) for more information.
-  - This is a core MIxS term and is **mandatory**/**required** to fill in.
-  - See [How to fill in missing data](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-missing-data) if you do not have this information.
+This is an ancient extension term. See [here](https://genomicsstandardsconsortium.github.io/mixs/0001363/) for more information.
 
-- `date of extraction of nucleic acids from sample (nucl_acid_extr_date)`, which is the date when the nucleic acid extraction was started.
-  - See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
-  - This is an ancient extension term.
+- The `collection date (collection_date)` refers to the time of sampling/subsampling a specimen/core with the intention of sequencing. 
+If the exact date is unknown, the date can be right truncated to include the year and month, or only the year.
+  - Please note this is a core MIxS term and is **mandatory**/**required** to fill in. See [How to fill in missing data](https://www.mixs-minas.org/documentation/user-documentation/faq/#how-to-fill-in-missing-data) if you do not have this information.
+  - Example A: A sample was taken from a bone held at Museum X on the 2nd of July 2025, for the purpose of ancient DNA analysis. The `collection_date` would hence be '2025-07-02'.
+  - Example B: A core was sampled from the field on the 19th of April 2024, and a sample was retrieved for sedaDNA on the 21st of April 2024. The `collection_date` would hence be '2024-04-21'.
+
+See [here](https://genomicsstandardsconsortium.github.io/mixs/0000011/) for more information.
+
+- The `date of extraction of nucleic acids from sample (nucl_acid_extr_date)` refers to the date of extraction of the nucleic acid from the sample material for ancient DNA analysis. 
+This is essentially the date on which the ancient DNA extraction was carried out as part of the laboratory procedure for ancient DNA analysis. 
+If the exact date is unknown, the date can be right truncated to include the year and month, or only the year.
+  - Example A: Ancient DNA from a soil sample was extracted at InGen's Palaeogenomics Lab[^2] on the 14th of February 2021, while the library building and amplification was undertaken on the 15th of February 2021, and the sequencing conducted on the 10th of March 2021. The `nucl_acid_extr_date` would hence be '2021-02-14'.
+  - Example B: DNA from an archaeological bone was extracted in 2018 at InGen's Palaeogenomics Lab. The nucl_acid_extr_date would hence be '2018'.
+
+This is an ancient extension term. See [here](https://genomicsstandardsconsortium.github.io/mixs/0001386/) for more information.
+
+[^2]: Not a real lab.
 
 !!! note "Note"
     
