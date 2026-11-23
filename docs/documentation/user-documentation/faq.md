@@ -23,7 +23,21 @@ Our hope is that MInAS will contribute to improved metadata reporting in publica
 
 ## What do we define as ancient DNA?
 
-_TODO_
+There is no single answer to this question. 
+Ancient DNA is not strictly defined by age but rather by its condition - characterised by post-mortem molecular damage.
+However, because we are not able to _a priori_ know the level of molecular damage for any given material, while ancient DNA requires special handling and laboratory processing, we provide some practical guidelines for what typically qualifies as an "ancient DNA sample" (although they will not apply to each case). 
+
+In general, ancient DNA is any DNA derived from samples:
+
+  - that had not been prepared specifically for DNA analyses,
+  - that were only considered for molecular analysis long after the organism died,
+  - that require special handling due to expected specific forms of degradation,
+  - for which the age of the sample is a crucial piece of information which affects its processing and analysis directly.
+
+There will also be some ancient DNA samples that show little to no degradation as well as ancient DNA that does not strictly apply to any particular "organism" that had died at some particular time (e.g., sedaDNA). 
+Additionally, for some datasets only some samples will qualify as "ancient" but still it will be practical to apply "ancient" metadata checklist across the whole dataset to ensure consistency and coherence.
+
+Thus, MInAS recommends case-by-case decisions based on applicability of the required metadata to a given dataset rather than imposing any clear-cut definitions.
 
 ## What are the limits of the MInAS schema in regards to project stage
 
